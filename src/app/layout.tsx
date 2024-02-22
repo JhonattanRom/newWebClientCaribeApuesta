@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { gotham } from "./ui/fonts";
 import "./ui/globals.css";
 import Image from "next/image";
-import { Login, PrevLogin } from "./components/Login";
+import { Login } from "./components/Login";
 import { NavigationMenu } from "./components/NavigationMenu";
+import 'normalize.css/normalize.css';
 
 export const metadata: Metadata = {
   title: "CaribeApuesta",

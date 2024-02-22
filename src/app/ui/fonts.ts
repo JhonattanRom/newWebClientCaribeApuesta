@@ -18,7 +18,7 @@ export const gotham = localFont({
       },
       {
         path: '../../../public/fonts/GothamThin.otf',
-        weight: '400',
+        weight: '200',
       }
     ],
   });
