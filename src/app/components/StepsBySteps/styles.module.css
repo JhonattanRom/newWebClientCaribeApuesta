@@ -29,6 +29,7 @@
     font-weight: 400;
     letter-spacing: 3px;
     margin-bottom: 18px;
+    text-align: center;
 }
 
 .headerStepsContainer p {
@@ -113,28 +114,36 @@
     .stepsList li .stepInfo h3 {
         font-size: 2vw;
     }
+
     .stepsList li .stepInfo p {
         font-size: 2vw;
     }
+
     .stepsList li {
         height: auto;
     }
+
     .container {
         width: 95%;
     }
+
     .headerStepsContainer h2 {
         font-size: 5vw;
     }
 }
+
 @media (max-width: 700px) {
     .stepsList li .stepInfo h3 {
         font-size: 4vw;
     }
+
     .stepsList li .stepInfo p {
         font-size: 4vw;
     }
+
     .headerStepsContainer p {
         font-size: 1em;
     }
-}
 
+
+}

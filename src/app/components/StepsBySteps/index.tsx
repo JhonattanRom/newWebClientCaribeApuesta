@@ -2,15 +2,13 @@ import styles from "./styles.module.css";
 
 export default function StepsBySteps() {
     return (
-
         <section className={styles.container}>
-
             <article className={styles.headerStepsContainer} lang="es">
-                <h2>Juega y gana con nosotros.</h2>
+                <h2>JUEGA Y GANA CON NOSOTROS.</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quisquam facere obcaecati accusamus itaque adipisci illum nihil quibusdam sed repellat molestias recusandae vel officiis dignissimos sunt inventore
                     porro pariatur, ratione at?</p>
             </article>
-            <section id="services-list" className={styles.stepsContentContainer}>
+            <section className={styles.stepsContentContainer}>
                 <ul className={styles.stepsList}>
                     <li>
                         <div className={styles.number}>
