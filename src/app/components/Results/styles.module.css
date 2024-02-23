@@ -123,9 +123,11 @@
     .headerResultsContainer h2 {
         font-size: 5vw;
     }
+
     .resultsContentContainer {
         flex-direction: column;
-    } 
+    }
+
     .banner {
         width: 95%;
     }
@@ -142,10 +144,12 @@
     .headerResultsContainer p {
         font-size: 1em;
     }
+
     .resulsFooter h4 {
         font-size: 1em;
         letter-spacing: 8px;
     }
+
     .resulsFooter h5 {
         font-size: .7em;
         letter-spacing: 8px;
@@ -154,10 +158,11 @@
 }
 
 @media (max-width: 600px) {
-    .bannerTitle  {
+    .bannerTitle {
         font-size: 1em;
         letter-spacing: 16px;
     }
+
     .headerResultsContainer h2 {
         letter-spacing: 16px;
     }
