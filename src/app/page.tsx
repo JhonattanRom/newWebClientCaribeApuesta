@@ -1,5 +1,6 @@
 import AwarenesssArea from "./components/AwarenessArea";
 import HorseRacingFactsData from "./components/HorseRacingFacts";
+import NewProducts from "./components/NewProducts";
 import RegulationByProdcuts from "./components/RegulationByProducts";
 import Results from "./components/Results";
 import SlickCarrousel from "./components/SlickCarrousel";
@@ -14,6 +15,7 @@ export default function Page() {
       <HorseRacingFactsData />
       <RegulationByProdcuts />
       <AwarenesssArea />
+      <NewProducts />
     </>
   )
 }

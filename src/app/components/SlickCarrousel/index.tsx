@@ -71,7 +71,6 @@ export default function SlickCarrousel() {
         ))
       )
     }
-
     return (
       listForDesktop.map((image, index) => (
         <div className={styles.SliderItem} key={index}>
