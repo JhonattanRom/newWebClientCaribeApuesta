@@ -78,7 +78,7 @@ header {
 }
 
 /* footer */
-footer {
+.Layout_footer {
     width: 75%;
     max-width: 1640px;
     min-width: 320px;

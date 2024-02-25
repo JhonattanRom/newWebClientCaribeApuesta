@@ -1,6 +1,10 @@
+'use client'
 import Slider from "react-slick";
 import styles from "./styles.module.css";
 import Image from "next/image";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const listForDesktop = [
     {
         src: "/img/casino.png",
