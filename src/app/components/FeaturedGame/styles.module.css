@@ -16,6 +16,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: #00ffff40;
 }
 
 .headerGameLogosContainer {
@@ -49,6 +50,37 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.chanceBar {
+    width: 100% ;
+    background-color: white;
+    height: 20px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.chanceBar .Barvariant1 {
+    background-color: white;
+}
+
+.chanceBar .Barvariant2 {
+    background-color: #999999;
+}
+
+.chanceBar .Barvariant3 {
+    background-color: cyan;
+}
+
+.chanceBar .Barvariant1,
+.chanceBar .Barvariant2,
+.chanceBar .Barvariant3 {
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #01011b;
+    font-family: 'gotham-black';
 }
 
 .stateBet {

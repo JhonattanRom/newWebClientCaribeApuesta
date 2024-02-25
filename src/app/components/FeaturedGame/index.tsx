@@ -2,8 +2,10 @@
 import Link from "next/link";
 import styles from "./styles.module.css";
 import Image from "next/image";
+import { useLayoutEffect, useRef } from "react";
 
 export default function FeaturedGame() {
+
     return (
         <article className={styles.featuredGame}>
             <HeaderFeaturedGame />
@@ -14,6 +16,7 @@ export default function FeaturedGame() {
 }
 
 function HeaderFeaturedGame() {
+
     return (
         <header className={styles.headerGame}>
             <div className={styles.headerGameLogosContainer}>
@@ -43,6 +46,14 @@ function HeaderFeaturedGame() {
     )
 }
 function BodyFeaturedGame() {
+    const refVariant1 = useRef<any>(null);
+    const refVariant2 = useRef<any>(null);
+    const refVariant3 = useRef<any>(null);
+    useLayoutEffect(() => {
+        refVariant1.current.style.setProperty("width", "17%", "important");
+        refVariant2.current.style.setProperty("width", "22%", "important");
+        refVariant3.current.style.setProperty("width", "61%", "important");
+    }, []);
     return (
         <div className={styles.bodyGame}>
             <div className={styles.betsForGame}>
@@ -58,6 +69,11 @@ function BodyFeaturedGame() {
                     <h4>BAYERN</h4>
                     <h5>+2.200</h5>
                 </div>
+            </div>
+            <div className={styles.chanceBar}>
+                <div ref={refVariant1} className={styles.Barvariant1}>17%</div>
+                <div ref={refVariant2} className={styles.Barvariant2}>22%</div>
+                <div ref={refVariant3} className={styles.Barvariant3}>61%</div>
             </div>
             <div className={styles.gameStatsContainer}>
                 <div className={styles.gameStats}>

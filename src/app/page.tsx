@@ -13,11 +13,11 @@ export default function Page() {
       <SlickCarrousel />
       <StepsBySteps />
       <Feature />
-      <Results />
       <HorseRacingFactsData />
+      <NewProducts />
+      <Results />
       <RegulationByProdcuts />
       <AwarenesssArea />
-      <NewProducts />
     </>
   )
 }

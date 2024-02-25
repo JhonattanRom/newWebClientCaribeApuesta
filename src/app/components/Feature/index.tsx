@@ -13,7 +13,9 @@ export default function Feature() {
             </article>
             <div className={styles.featuredGamesContainer}>
                 <FeaturedGames />
+                <div className={styles.divider}></div>
                 <FeaturedGames />
+                <div className={styles.divider}></div>
                 <FeaturedGames />
             </div>
         </section>
