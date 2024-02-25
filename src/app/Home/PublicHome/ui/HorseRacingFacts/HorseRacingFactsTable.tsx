@@ -4,7 +4,7 @@ import horseRacingFactsData from "@/app/mockData";
 import {
     createColumnHelper,
 } from '@tanstack/react-table';
-import Table from "../Table";
+import Table from "../../../../components/Table";
 import styles from "./styles.module.css";
 
 const horseRacingfacts: HorseRacingfact[] = horseRacingFactsData;

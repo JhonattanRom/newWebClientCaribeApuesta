@@ -1,6 +1,6 @@
 "use client"
 import Slider from "react-slick";
-import FeaturedGame from "../FeaturedGame";
+import FeaturedGame from "../../../../components/FeaturedGame";
 import styles from "./styles.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
