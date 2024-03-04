@@ -36,7 +36,7 @@ export const NavigationMenu = () => {
                 <h1>CARIBE APUESTA</h1>
             </div>
             <div className={styles.Toggle_btn} onClick={handleOpenMenu}>
-                <Image src="/./icon/BurguerIcon.svg" alt="Burguer icon" width={40} height={40} />
+                <Image src="/icon/BurguerIcon.svg" alt="Burguer icon" width={40} height={40} />
             </div>
         </div>
         <nav
