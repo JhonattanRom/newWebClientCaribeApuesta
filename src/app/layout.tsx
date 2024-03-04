@@ -1,15 +1,23 @@
 import type { Metadata } from "next";
-import { gotham } from "./ui/fonts";
-import "./ui/globals.css";
+import { gotham } from "./_ui/fonts";
+import "./_ui/globals.css";
 import Image from "next/image";
-import { Login } from "./ui/Login";
-import { NavigationMenu } from "./ui/NavigationMenu";
+import { Login } from "./_ui/Login";
+import { NavigationMenu } from "./_ui/NavigationMenu";
 import 'normalize.css/normalize.css';
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "CaribeApuesta",
-  description: "Apuestas Deportivas",
+  description: "CaribeApuesta es el sitio número uno de apuestas en Venezuela y uno de los mejores en Hipódromos y Apuestas Deportivas. Ya sea que busques deportes competitivos, probabilidades de apuestas, emocionantes juegos de Casino Online y Slots Machines, o las últimas noticias deportivas, todo está en un mismo lugar. ¡Regístrate gratis y comienza a ganar!",
+  keywords: ['Apuestas deportivas en línea', 'Casino en línea', 'Juegos de slots',
+    'Hipódromos', 'Apuestas en Venezuela', 'Mejores apuestas deportivas en línea en Venezuela',
+    'Tragamonedas emocionantes en CaribeApuesta', 'Consejos para ganar en el casino en línea'],
+  metadataBase: new URL("http://localhost:3000/"),
+  openGraph: {
+    title: "Bienvenido a Caripuesta",
+    description: "El sitio número uno de apuestas en Venezuela"
+  }
 };
 
 export default function RootLayout({
@@ -45,9 +53,10 @@ export default function RootLayout({
           </div>
           <NavigationMenu />
         </header>
-          {children}
+        <main>
+        {children}
+        </main>
         <footer className="Layout_footer">
-
           <div className="stamps_container">
             <div className="stamp">
               <div className="stampIcon_container">

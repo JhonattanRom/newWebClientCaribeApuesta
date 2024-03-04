@@ -23,6 +23,7 @@ export const NavigationMenu = () => {
                 <li><Link href="/SLOTS">SLOTS</Link></li>
                 <li><Link href="/MyPOKER">MyPOKER</Link></li>
                 <li><Link href="/MORE">MORE</Link></li>
+                <li><Link href="/Information/AboutUs">INFORMACION</Link></li>
             </ul>
         </nav>
         <div className={styles.ToggleContainer}>

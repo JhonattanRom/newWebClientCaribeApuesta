@@ -1,10 +1,10 @@
 "use client"
 import { useState } from "react";
-import horseRacingFactsData from "@/app/mockData";
+import horseRacingFactsData from "@/app/_mockData";
 import {
     createColumnHelper,
 } from '@tanstack/react-table';
-import Table from "../../../../components/Table";
+import Table from "@/app/_components/Table";
 import styles from "./styles.module.css";
 
 const horseRacingfacts: HorseRacingfact[] = horseRacingFactsData;
