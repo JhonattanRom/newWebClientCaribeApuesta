@@ -1,5 +1,3 @@
 export default function PrivateHome() {
-    return (
-       "hihi"
-    )
+    return (<h1>PrivateHome</h1>)
 }
