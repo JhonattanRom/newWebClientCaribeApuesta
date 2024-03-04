@@ -42,7 +42,7 @@ export default function RootLayout({
             </div>
             <div className="Header_Logo">
               <Image
-                src={"/./img/LogoHeader.png"}
+                src={"/img/LogoHeader.png"}
                 alt={"Caribe Apuesta Logo"}
                 width={921} height={379}
               />
