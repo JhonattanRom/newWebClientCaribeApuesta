@@ -48,7 +48,7 @@ export default function RootLayout({
               />
             </div>
             <div className="Header_Login_Container">
-              <Login />
+              <Login container={true} />
             </div>
           </div>
           <NavigationMenu />
