@@ -1,18 +1,22 @@
 "use client";
-
 import Image from "next/image";
 import styles from './styles.module.css';
 import Link from 'next/link'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Login } from "../Login";
+import Modal from "@/app/_components/Modal";
 
 export const NavigationMenu = () => {
 
     const [isOpen, setOpen] = useState(false);
-
+    const [isMounted, seMountedModal] = useState(false);
     const handleOpenMenu = () => {
         setOpen(!isOpen);
     }
+    useEffect(() => {
+        if(isOpen) document.body.style.overflow = "hidden";
+        if(!isOpen) document.body.style.overflow = "initial";
+    }, [isOpen])
     return (<>
         <nav className={styles.Navigation}>
             <ul className={styles.links}>
@@ -42,6 +46,7 @@ export const NavigationMenu = () => {
         <nav
             className={`${styles.mobileMenuContainer} ${isOpen ? styles.mobileMenuOpen : ""}`}>
             <ul className={styles.mobileMenu}>
+                <li onClick={() => seMountedModal(true)} > <span className={styles.loginLink}>Iniciar</span></li>
                 <li><Link href="/SPORTS">SPORTS</Link></li>
                 <li><Link href="/LIVE">LIVE</Link></li>
                 <li><Link href="/CASINO">CASINO</Link></li>
@@ -50,10 +55,9 @@ export const NavigationMenu = () => {
                 <li><Link href="/MyPOKER">MyPOKER</Link></li>
                 <li><Link href="/MORE">MORE</Link></li>
             </ul>
-            <div
-                className={styles.loginContainer}>
-                <Login />
-            </div>
+            <Modal seMountedModal={seMountedModal} isMounted={isMounted}>
+                <Login container={false} />
+            </Modal>
         </nav>
     </>)
 }

@@ -18,9 +18,9 @@ const SignupSchema = Yup.object().shape({
         .required('Se requiere la contraseña'),
 });
 
-export const Login = () => {
+export const Login = ({container} : {container:boolean}) => {
     return (
-        <div className={styles.loginContainer}>
+        <div className={ container ? styles.loginContainer : "" }>
             <h2 className={styles.login_title}>CARIBEAPUESTA.COM</h2>
             <Formik
                 initialValues={{ userName: '', password: '' }}

@@ -181,6 +181,9 @@
         align-items: center;
         justify-content: center;
     }
+    .loginForm {
+        flex-direction: column-reverse;
+    }
     .loginForm_content{
         flex-direction: column;
     }

@@ -92,17 +92,19 @@ header .Navigation .links {
     padding: 12px 8px;
     height: 50vh;
     min-height: 440px;
-    border-bottom: 1px solid cyan;
+    padding: 0;
 }
 
-.mobileMenu li a {
+.mobileMenu li a,
+.loginLink {
     text-decoration: none;
     color: var(--primery-font-color);
     font-size: 1.5em;
     transition: all .5s;
 }
 
-.mobileMenu li:hover a {
+.mobileMenu li:hover a,
+.loginLink:hover  {
     color: white;
     transform: scale(1.2);
     border-bottom: 1px solid white;
@@ -110,24 +112,6 @@ header .Navigation .links {
     padding: 9px 0;
 }
 
-.loginContainer,
-.loginContainer > div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.loginContainer{
-    height: 25vh;
-    max-height: 400px;
-    min-height: 240px;
-}
-.loginContainer > div {
-    height: 0;
-    max-height: 0;
-    padding-top: 1.5em;
-}
 /* Responsive */
 @media (max-width: 990px) {
 
@@ -139,6 +123,8 @@ header .Navigation .links {
         display: flex;
         flex-direction: column;
         gap: 1em;
+        justify-content: center;
+        align-items: center;
     }
 
     .ToggleContainer {

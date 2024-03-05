@@ -129,6 +129,8 @@ export default function RootLayout({
             </p>
           </section>
         </footer>
+        {/* Agregamos el nodo para el modal */}
+        <div id="modal-root"></div>
       </body>
     </html>
   );
