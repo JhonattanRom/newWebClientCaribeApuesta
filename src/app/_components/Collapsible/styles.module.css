@@ -1,0 +1,45 @@
+.collapsible {
+    background-color: var(--primary-bg-color);
+    border: 1px solid var(--secondary-bg-color);
+    color: cyan;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.active,
+.collapsible:hover,
+.collapsibleActive {
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-font-color);
+}
+
+.content {
+    padding: 0 18px;
+    overflow: hidden;
+    background-color: transparent;
+    height: 0;
+    transition: 300ms all linear;
+    color: white;
+}
+
+.content p {
+    font-size: 28px;
+    font-weight: 300;
+    color: white;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.content p mark {
+    background-color: transparent;
+    color: cyan;
+}
+.content.collapsibleOpen {
+    height: auto;
+    transition: 300ms all linear;
+}

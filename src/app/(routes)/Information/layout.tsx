@@ -15,6 +15,7 @@ export default function InformationLayout({
                     <li><Link href="/Information/Contacts">Contactanos</Link></li>
                     <li><Link href="/Information/FAQ">FAQ</Link></li>
                     <li><Link href="/Information/TermsAndConditions">Terminos y Condiciones</Link></li>
+                    <li><Link href="/Information/PlayerObligations">Obligaciones del jugador</Link></li>
                 </ul>
             </nav>
             {children}
