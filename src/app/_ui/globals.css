@@ -63,11 +63,13 @@ header {
     gap: 10px;
 }
 
-.Header_Title h1 {
+.Header_Title a {
     font-weight: 400;
     margin: 0;
     letter-spacing: 1px;
     font-size: 1.4vw;
+    text-decoration: none;
+    color: #00ffff;
 }
 
 .Header_Logo img {
@@ -179,7 +181,7 @@ header {
 }
 
 @media screen and (min-width: 1900px) {
-    .Header_Title h1 {
+    .Header_Title a {
         font-size: 36px;
     }
 }

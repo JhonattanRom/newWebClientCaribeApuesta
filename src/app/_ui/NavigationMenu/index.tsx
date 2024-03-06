@@ -7,7 +7,6 @@ import { Login } from "../Login";
 import Modal from "@/app/_components/Modal";
 
 export const NavigationMenu = () => {
-
     const [isOpen, setOpen] = useState(false);
     const [isMounted, seMountedModal] = useState(false);
     const handleOpenMenu = () => {
@@ -20,14 +19,14 @@ export const NavigationMenu = () => {
     return (<>
         <nav className={styles.Navigation}>
             <ul className={styles.links}>
-                <li><Link href="/SPORTS">SPORTS</Link></li>
-                <li><Link href="/LIVE">LIVE</Link></li>
-                <li><Link href="/CASINO">CASINO</Link></li>
-                <li><Link href="/PRAGMATIC">PRAGMATIC</Link></li>
-                <li><Link href="/SLOTS">SLOTS</Link></li>
-                <li><Link href="/MyPOKER">MyPOKER</Link></li>
-                <li><Link href="/MORE">MORE</Link></li>
+                <li><Link href="/Sports/About">SPORTS</Link></li>
+                <li><Link href="/Live/About">LIVE</Link></li>
+                <li><Link href="/Casino/About">CASINO</Link></li>
+                <li><Link href="/Pragmatic/About">PRAGMATIC</Link></li>
+                <li><Link href="/Slots/About">SLOTS</Link></li>
+                <li><Link href="/MyPoker/About">MyPOKER</Link></li>
                 <li><Link href="/Information/AboutUs">INFORMACION</Link></li>
+                <li><Link href="/Personal/Information">PERSONAL</Link></li>
             </ul>
         </nav>
         <div className={styles.ToggleContainer}>
@@ -46,14 +45,15 @@ export const NavigationMenu = () => {
         <nav
             className={`${styles.mobileMenuContainer} ${isOpen ? styles.mobileMenuOpen : ""}`}>
             <ul className={styles.mobileMenu}>
-                <li onClick={() => seMountedModal(true)} > <span className={styles.loginLink}>Iniciar</span></li>
-                <li><Link href="/SPORTS">SPORTS</Link></li>
-                <li><Link href="/LIVE">LIVE</Link></li>
-                <li><Link href="/CASINO">CASINO</Link></li>
-                <li><Link href="/PRAGMATIC">PRAGMATIC</Link></li>
-                <li><Link href="/SLOTS">SLOTS</Link></li>
-                <li><Link href="/MyPOKER">MyPOKER</Link></li>
-                <li><Link href="/MORE">MORE</Link></li>
+                <li onClick={() => seMountedModal(true)} > <span className={styles.loginLink}>INICIAR</span></li>
+                <li><Link href="/Sports/About">SPORTS</Link></li>
+                <li><Link href="/Live/About">LIVE</Link></li>
+                <li><Link href="/Casino/About">CASINO</Link></li>
+                <li><Link href="/Pragmatic/About">PRAGMATIC</Link></li>
+                <li><Link href="/Slots/About">SLOTS</Link></li>
+                <li><Link href="/MyPoker/About">MyPOKER</Link></li>
+                <li><Link href="/Information/AboutUs">INFORMACION</Link></li>
+                <li><Link href="/Personal/Information">PERSONAL</Link></li>
             </ul>
             <Modal seMountedModal={seMountedModal} isMounted={isMounted}>
                 <Login container={false} />

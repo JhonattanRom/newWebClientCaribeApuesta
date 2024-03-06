@@ -37,7 +37,7 @@ export default function RootLayout({
                   alt={"Caribe Apuesta Logo"}
                   width={50} height={50}
                 />
-                <h1>CARIBE APUESTA</h1>
+                <Link href="/">CARIBE APUESTA</Link>
               </div>
             </div>
             <div className="Header_Logo">

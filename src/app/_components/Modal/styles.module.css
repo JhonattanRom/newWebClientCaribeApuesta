@@ -21,13 +21,14 @@
 .modal_header {
     display: flex;
     justify-content: flex-end;
-    padding: 6px;
+    padding: 8px 12px;
 }
 
 .modal_header a {
     color: white;
     text-decoration: none;
     font-size: 22px;
+    font-weight: 400;
 }
 
 .modal {
@@ -36,7 +37,8 @@
     border-radius: 5px;
     border: 1px solid cyan;
     width: 100%;
-    height: 100%;
+    height: 45vh;
+    max-height: 370px;
     display: flex;
     flex-direction: column;
     row-gap: 1em;

@@ -11,7 +11,6 @@ interface PortalProps {
 }
 
 const Modal = (props: PortalProps) => {
-
     const handleCloseClick = (e: { preventDefault: () => void; }) => {
         e.preventDefault();
         props.seMountedModal(false);
