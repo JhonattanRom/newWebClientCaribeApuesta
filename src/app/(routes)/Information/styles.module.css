@@ -55,3 +55,15 @@
     transform: scale(1.1)
 }
 
+/* Responsive */
+@media (max-width: 990px) {
+    .container {
+        flex-direction: column;
+    }
+    .navigationContainer {
+        width: 90%;
+        margin: 0 auto;
+        min-width: unset;
+        max-width: 320px;
+    }
+}

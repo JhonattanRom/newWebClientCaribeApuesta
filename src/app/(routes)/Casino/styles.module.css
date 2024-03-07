@@ -1,5 +1,4 @@
 .container {
-    height: 45vh;
     gap: 1em;
     margin: 0 auto;
 
@@ -18,8 +17,8 @@
     flex-grow: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background: #00ffff45;
+    align-items: flex-start;
+    /* background: #00ffff45; */
     padding: 8px 12px;
     border-radius: 8px;
     width: 320px;
@@ -56,3 +55,16 @@
     transform: scale(1.1)
 }
 
+
+/* Responsive */
+@media (max-width: 990px) {
+    .container {
+        flex-direction: column;
+    }
+    .navigationContainer {
+        width: 90%;
+        margin: 0 auto;
+        min-width: unset;
+        max-width: 320px;
+    }
+}

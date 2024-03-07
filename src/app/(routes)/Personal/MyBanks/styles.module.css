@@ -21,3 +21,10 @@
     color: white;
     text-align: justify;
 }
+
+/* Responsive */
+@media (max-width: 990px) {
+    .container h2 {
+        font-size: 5vw;
+    }
+}
