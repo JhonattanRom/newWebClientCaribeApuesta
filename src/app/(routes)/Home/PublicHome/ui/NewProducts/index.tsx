@@ -1,12 +1,8 @@
 import React from "react";
-import Slider from "react-slick";
 import styles from "./styles.module.css";
-import Image from "next/image";
 import ProductsSlider from "./ProductsSlider";
 
-
 export default function NewProducts() {
-
     return (
         <section className={styles.container}>
             <article className={styles.headerNewProductsContainer} lang="es">

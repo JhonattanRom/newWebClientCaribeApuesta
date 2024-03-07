@@ -2,8 +2,6 @@
 import Slider from "react-slick";
 import FeaturedGame from "@/app/_components/FeaturedGame";
 import styles from "./styles.module.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 const settings = {
     dots: true,
