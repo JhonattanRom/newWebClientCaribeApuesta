@@ -56,7 +56,7 @@ export default function RootLayout({
           <NavigationMenu />
         </header>
         <main>
-        {children}
+          {children}
         </main>
         <footer className="Layout_footer">
           <div className="stamps_container">
@@ -107,14 +107,15 @@ export default function RootLayout({
 
           </div>
           <nav className="footer_navigation">
-            <ul >
-              <li><Link href="/SPORTS">SPORTS</Link></li>
-              <li><Link href="/LIVE">LIVE</Link></li>
-              <li><Link href="/CASINO">CASINO</Link></li>
-              <li><Link href="/PRAGMATIC">PRAGMATIC</Link></li>
-              <li><Link href="/SLOTS">SLOTS</Link></li>
-              <li><Link href="/MyPOKER">MyPOKER</Link></li>
-              <li><Link href="/MORE">MORE</Link></li>
+            <ul>
+              <li><Link href="/Sports/About">SPORTS</Link></li>
+              <li><Link href="/Live/About">LIVE</Link></li>
+              <li><Link href="/Casino/About">CASINO</Link></li>
+              <li><Link href="/Pragmatic/About">PRAGMATIC</Link></li>
+              <li><Link href="/Slots/About">SLOTS</Link></li>
+              <li><Link href="/MyPoker/About">MyPOKER</Link></li>
+              <li><Link href="/Information/AboutUs">INFORMACION</Link></li>
+              <li><Link href="/Personal/Information">PERSONAL</Link></li>
             </ul>
           </nav>
           <section className="footer_details">
