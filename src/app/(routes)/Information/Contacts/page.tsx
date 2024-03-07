@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import styles from "./styles.module.css";
+import ContactForm from "@/app/_components/ContactForm";
 
 export const metadata: Metadata = {
     title: "CaribeApuesta - Contactanos",
@@ -16,12 +17,11 @@ export default function Contacts() {
         <div className={styles.container}>
             <h2> CONTACTANOS </h2>
             <p> Si quieres ponerte en contacto con las personas que están
-                detrás de CasinoOnline.casino, ponte en contacto con nosotros por
-                correo electrónico en casinoonlinecas@gmail.com y trataremos de 
-                responderte lo antes posible. Agradecemos cualquier comentario que pueda tener,
-                pero puede ponerse en contacto con nosotros si tiene alguna pregunta o idea sobre 
-                nuestros casinos, guías u otro contenido. Gracias por visitarnos como Casino Online.
+                detrás de <mark>CARIBEAPUESTA</mark>, escribenos y trataremos de
+                responderte lo antes posible. Agradecemos cualquier comentario que pueda tener, si tiene alguna pregunta o idea sobre
+                nuestros servicios u otro contenido. Gracias por visitarnos como <mark>CARIBEAPUESTA</mark>.
             </p>
+            <ContactForm />
         </div>
     )
 }

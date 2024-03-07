@@ -7,30 +7,30 @@ import { useEffect, useState } from "react";
 const listForDesktop = [
   {
     src: "/img/banner1.jpg",
-    alt: "Banner 1",
+    alt: "Te ofrecemos las mejores apuestas online.",
   },
   {
     src: "/img/banner2.jpg",
-    alt: "Banner 2",
+    alt: "¡Que esperas! Para empezar a ganar.",
   },
   {
     src: "/img/imgSliderHome1.jpg",
-    alt: "Banner 2",
+    alt: "¿Que esperas para empezar a ganar?",
   },
   {
     src: "/img/imgSliderHome2.jpg",
-    alt: "Banner 2",
+    alt: "Diversión y dinero en un solo lugar.",
   }
 ];
 
 const listForMobile = [
   {
     src: "/img/banner1_800.jpg",
-    alt: "Banner 1",
+    alt: "Te ofrecemos las mejores apuestas online.",
   },
   {
     src: "/img/banner2_800.jpg",
-    alt: "Banner 2",
+    alt: "¡Que esperas! Para empezar a ganar.",
   },
 ]
 
@@ -56,21 +56,9 @@ export default function SlickCarrousel() {
   }, []);
   
   const renderImgList = (isMobile: boolean) => {
-    if(isMobile) {
-      return (
-        listForMobile.map((image, index) => (
-          <div className={styles.SliderItem} key={index}>
-            <Image
-              src={image.src}
-              alt={image.alt}
-              fill
-            />
-          </div>
-        ))
-      )
-    }
+    const list = isMobile ? listForMobile : listForDesktop;
     return (
-      listForDesktop.map((image, index) => (
+      list.map((image, index) => (
         <div className={styles.SliderItem} key={index}>
           <Image
             src={image.src}

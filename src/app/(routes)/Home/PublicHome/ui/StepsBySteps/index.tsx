@@ -5,11 +5,15 @@ export default function StepsBySteps() {
         <section className={styles.container}>
             <article className={styles.headerStepsContainer} lang="es">
                 <h2>JUEGA Y GANA CON NOSOTROS.</h2>
-                <p>Somos una empresa de confianza y seguridad que ofrece entretenimiento a
-                    nuestros clientes a través de un centro de apuestas deportivas en línea. En nuestra plataforma,
-                    encontrarás una variedad de opciones, como juegos de caballos (tanto carreras hípicas nacionales como 
-                    internacionales), tragamonedas, parley y casino en vivo. Además, contamos con un sistema de pago en línea seguro y
-                    rápido para que puedas realizar tus transacciones sin preocupaciones.</p>
+                <p>Somos una página de apuestas segura y dedicada a brindar entretenimiento a nuestros clientes, donde te ofrecemos a jugar desde la comodidad
+                    de tu casa o incluso desde cualquier lugar que te encuentres.
+                </p>
+                <p>
+                    En nuestra plataforma encontraras una variedad de opciones, como apuestas deportivas,
+                    carreras de caballos nacionales e internacionales, tragamonedas, casino en vivo,
+                    entre otros juegos. Además contamos con un sistema de pago en línea seguro y rápido
+                    para que puedas realizar tus recargas y retiros sin preocupaciones.
+                </p>
             </article>
             <section className={styles.stepsContentContainer}>
                 <ul className={styles.stepsList}>
@@ -32,15 +36,20 @@ export default function StepsBySteps() {
                             <p>Realiza tus jugadas en nuestra increíble oferta de eventos y marcados nacional e internacional. </p>
                         </div>
                     </li>
-                    <li>
-                        <div className={styles.number}>
-                            3
-                        </div>
-                        <div className={styles.stepInfo}>
-                            <h3>¡GANA!</h3>
-                            <p>Recibe BONOS extras por tus ganancias con nuestras increíbles promociones. </p>
-                        </div>
-                    </li>
+                    {
+                        /* 
+                        <li>
+                            <div className={styles.number}>
+                                3
+                            </div>
+                            <div className={styles.stepInfo}>
+                                <h3>¡GANA!</h3>
+                                <p>Recibe BONOS extras por tus ganancias con nuestras increíbles promociones. </p>
+                            </div>
+                        </li>
+                        */
+                    }
+
                 </ul>
             </section>
         </section>

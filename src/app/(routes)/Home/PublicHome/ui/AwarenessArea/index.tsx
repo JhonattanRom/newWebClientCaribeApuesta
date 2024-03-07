@@ -5,7 +5,7 @@ export default function AwarenesssArea() {
         <section className={styles.container}>
             <article className={styles.headerAwarenessAreaContainer} lang="es">
                 <h2>JUEGO RESPONSABLE</h2>
-                <p>Es gracias a todo esto que <mark>CARIBEAPUESTA</mark>, es el principal proveedor de servicios de juegos en línea en Venezuela y
+                <p><mark>CARIBEAPUESTA</mark>, es el principal proveedor de servicios de juegos en línea en Venezuela y
                     tenemos la intención de hacer todo lo posible para garantizar que siga
                     así durante mucho tiempo.</p>
             </article>
