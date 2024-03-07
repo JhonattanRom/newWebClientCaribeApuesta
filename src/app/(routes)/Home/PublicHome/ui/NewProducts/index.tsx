@@ -11,8 +11,8 @@ export default function NewProducts() {
         <section className={styles.container}>
             <article className={styles.headerNewProductsContainer} lang="es">
                 <h2>NUEVOS</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quisquam facere obcaecati accusamus itaque adipisci illum nihil quibusdam sed repellat molestias recusandae vel officiis dignissimos sunt inventore
-                    porro pariatur, ratione at?</p>
+                <p>Realiza tu apuesta maestra y ganadora en Parley, Carreras, Caballos o Casinos. 
+                    No te pierdas la oportunidad de vivir la emoción y la adrenalina al máximo.</p>
             </article>
             <section className={styles.SliderContainer}>
                 <ProductsSlider />

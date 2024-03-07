@@ -6,8 +6,8 @@ export default function HorseRacingFacts() {
         <section className={styles.container}>
             <article className={styles.headerHorseRacingFactsContainer} lang="es">
                 <h2>HIPISMO INTERNACIONAL</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quisquam facere obcaecati accusamus itaque adipisci illum nihil quibusdam sed repellat molestias recusandae vel officiis dignissimos sunt inventore
-                    porro pariatur, ratione at?</p>
+                <p>Participa en la emoción de las carreras internacionales con Polla Hípica. En nuestra plataforma, puedes apostar en tus eventos favoritos y disfrutar de una variedad de opciones para ganar. Sumérgete en la experiencia hípica con una amplia gama de apuestas disponibles, 
+                    asegurando emociones intensas y oportunidades gratificantes.</p>
             </article>
             <section className={styles.horseRacingFactsContentContainer}>
                 <HorseRacingFactsTable />

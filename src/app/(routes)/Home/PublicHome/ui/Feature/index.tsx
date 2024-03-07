@@ -6,9 +6,10 @@ export default function Feature() {
         <section className={styles.container}>
             <article className={styles.headerFeatureContainer} lang="es">
                 <h2>JUEGOS DESTACADOS</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Nihil voluptate sequi sapiente, delectus magni possimus, error fugit qui nobis placeat quis.
-                    Dolorem neque ullam repudiandae?
+                <p> Somos la mejor opción de apuestas deportivas en línea. Nuestra plataforma abarca una amplia
+                    gama de deportes, incluyendo MLB, NBA, NFL, NHL y LVBP. Ya sea que te apasione el béisbol,
+                    el baloncesto o el hockey, en nuestro sitio encontrarás estadísticas actualizadas, marcadores en vivo y análisis detallados.
+                    ¡Únete a nosotros y vive la emoción del deporte con total confianza!
                 </p>
             </article>
             <div className={styles.featuredGamesContainer}>

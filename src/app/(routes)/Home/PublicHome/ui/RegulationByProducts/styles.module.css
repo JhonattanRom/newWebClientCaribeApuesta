@@ -37,8 +37,9 @@
     font-size: 18px;
     font-weight: 400;
     color: white;
-    line-height: 22px;
-    text-align: justify;
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .headerRegulationContainer p mark {
@@ -92,9 +93,9 @@
     font-size: 18px;
     font-weight: 400;
     color: white;
-    line-height: 22px;
-    text-align: justify;
-    margin: 4px;
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .regulationsContainer {

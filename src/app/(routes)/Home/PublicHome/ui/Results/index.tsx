@@ -6,8 +6,9 @@ export default function Results() {
         <section className={styles.container}>
             <article className={styles.headerResultsContainer} lang="es">
                 <h2>RESULTADOS</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quisquam facere obcaecati accusamus itaque adipisci illum nihil quibusdam sed repellat molestias recusandae vel officiis dignissimos sunt inventore
-                    porro pariatur, ratione at?</p>
+                <p>Explora los últimos resultados deportivos para mantenerte actualizado en el mundo del deporte. 
+                    Descubre los números ganadores y acumula premios si eres un entusiasta,
+                    garantizando que siempre estés informado y listo para participar.</p>
             </article>
             <section className={styles.resultsContentContainer}>
                 <div className={styles.banner}>
