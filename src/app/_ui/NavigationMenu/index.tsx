@@ -13,19 +13,26 @@ export const NavigationMenu = () => {
         setOpen(!isOpen);
     }
     useEffect(() => {
-        if(isOpen) document.body.style.overflow = "hidden";
-        if(!isOpen) document.body.style.overflow = "initial";
+        if (isOpen) document.body.style.overflow = "hidden";
+        if (!isOpen) document.body.style.overflow = "initial";
     }, [isOpen])
     return (<>
         <nav className={styles.Navigation}>
             <ul className={styles.links}>
+                { /* SECCION DE PARLEY */}
                 <li><Link href="/Sports/About">SPORTS</Link></li>
-                <li><Link href="/Live/About">LIVE</Link></li>
-                <li><Link href="/Casino/About">CASINO</Link></li>
-                <li><Link href="/Pragmatic/About">PRAGMATIC</Link></li>
-                <li><Link href="/Slots/About">SLOTS</Link></li>
-                <li><Link href="/MyPoker/About">MyPOKER</Link></li>
+                { /* SECCION DE SLOTS (PRAGMATIC) */}
+                <li><Link href="/Slots/About">TRAGAMONEDAS</Link></li>
+
+                <li><Link href="/HorseRacing/About">HIPISMO</Link></li>{/* Falta ruta para hipismo */}
+                <li><Link href="/Live/About">LIVEBETTING</Link></li>{/* Falta ruta para livebetting */}
+                <li><Link href="/Live/About">PROPS</Link></li>{/* Falta ruta para props */}
+
+                <li><Link href="/Casino/About">CASINO ONLINE</Link></li>
+                <li><Link href="/Pragmatic/About">JUEGOS</Link></li>{/*  */}
+
                 <li><Link href="/Information/AboutUs">INFORMACION</Link></li>
+                {/* RUTAS PRIVADA */}
                 <li><Link href="/Personal/Information">PERSONAL</Link></li>
             </ul>
         </nav>

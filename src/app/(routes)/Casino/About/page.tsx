@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import styles from "./styles.module.css";
 
 export const metadata: Metadata = {
-    title: "Los mejores juegos de casino en línea | CaribeApuesta",
+    title: "Casinos en Línea: ¡Apuesta desde la Comodidad de tu Hogar!  | CaribeApuesta",
     description: "",
     keywords: [
         'Casino en línea',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     ],
     metadataBase: new URL("http://localhost:3000/"),
     openGraph: {
-        title: "Los mejores juegos de casino en línea",
+        title: "Casinos en Línea: ¡Apuesta desde la Comodidad de tu Hogar! ",
         description: "El sitio número uno de apuestas en Venezuela"
     }
 };

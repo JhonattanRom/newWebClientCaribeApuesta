@@ -24,29 +24,6 @@
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-.container section h3 {
-    font-weight: 700;
-    font-size: 22px;
-}
-
-.container section ul {
-    list-style: none;
-}
-
-.container section ul li p mark,
-.container p mark {
-    background-color: transparent;
-    color: cyan;
-}
-
-
-section .responsibleGaming {
-    text-align: end;
-    color: cyan;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-
 /* Responsive */
 @media (max-width: 990px) {
     .container h2 {
