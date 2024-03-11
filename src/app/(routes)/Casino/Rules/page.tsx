@@ -2,8 +2,13 @@ import { Metadata } from "next";
 import styles from "./styles.module.css";
 
 export const metadata: Metadata = {
-    title: "CaribeApuesta - Reglas Casino",
-    description: "CaribeApuesta es el sitio número uno de apuestas en Venezuela y uno de los mejores en Hipódromos y Apuestas Deportivas. Ya sea que busques deportes competitivos, probabilidades de apuestas, emocionantes juegos de Casino Online y Slots Machines, o las últimas noticias deportivas, todo está en un mismo lugar. ¡Regístrate gratis y comienza a ganar!",
+    title: "CaribeApuesta - Reglas de casino en línea",
+    description: "",
+    keywords: [
+        'Casino en línea',
+        'Casino en línea en Venezuela',
+
+    ],
     metadataBase: new URL("http://localhost:3000/"),
     openGraph: {
         title: "Sobre Nosotros",

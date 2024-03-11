@@ -11,7 +11,7 @@ export default function CasinoLayout({
             {/* Include shared UI here e.g. a header or sidebar */}
             <nav className={styles.navigationContainer}>
                 <ul className={styles.links}>
-                    <li><Link href="/Casino/About">Sobre los Casinos</Link></li>
+                    <li><Link href="/Casino/About">¿ Que es un casino online ?</Link></li>
                     <li><Link href="/Casino/Glossary">Glosario de terminos</Link></li>
                     <li><Link href="/Casino/Rules">Reglas</Link></li>
                     {/* <li><Link href="/Sports/Play">Jugar Sports</Link></li> */}
