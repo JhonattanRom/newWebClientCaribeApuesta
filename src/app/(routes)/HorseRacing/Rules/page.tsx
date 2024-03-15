@@ -349,18 +349,32 @@ export default function Rules() {
                             <h5>A.1 - Exacta</h5>
                         </div>
                         <div className={styles.content}>
-                            <p>
-                                <strong>A.1.1</strong>-Usted cobra la apuesta de exacta si selecciona a los ejemplares ganadores del primero y el segundo lugar en el orden exacto de llegada.<br />
-                                <strong>A.1.2</strong>- El pago máximo por TICKET en EXACTA es de dos mil unidades (2.000 U), sin importar las veces apostadas en el boleto.<br />
-                                <strong>A.1.3</strong>- Si un Field o Entry (llaves) termina en primero y segundo lugar la combinación ganadora será el Field y el ejemplar que llegue a tercer lugar.<br />
-                                <strong>A.1.4</strong>- Entries y Fields (llave) corren bajo un solo interés.<br />
-                                <strong>A.1.5</strong>- Si un ejemplar es retirado, el dinero del ejemplar retirado será reembolsado<br />
-                                <strong>A.1.6</strong>- No hay pagos de consolación<br />
-                                <strong>A.1.7</strong>- Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de los dos (2) lugares, se aplicará el pago del hipódromo de origen y solo se cancelarán los tickets con las combinaciones acertadas y el dividendo publicado por el hipódromo.<br />&nbsp;&nbsp;&nbsp;&nbsp;
-                                <strong>A.1.7.1</strong>- En caso que no se publique dividendo de Exacta en el hipódromo de origen, se pagara el límite de 500 unidades por cada unidad apostada a los boletos con la combinación acertada.<br />&nbsp;&nbsp;&nbsp;&nbsp;
-                                <strong>A.1.7.2</strong>- Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicará el pago del Hipódromo de origen y solo se cancelarán los tickets con las combinaciones acertadas (siempre cumpliendo con los pagos máximos establecidos por la empresa).<br />
-                                <strong>A.1.8</strong>- En una carrera con (4) ejemplares o menos, no habrá apuesta de EXACTA y se reembolsará el dinero.
-                            </p>
+                            <ul>
+                                <li><p><strong>A.1.1</strong>- Usted cobra la apuesta de exacta si selecciona a los ejemplares ganadores del primero y el segundo lugar en el orden exacto de llegada.</p></li>
+                                <li><p><strong>A.1.2</strong>- El pago máximo por TICKET en EXACTA es de dos mil unidades (2.000 U), sin importar las veces apostadas en el boleto.</p></li>
+                                <li><p><strong>A.1.3</strong>- Si un Field o Entry (llaves) termina en primero y segundo lugar la combinación ganadora será el Field y el ejemplar que llegue a tercer lugar.</p></li>
+                                <li><p><strong>A.1.4</strong>- Entries y Fields (llave) corren bajo un solo interés.</p></li>
+                                <li><p><strong>A.1.5</strong>- Si un ejemplar es retirado, el dinero del ejemplar retirado será reembolsado</p></li>
+                                <li><p><strong>A.1.6</strong>- No hay pagos de consolación</p></li>
+                                <li>
+                                    <p><strong>A.1.7</strong>- Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de los dos (2) lugares, se aplicará el pago del hipódromo de origen y solo se cancelarán los tickets con las combinaciones acertadas y el dividendo publicado por el hipódromo.</p>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                <strong>A.1.7.1</strong>- En caso que no se publique dividendo de Exacta en el hipódromo de origen, se pagara el límite de 500 unidades por cada unidad apostada a los boletos con la combinación acertada.<br />
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <strong>A.1.7.2</strong>- Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicará el pago del Hipódromo de origen y solo se cancelarán los tickets con las combinaciones acertadas (siempre cumpliendo con los pagos máximos establecidos por la empresa).<br />
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p><strong>A.1.8</strong>- En una carrera con (4) ejemplares o menos, no habrá apuesta de EXACTA y se reembolsará el dinero.</p>
+                                </li>
+                            </ul>
                         </div>
                     </article>
                     <article>
@@ -368,17 +382,55 @@ export default function Rules() {
                             <h5>A.2 - Trifecta</h5>
                         </div>
                         <div className={styles.content}>
-                            <p>
-                                <strong>A.2.1</strong>- Usted cobra la apuesta de Trifecta si selecciona a los ejemplares del primero, del segundo y del tercer lugar en orden exacto de llegada en las carreras designadas con apuestas de Trifecta.<br />
-                                <strong>A.2.2</strong>- El pago máximo por TICKET en TRIFECTA es de cuatro mil unidades (4.000 U.) sin importar las veces apostadas en el boleto.<br />
-                                <strong>A.2.3</strong>- Entries y Fields (llave) corren bajo un solo interés.<br />
-                                <strong>A.2.4</strong>- Si en el evento un ejemplar es retirado el dinero del ejemplar retirado será reembolsado.<br />
-                                <strong>A.2.5</strong>- No hay pagos de consolación.<br />
-                                <strong>A.2.6</strong>- Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de los tres (3) lugares, se aplicará el pago del Hipódromo de origen y solo se cancelarán los tickets con las combinaciones acertadas y el dividendo publicado por el hipódromo.<br />&nbsp;&nbsp;&nbsp;&nbsp;
-                                <strong>A.2.6.1</strong>- En caso que no se publique dividendo de Trifecta en el hipódromo de origen, se pagará el límite de pago de 1.000 Unidades por cada Unidad apostada a los boletos con la con la combinación acertada.<br />&nbsp;&nbsp;&nbsp;&nbsp;
-                                <strong>A.2.6.2</strong>- Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicará el pago del Hipódromo de origen y solo se cancelarán los tickets con las combinaciones acertadas (siempre cumpliendo con los pagos máximos establecidos por la empresa)<br />
-                                <strong>A.2.7</strong>- En una carrera con (6) ejemplares o menos, no habrá apuesta de TRIFECTA y se reembolsará el Dinero
-                            </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        <strong>A.2.1</strong>- Usted cobra la apuesta de Trifecta si selecciona a los ejemplares del primero, del segundo y del tercer lugar en orden exacto de llegada en las carreras designadas con apuestas de Trifecta.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>A.2.2</strong>- El pago máximo por TICKET en TRIFECTA es de cuatro mil unidades (4.000 U.) sin importar las veces apostadas en el boleto.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>A.2.3</strong>- Entries y Fields (llave) corren bajo un solo interés.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>A.2.4</strong>- Si en el evento un ejemplar es retirado el dinero del ejemplar retirado será reembolsado.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>A.2.5</strong>- No hay pagos de consolación.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>A.2.6</strong>- Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de los tres (3) lugares, se aplicará el pago del Hipódromo de origen y solo se cancelarán los tickets con las combinaciones acertadas y el dividendo publicado por el hipódromo.
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                <strong>A.2.6.1</strong>- En caso que no se publique dividendo de Trifecta en el hipódromo de origen, se pagará el límite de pago de 1.000 Unidades por cada Unidad apostada a los boletos con la con la combinación acertada.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <strong>A.2.6.2</strong>- Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicará el pago del Hipódromo de origen y solo se cancelarán los tickets con las combinaciones acertadas (siempre cumpliendo con los pagos máximos establecidos por la empresa).
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>A.2.7</strong>- En una carrera con (6) ejemplares o menos, no habrá apuesta de TRIFECTA y se reembolsará el Dinero
+                                    </p>
+                                </li>
+                            </ul>
                         </div>
                     </article>
                     <article>
@@ -386,16 +438,56 @@ export default function Rules() {
                             <h5>A.3 - Superfecta</h5>
                         </div>
                         <div className={styles.content}>
+                            <ul>
+                                <li>
+                                    <p>
+                                        <strong>A.3.1</strong>- Usted cobra la apuesta de Superfecta si selecciona a los ejemplares ganadores del primero, segundo, tercero y cuarto lugar, en el orden exacto de llegada en carreras designadas con apuestas de Superfecta.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>A.3.2</strong>- El pago máximo por TICKET en SUPERFECTA es de siete mil unidades (7.000 U.) sin importar las veces apostadas en el boleto.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>A.3.3</strong>- Entries y Fields (llaves) corren bajo un solo interés.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>A.3.4</strong>- Si en el evento un ejemplar es retirado el dinero del ejemplar retirado será reembolsado.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>A.3.5</strong>- No hay pagos de consolación.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>A.3.6</strong>- Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de los cuatros (4) lugares, se aplicará el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas y el dividendo publicado por el hipódromo.
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                <strong>A.3.6.1</strong>- En caso que no se publique dividendo de Superfecta en el hipódromo de origen, se pagará el límite de pago de 2.000 Unidades por cada Unidad apostada a los boletos con la combinación acertada.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <strong>A.3.6.2</strong>- - Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicará el pago del Hipódromo de origen y solo se cancelarán los tickets con las combinaciones acertadas (siempre cumpliendo con los pagos máximos establecidos por la empresa).
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>A.3.7</strong>- En una carrera con 6 ejemplares o menos, no habrá apuesta de SUPERFECTA y se reembolsará el dinero.
+                                    </p>
+                                </li>
+                            </ul>
                             <p>
-                                <strong>A.3.1</strong>- Usted cobra la apuesta de Superfecta si selecciona a los ejemplares ganadores del primero, segundo, tercero y cuarto lugar, en el orden exacto de llegada en carreras designadas con apuestas de Superfecta.<br />
-                                <strong>A.3.2</strong>- El pago máximo por TICKET en SUPERFECTA es de siete mil unidades (7.000 U.) sin importar las veces apostadas en el boleto.<br />
-                                <strong>A.3.3</strong>- Entries y Fields (llaves) corren bajo un solo interés.<br />
-                                <strong>A.3.4</strong>- Si en el evento un ejemplar es retirado el dinero del ejemplar retirado será reembolsado.<br />
-                                <strong>A.3.5</strong>- No hay pagos de consolación.<br />
-                                <strong>A.3.6</strong>- Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de los cuatros (4) lugares, se aplicará el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas y el dividendo publicado por el hipódromo.<br />&nbsp;&nbsp;&nbsp;&nbsp;
-                                <strong>A.3.6.1</strong>- En caso que no se publique dividendo de Superfecta en el hipódromo de origen, se pagará el límite de pago de 2.000 Unidades por cada Unidad apostada a los boletos con la combinación acertada<br />&nbsp;&nbsp;&nbsp;&nbsp;
-                                <strong>A.3.6.2</strong>- - Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicará el pago del Hipódromo de origen y solo se cancelarán los tickets con las combinaciones acertadas (siempre cumpliendo con los pagos máximos establecidos por la empresa).<br />
-                                <strong>A.3.7</strong>- En una carrera con 6 ejemplares o menos, no habrá apuesta de SUPERFECTA y se reembolsará el dinero.
                             </p>
                         </div>
                     </article>
@@ -405,13 +497,35 @@ export default function Rules() {
                         </div>
                         <div className={styles.content}>
                             <p>
-                                Usted cobra la apuesta de doble selección al ejemplar ganador de primer lugar en dos carreras consecutivas designadas con el contenido de apuestas de doble selección.<br />
-                                * El pago máximo por TICKET es de diez mil unidades (10.000 U.) sin importar las veces apostadas en el boleto.<br />
-                                * Si un ejemplar es retirado de cualquiera de las dos (2) carreras designadas como doble selección el dinero del ejemplar retirado será reembolsado y no habrá pagos de consolación.<br />
-                                * Entríes y fields (llaves) corren bajo un solo interés.<br />
-                                * Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicará el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadasy el dividendo publicado por el hipódromo. (siempre cumpliendo con los pagos máximos establecidos por la empresa).<br />
-                                * En caso de que no se publique dividendo en el hipódromo de origen, se pagará el límite de pago de 3.000 Unidades por cada Unidad apostadas a los boletos con la combinación acertada en los establecimientos afiliados al sistema de apuestas licenciado de CORPORACION EL INMEJORABLE 804,C.A.
+                                Usted cobra la apuesta de doble selección al ejemplar ganador de primer lugar en dos carreras consecutivas designadas con el contenido de apuestas de doble selección
                             </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        * El pago máximo por TICKET es de diez mil unidades (10.000 U.) sin importar las veces apostadas en el boleto.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Si un ejemplar es retirado de cualquiera de las dos (2) carreras designadas como doble selección el dinero del ejemplar retirado será reembolsado y no habrá pagos de consolación.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Entríes y fields (llaves) corren bajo un solo interés.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicará el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadasy el dividendo publicado por el hipódromo. (siempre cumpliendo con los pagos máximos establecidos por la empresa).
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * En caso de que no se publique dividendo en el hipódromo de origen, se pagará el límite de pago de 3.000 Unidades por cada Unidad apostadas a los boletos con la combinación acertada en los establecimientos afiliados al sistema de apuestas licenciado de CORPORACION EL INMEJORABLE 804,C.A.
+                                    </p>
+                                </li>
+                            </ul>
                         </div>
                     </article>
                     <article>
@@ -421,18 +535,60 @@ export default function Rules() {
                         <div className={styles.content}>
                             <p>
                                 Usted cobra la apuesta de triple selección si selecciona al ejemplar ganador del primer lugar en tres carreras consecutivas designadas con apuestas de triple selección.<br />
-                                * El pago máximo por TICKET es de veinte mil unidades (20.000 U.) sin importar las veces apostadas en el boleto.<br />
-                                * No habrá reembolso por los retirados<br />
-                                * Si su ejemplar es retirado del evento este será sustituido por el ejemplar favorito al cierre de la carrera y en caso de <br />
-                                que el ejemplar favorito resulte ganador se pagará por el favorito ganador y por cada ejemplar retirado del evento.<br />
-                                * En caso de que una carrera o más sean canceladas el dinero de la apuesta será reembolsado.<br />
-                                * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de las tres (3) carreras, se aplicará el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas y el dividendo publicado por el hipódromo.<br />
-                                * No hay pagos de consolación<br />
-                                * Entries y fields (llaves) corren bajo un solo interés.<br />
-                                * En caso de que no se publique dividendo pick3 of 3  en el hipódromo de origen, se pagará el límite de pago de 4.000 Unidades por cada Unidad apostada a los boletos con la combinación acertadas en los establecimientos afiliados al sistema de apuestas licenciado de CORPORACION EL INMEJORABLE 804,C.A.<br />
-                                * No hay acumulados.<br />
-                                * Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicara el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas (siempre cumpliendo con los pagos máximos establecidos por la empresa).
                             </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        * El pago máximo por TICKET es de veinte mil unidades (20.000 U.) sin importar las veces apostadas en el boleto.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * No habrá reembolso por los retirados
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Si su ejemplar es retirado del evento este será sustituido por el ejemplar favorito al cierre de la carrera y en caso de
+                                        que el ejemplar favorito resulte ganador se pagará por el favorito ganador y por cada ejemplar retirado del evento.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * En caso de que una carrera o más sean canceladas el dinero de la apuesta será reembolsado.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de las tres (3) carreras, se aplicará el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas y el dividendo publicado por el hipódromo.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * No hay pagos de consolación
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Entries y fields (llaves) corren bajo un solo interés.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * En caso de que no se publique dividendo pick3 of 3  en el hipódromo de origen, se pagará el límite de pago de 4.000 Unidades por cada Unidad apostada a los boletos con la combinación acertadas en los establecimientos afiliados al sistema de apuestas licenciado de CORPORACION EL INMEJORABLE 804,C.A.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * No hay acumulados.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicara el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas (siempre cumpliendo con los pagos máximos establecidos por la empresa).
+                                    </p>
+                                </li>
+                            </ul>
                         </div>
                     </article>
                     <article>
@@ -441,18 +597,61 @@ export default function Rules() {
                         </div>
                         <div className={styles.content}>
                             <p>
-                                Usted cobra la apuesta de Pick 4 si selecciona al ejemplar ganador del primer lugar en cuatro carreras consecutivas designadas con apuestas de pick 4.<br />
-                                * El pago máximo por TICKET es de treinta mil unidades (30.000 U.) sin importar las veces apostadas en el boleto.<br />
-                                * No habrá reembolso por los retirados.<br />
-                                * Si su ejemplar es retirado del evento este será sustituido por el ejemplar favorito al cierre de la carrera y en caso de que el ejemplar favorito resulte ganador se pagará por el favorito ganador y por cada ejemplar retirado del evento.<br />
-                                * En caso de que una carrera o más sean canceladas el dinero de la apuesta será reembolsado.<br />
-                                * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de las cuatros (4) carreras, se aplicará el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas y el dividendo publicado por el hipódromo.<br />
-                                * No hay pagos de consolación (pick4 3 de 4 aciertos)<br />
-                                * Entries y fields (llaves) corren bajo un solo interés.<br />
-                                * En caso de que no se publique dividendo pick4 of 4 en el hipódromo de origen, se pagará el límite de pago de 4.000 Unidades por cada Unidad apostada a los boletos con la combinación acertadas en los establecimientos afiliados al sistema de apuestas licenciado de CORPORACION EL INMEJORABLE 804,C.A.<br />
-                                * No hay acumulados.<br />
-                                * Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicara el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas (siempre cumpliendo con los pagos máximos establecidos por la empresa).
+                                Usted cobra la apuesta de Pick 4 si selecciona al ejemplar ganador del primer lugar en cuatro carreras consecutivas designadas con apuestas de pick 4.
                             </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        * El pago máximo por TICKET es de treinta mil unidades (30.000 U.) sin importar las veces apostadas en el boleto.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * No habrá reembolso por los retirados.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Si su ejemplar es retirado del evento este será sustituido por el ejemplar favorito al cierre de la carrera y en caso de que el ejemplar favorito resulte ganador se pagará por el favorito ganador y por cada ejemplar retirado del evento.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * En caso de que una carrera o más sean canceladas el dinero de la apuesta será reembolsado.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de las cuatros (4) carreras, se aplicará el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas y el dividendo publicado por el hipódromo.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * No hay pagos de consolación (pick4 3 de 4 aciertos)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Entries y fields (llaves) corren bajo un solo interés.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * En caso de que no se publique dividendo pick4 of 4 en el hipódromo de origen, se pagará el límite de pago de 4.000 Unidades por cada Unidad apostada a los boletos con la combinación acertadas en los establecimientos afiliados al sistema de apuestas licenciado de CORPORACION EL INMEJORABLE 804,C.A.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * No hay acumulados.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicara el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas (siempre cumpliendo con los pagos máximos establecidos por la empresa).
+                                    </p>
+                                </li>
+                            </ul>
+
                         </div>
                     </article>
                     <article>
@@ -461,16 +660,54 @@ export default function Rules() {
                         </div>
                         <div className={styles.content}>
                             <p>
-                                Usted cobra la apuesta de PARLAY si selecciona a dos o tres ejemplares en diferentes carreras y/o diferentes hipódromos finalizan ganadores. La apuesta debe ser, ya sea a primero, segundo o tercer lugar, pero todos los ejemplares seleccionados deben estar en el mismo orden de apuesta, y las selecciones deberán finalizar en el orden elegido.<br />* Los límites de pagos en Parlay se figuran de las siguientes maneras:<br />
-                                ° Primer lugar:    20 unidades por cada unidad apostada.<br />
-                                ° Segundo lugar:  8 unidades por cada apostada.<br />
-                                ° Tercer lugar:  4 unidades por cada unidad apostada.<br />
-                                * El límite de pagos es de cuentos cincuenta  unidades (150 U) por cada unidad apostada.<br />
-                                * El pago máximo por apuesta de parlay es de diez mil unidades (10.000 U.)<br />
-                                * El máximo número de ejemplares en un parlay es de tres (3) y el mínimo dos (2).<br />
-                                * Si un ejemplar es retirado un parlay de tres (3) se convierte en un parlay de dos  (2) y un parlay de dos (2) se convierte en apuesta derecha.<br />
-                                * Entries y fields corren bajo un solo interés.
+                                Usted cobra la apuesta de PARLAY si selecciona a dos o tres ejemplares en diferentes carreras y/o diferentes hipódromos finalizan ganadores.
+                                La apuesta debe ser, ya sea a primero, segundo o tercer lugar, pero todos los ejemplares seleccionados deben estar en el mismo orden de apuesta, y
+                                las selecciones deberán finalizar en el orden elegido.
                             </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        * Los límites de pagos en Parlay se figuran de las siguientes maneras:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                ° Primer lugar: 20 unidades por cada unidad apostada.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                ° Segundo lugar: 8 unidades por cada apostada.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                ° Tercer lugar: 4 unidades por cada unidad apostada.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>
+                                        * El límite de pagos es de cuentos cincuenta  unidades (150 U) por cada unidad apostada.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * El pago máximo por apuesta de parlay es de diez mil unidades (10.000 U.)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Si un ejemplar es retirado un parlay de tres (3) se convierte en un parlay de dos  (2) y un parlay de dos (2) se convierte en apuesta derecha.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Entries y fields corren bajo un solo interés.
+                                    </p>
+                                </li>
+                            </ul>
                         </div>
                     </article>
                     <article>
@@ -479,17 +716,55 @@ export default function Rules() {
                         </div>
                         <div className={styles.content}>
                             <p>
-                                Usted cobra la apuesta si selecciona al ejemplar ganador del primer lugar en cinco carreras consecutivas designadas con apuestas de pick 5 especial.<br/>
-                                * El pago máximo por apuesta es de cuarenta mil unidades (40.000 U.) sin importar las veces apostadas en el boleto.<br/>
-                                * No habrá reembolso por los retirados.<br/>
-                                * Si su ejemplar es retirado del evento este será sustituido por el ejemplar favorito al cierre de la carrera y en caso de que el ejemplar favorito resulte ganador separara por el favorito ganador y por cada ejemplar retirado del evento.<br/>
-                                * En caso de que una carrera o más sean canceladas el dinero de la apuesta será reembolsado.<br/>
-                                * Si en el hipódromo de origen paga con menos de cinco (5) aciertos esto equivale a premio de consolación para los hipódromos de origen no siendo aplicable el pago de este premio en los establecimientos afiliados al sistema de apuesta licenciado.<br/>
-                                * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de las cinco (5) carreras, se aplicará el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas y el dividendo publicado por el hipódromo.<br/>
-                                * Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicara el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas (siempre cumpliendo con los pagos máximos establecidos por la empresa).<br/>
-                                * No hay pagos de consolación (pick5 4 de 5 aciertos)<br/>
-                                * En caso de que no se publique dividendo pick5 of 5 en el hipódromo de origen, se pagara el límite de pago de 5.000 Unidades por cada Unidad apostada a los boletos con la combinación acertadas en los establecimientos afiliados al sistema de apuestas licenciado de CORPORACION EL INMEJORABLE 804,C.A.
+                                Usted cobra la apuesta si selecciona al ejemplar ganador del primer lugar en cinco carreras consecutivas designadas con apuestas de pick 5 especial.
                             </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        * El pago máximo por apuesta es de cuarenta mil unidades (40.000 U.) sin importar las veces apostadas en el boleto.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * No habrá reembolso por los retirados.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Si su ejemplar es retirado del evento este será sustituido por el ejemplar favorito al cierre de la carrera y en caso de que el ejemplar favorito resulte ganador separara por el favorito ganador y por cada ejemplar retirado del evento.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * En caso de que una carrera o más sean canceladas el dinero de la apuesta será reembolsado.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Si en el hipódromo de origen paga con menos de cinco (5) aciertos esto equivale a premio de consolación para los hipódromos de origen no siendo aplicable el pago de este premio en los establecimientos afiliados al sistema de apuesta licenciado.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de las cinco (5) carreras, se aplicará el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas y el dividendo publicado por el hipódromo.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicara el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas (siempre cumpliendo con los pagos máximos establecidos por la empresa).
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * No hay pagos de consolación (pick5 4 de 5 aciertos)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * En caso de que no se publique dividendo pick5 of 5 en el hipódromo de origen, se pagara el límite de pago de 5.000 Unidades por cada Unidad apostada a los boletos con la combinación acertadas en los establecimientos afiliados al sistema de apuestas licenciado de CORPORACION EL INMEJORABLE 804,C.A.
+                                    </p>
+                                </li>
+                            </ul>
                         </div>
                     </article>
                     <article>
@@ -498,20 +773,70 @@ export default function Rules() {
                         </div>
                         <div className={styles.content}>
                             <p>
-                                Usted cobra la apuesta si selecciona al ejemplar ganador del primer lugar en seis carreras consecutivas designadas con apuestas de pick 6<br/>
-                                * El pago máximo por apuesta es de cuarenta mil unidades (40.000 U.) sin importar las veces apostadas en el boleto.<br/>
-                                * Para ganar la apuesta usted deberá tener igual o mayor número de carreras como el o los boletos ganadores en el hipódromo designado.<br/>
-                                * Los pagos de consolación son con una carrera menos que los boletos ganadores.<br/>
-                                * Los boletos ganadores en los establecimientos afiliados al sistema de apuesta licenciado, repartirán el monto apostado de acuerdo a las reglas de origen.<br/>
-                                * En caso de que no haya boleto ganador en los hipódromos de origen y haya uno o más boletos ganadores o de consolación en los establecimientos afiliados al sistema de apuesta licenciado se repartirá el monto apostado de acuerdo a las reglas de origen sin el fondo acumulado.<br/>
-                                * Si no hay boletos ganadores o de consolación en los establecimientos afiliados al sistema de apuestas licenciado, no habrá pagos.<br/>
-                                * En caso de que haya un empate a ganar entre dos o más ejemplares en carreras designadas de pick 6, todos los involucrados en el sistema serán considerados ganadores.<br/>
-                                * No habrá devoluciones por ejemplares retirados, si su ejemplar es retirado del evento este será sustituido por ejemplar favorito al cierre de la carrera<br/>
-                                * Entries y fields corren bajo un solo interés.<br/>
-                                * Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicara el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas (siempre cumpliendo con los pagos máximos establecidos por la empresa).<br/>
-                                * No hay pagos de consolación (pick6 5 de 6 aciertos)<br/>
-                                * En caso de que no se publique dividendo pick6 of 6 en el hipódromo de origen, se pagara el límite de pago de 5.000 Unidades por cada Unidad apostada a los boletos con la combinación acertadas en los establecimientos afiliados al sistema de apuestas licenciado de CORPORACION EL INMEJORABLE 804,C.A.
+                                Usted cobra la apuesta si selecciona al ejemplar ganador del primer lugar en seis carreras consecutivas designadas con apuestas de pick 6.
                             </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        * El pago máximo por apuesta es de cuarenta mil unidades (40.000 U.) sin importar las veces apostadas en el boleto.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Para ganar la apuesta usted deberá tener igual o mayor número de carreras como el o los boletos ganadores en el hipódromo designado.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Los pagos de consolación son con una carrera menos que los boletos ganadores.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Los boletos ganadores en los establecimientos afiliados al sistema de apuesta licenciado, repartirán el monto apostado de acuerdo a las reglas de origen.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * En caso de que no haya boleto ganador en los hipódromos de origen y haya uno o más boletos ganadores o de consolación en los establecimientos afiliados al sistema de apuesta licenciado se repartirá el monto apostado de acuerdo a las reglas de origen sin el fondo acumulado.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Si no hay boletos ganadores o de consolación en los establecimientos afiliados al sistema de apuestas licenciado, no habrá pagos.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * En caso de que haya un empate a ganar entre dos o más ejemplares en carreras designadas de pick 6, todos los involucrados en el sistema serán considerados ganadores.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * No habrá devoluciones por ejemplares retirados, si su ejemplar es retirado del evento este será sustituido por ejemplar favorito al cierre de la carrera.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Entries y fields corren bajo un solo interés.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicara el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas (siempre cumpliendo con los pagos máximos establecidos por la empresa).
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * No hay pagos de consolación (pick6 5 de 6 aciertos)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * En caso de que no se publique dividendo pick6 of 6 en el hipódromo de origen, se pagara el límite de pago de 5.000 Unidades por cada Unidad apostada a los boletos con la combinación acertadas en los establecimientos afiliados al sistema de apuestas licenciado de CORPORACION EL INMEJORABLE 804,C.A.
+                                    </p>
+                                </li>
+                            </ul>
                         </div>
                     </article>
                 </section>

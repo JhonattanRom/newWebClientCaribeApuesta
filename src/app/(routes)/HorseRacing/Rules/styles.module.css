@@ -111,22 +111,35 @@
 .exoticsList .contentheader {
     border-top: none;
 }
+
 .exoticsList h4 {
     font-size: 22px;
     font-weight: 400;
 }
+
 .exoticsList h5 {
     font-size: 16px;
 }
+
 .exoticsList h4,
 .exoticsList h5 {
     margin: 0;
 }
+
 .content {
     border: 2px solid cyan;
     padding: 8px 12px;
     width: 100%;
     border-top: none;
+}
+
+.content ul {
+    list-style: none;
+}
+
+.content>ul {
+    margin: 0;
+    padding: 0;
 }
 
 /* Responsive */
