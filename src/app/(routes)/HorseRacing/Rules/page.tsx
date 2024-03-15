@@ -20,21 +20,21 @@ export default function Rules() {
     return (
         <div className={styles.container}>
             <h2> REGLAMENTO GENERAL DE LOS JUEGOS Y APUESTAS HIPICAS OPERADOS POR CORPORACION EL INMEJORABLE 804, C.A. </h2>
-            <p><mark>ARTICULO 1.</mark> – Este Reglamento tiene por objeto establecer las Condiciones Generales que
+            <p><mark>ARTICULO 1.</mark> - Este Reglamento tiene por objeto establecer las Condiciones Generales que
                 regularan de forma unificada por las OPERADORAS la CAPTACION DE APUESTAS RELACIONADAS
                 CON LA RETRANSMISION DE CARRERAS DE CABALLO DE GALGOS Y OTROS EVENTOS DE LA ACTIVACION
                 HIPICA QUE SE DESARROLLAN FUERA DEL TERRITORIO NACIONAL, manejando por la empresa
                 CORPORACION EL INMEJORABLE 804 C.A, quien en lo sucesivo se denominara LA CORPORACION
                 EL INMEJORABLE 804 , correspondiente a las licencias otorgadas por LA SUPERINTENDENCIA
                 NACIONAL DE ACTIVIDADES HIPICAS, en lo adelante denominado SUNAHIP.</p>
-            <p><mark>ARTICULO 2.</mark> – El hecho de participación en cada juego o apuesta implica,
+            <p><mark>ARTICULO 2.</mark> - El hecho de participación en cada juego o apuesta implica,
                 por parte del apostador, su aceptación y su adhesión a las normas previstas en este Reglamento
                 General y en el Reglamento Específico de cada juego.</p>
-            <p><mark>ARTICULO 3.</mark> –Este Reglamento rige para la captación de Apuestas relacionadas
+            <p><mark>ARTICULO 3.</mark> - Este Reglamento rige para la captación de Apuestas relacionadas
                 con la retransmisión de carreras de caballo y galgos, además de otros eventos deportivos
                 relacionados con la actividad hípica, que se desarrollan fuera del territorio nacional.
             </p>
-            <p><mark>ARTICULO 4.</mark> –En las diversas modalidades de Juego y Apuestas ofrecidas por
+            <p><mark>ARTICULO 4.</mark> - En las diversas modalidades de Juego y Apuestas ofrecidas por
                 LA CORPORACION EL INMEJORABLE 804, el público apostador tiene la opción de seleccionar el
                 tipo de hipódromo contra el cual realiza su jugada. Estos hipódromos se encuentran agrupados
                 por categoría,en relación con la seguridad y beneficios ofrecidos al apostador, de la siguiente manera:
@@ -234,7 +234,7 @@ export default function Rules() {
                                     <br />
                                     <br />1121. S Chance Avenue Fresno, C.A 93702
                                     <br />1600 Exposition Blvd. Sacramento, C.A 95815
-                                    <br />1350 BENNETT VALLET ROAD –SANTA ROSA,C.A 95404
+                                    <br />1350 BENNETT VALLET ROAD -SANTA ROSA,C.A 95404
                                     <br />1121 S. Chance Avenue Fresno, C.A 93702
                                     <br />
                                     <br />9301 Collinsville Rd Collinsville, IL 82234.USA
@@ -268,7 +268,7 @@ export default function Rules() {
                 <p>TODO HIPODROMO O EVENTO NO CONTEMPLADO EN ESTAS CLASIFICACIONES SON CONSIDERADOS TIPO “C” Y TENDRAN LOS LÍMITES DE PAGOS MAXIMOS CORRESPONDIENTE AL MISMO.</p>
             </section>
             <section>
-                <p className={styles.marginBottom_off}><mark>ARTICULO 5.</mark> –Las condiciones para la comercialización de todos los juegos hípicos son:</p>
+                <p className={styles.marginBottom_off}><mark>ARTICULO 5.</mark> -Las condiciones para la comercialización de todos los juegos hípicos son:</p>
                 <ol type="a" className={styles.marginTop_off}>
                     <li><p> Los juegos hípicos se comercializaran mediante la utilización de un Sistema de Software único, que LA CORPORACION EL INMEJORABLE 804 dispondrá únicamente en su página web.</p></li>
                     <li><p> El monto de Apuesta, al igual que los DIVIDENDOS, se expresaran en UNIDADES, siendo la base de cálculo de las mismas la moneda nacional (El Bolívar), en consecuencia, LA CORPORACION EL INMEJORABLE 804 se obliga a notificar por escrito a la SUNAHIP, el equivalente en bolívares el valor de la UNIDAD, cada vez que esta registre cambios en su valor, además deberá ser publicada en un lugar visible en su página web.</p></li>
@@ -279,13 +279,13 @@ export default function Rules() {
                 </ol>
             </section>
             <section>
-                <p className={styles.marginBottom_off}><mark>ARTICULO 6.</mark> – Queda estrictamente prohibido el acceso a todos los CENTRO DE APUESTAS afiliados a LA CORPORACION EL INMEJORABLE 804 a:</p>
+                <p className={styles.marginBottom_off}><mark>ARTICULO 6.</mark> - Queda estrictamente prohibido el acceso a todos los CENTRO DE APUESTAS afiliados a LA CORPORACION EL INMEJORABLE 804 a:</p>
                 <ol type="a" className={styles.marginTop_off}>
                     <li><p>Menores de dieciocho (18) años.</p></li>
                 </ol>
             </section>
             <section>
-                <p className={styles.marginBottom_off}><mark>ARTICULO 7.</mark> – Las condiciones para el pago de DIVIDENDOS de las apuestas son:</p>
+                <p className={styles.marginBottom_off}><mark>ARTICULO 7.</mark> - Las condiciones para el pago de DIVIDENDOS de las apuestas son:</p>
                 <ol type="a" className={styles.marginTop_off}>
                     <li><p> LA CORPORACION EL INMEJORABLE 804 se reserva el derecho de aceptar, limitar o rechazar cualquier apuesta antes de recibirla.</p></li>
                     <li><p> Solamente participaran en el programa oficial respectivo los tickets o boletos emitidos por LA CORPORACION EL INMEJORABLE 804 con todos sus requisitos formales.</p></li>
@@ -298,14 +298,14 @@ export default function Rules() {
                 </ol>
             </section>
             <section>
-                <p className={styles.marginBottom_off}><mark>ARTICULO 8.</mark> – Las condiciones para las reclamaciones se surjan con ocasión de cualquiera de los juegos hípicos son:</p>
+                <p className={styles.marginBottom_off}><mark>ARTICULO 8.</mark> - Las condiciones para las reclamaciones se surjan con ocasión de cualquiera de los juegos hípicos son:</p>
                 <ol type="a" className={styles.marginTop_off}>
                     <li><p> Todo poseedor de un ticket o boleto que se considere con derecho a reclamo deberá formalizar su denuncia ante la SUPERINTENDENCIA NACIONAL DE ACTIVIDADES HIPICAS (SUNAHIP), organismo facultado para regular la actividad hípica. Toda denuncia deberá formularse dentro del plazo máximo e improrrogable de diez (10) días continuos, contados a partir del día siguiente a la fecha del respectivo programa oficial de carreras.</p></li>
                     <li><p> El interesado para formular la denuncia, deberá consignar el ticket recibido original objeto de reclamación y fotocopias de su cedula de identidad, así como exponer sus razones, firmar y estampar sus huellas digitales en el formulario de reclamación.</p></li>
                 </ol>
             </section>
             <section>
-                <p ><mark>ARTICULO 9.</mark> – LA CORPORACION EL INMEJORABLE 804 podrá reformar total o parcialmente este Reglamento, cuyo proyecto será sometido a revisión por la Gerencia de Fiscalización y Control de Juegos de la SUPERINTENDENCIA NACIONAL DE ACTIVIDADES HIPICAS (SUNAHIP)</p>
+                <p ><mark>ARTICULO 9.</mark> - LA CORPORACION EL INMEJORABLE 804 podrá reformar total o parcialmente este Reglamento, cuyo proyecto será sometido a revisión por la Gerencia de Fiscalización y Control de Juegos de la SUPERINTENDENCIA NACIONAL DE ACTIVIDADES HIPICAS (SUNAHIP)</p>
                 <section>
                     <div className={styles.tableContainer}>
                         <table>
