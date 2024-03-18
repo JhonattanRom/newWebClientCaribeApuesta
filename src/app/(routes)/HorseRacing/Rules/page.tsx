@@ -313,7 +313,7 @@ export default function Rules() {
                         <table>
                             <thead>
                                 <tr>
-                                    <td colSpan={2}> REGLAS DE OPERACIÓN PARA LOS HIPÓDROMOS CLASE "A" </td>
+                                    <td colSpan={2}> REGLAS DE OPERACIÓN PARA LOS HIPÓDROMOS CLASE 'A' </td>
                                 </tr>
                             </thead>
                             <tbody>
