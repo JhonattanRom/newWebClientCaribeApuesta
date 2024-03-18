@@ -111,7 +111,7 @@ export default function Rules() {
                                     <br />BELMONT PARK
                                     <br />BELMONT STAKES
                                     <br />BETFAIR HOLLYWOOD PARK
-                                    <br />BREEDER’S CUP
+                                    <br />BREEDER'S CUP
                                     <br />DEL MAR
                                     <br />DUBAI WORLD CUP
                                     <br />GULFSTREAM
@@ -203,7 +203,7 @@ export default function Rules() {
                                     <br />REMINGTON PARK
                                     <br />REMATA PARK
                                     <br />SAM HOUSTON PARK
-                                    <br />SPORTSMAN’S PARK
+                                    <br />SPORTSMAN'S PARK
                                     <br />SUFFOLK DOWNS
                                     <br />THISTLEDOWN
                                     <br />TURF PARADISE
@@ -311,7 +311,7 @@ export default function Rules() {
                         <table>
                             <thead>
                                 <tr>
-                                    <td colSpan={2}>REGLAS DE OPERACIÓN PARA LOS HIPÓDROMOS  CLASE {"A"}</td>
+                                    <td colSpan={2}>REGLAS DE OPERACIÓN PARA LOS HIPÓDROMOS  CLASE A</td>
                                 </tr>
                             </thead>
                             <tbody>
@@ -427,7 +427,7 @@ export default function Rules() {
                                 </li>
                                 <li>
                                     <p>
-                                        <strong>A.2.7</strong>- En una carrera con (6) ejemplares o menos, no habrá apuesta de TRIFECTA y se reembolsará el Dinero
+                                        <strong>A.2.7</strong>- En una carrera con (6) ejemplares o menos, no habrá apuesta de TRIFECTA y se reembolsará el Dinero.
                                     </p>
                                 </li>
                             </ul>
@@ -497,7 +497,7 @@ export default function Rules() {
                         </div>
                         <div className={styles.content}>
                             <p>
-                                Usted cobra la apuesta de doble selección al ejemplar ganador de primer lugar en dos carreras consecutivas designadas con el contenido de apuestas de doble selección
+                                Usted cobra la apuesta de doble selección al ejemplar ganador de primer lugar en dos carreras consecutivas designadas con el contenido de apuestas de doble selección.
                             </p>
                             <ul>
                                 <li>
@@ -534,7 +534,7 @@ export default function Rules() {
                         </div>
                         <div className={styles.content}>
                             <p>
-                                Usted cobra la apuesta de triple selección si selecciona al ejemplar ganador del primer lugar en tres carreras consecutivas designadas con apuestas de triple selección.<br />
+                                Usted cobra la apuesta de triple selección si selecciona al ejemplar ganador del primer lugar en tres carreras consecutivas designadas con apuestas de triple selección.
                             </p>
                             <ul>
                                 <li>
@@ -544,7 +544,7 @@ export default function Rules() {
                                 </li>
                                 <li>
                                     <p>
-                                        * No habrá reembolso por los retirados
+                                        * No habrá reembolso por los retirados.
                                     </p>
                                 </li>
                                 <li>
@@ -565,7 +565,7 @@ export default function Rules() {
                                 </li>
                                 <li>
                                     <p>
-                                        * No hay pagos de consolación
+                                        * No hay pagos de consolación.
                                     </p>
                                 </li>
                                 <li>
@@ -627,7 +627,7 @@ export default function Rules() {
                                 </li>
                                 <li>
                                     <p>
-                                        * No hay pagos de consolación (pick4 3 de 4 aciertos)
+                                        * No hay pagos de consolación (pick4 3 de 4 aciertos).
                                     </p>
                                 </li>
                                 <li>
@@ -756,7 +756,7 @@ export default function Rules() {
                                 </li>
                                 <li>
                                     <p>
-                                        * No hay pagos de consolación (pick5 4 de 5 aciertos)
+                                        * No hay pagos de consolación (pick5 4 de 5 aciertos).
                                     </p>
                                 </li>
                                 <li>
@@ -828,7 +828,7 @@ export default function Rules() {
                                 </li>
                                 <li>
                                     <p>
-                                        * No hay pagos de consolación (pick6 5 de 6 aciertos)
+                                        * No hay pagos de consolación (pick6 5 de 6 aciertos).
                                     </p>
                                 </li>
                                 <li>
