@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Metadata } from "next";
 import styles from "./styles.module.css";
 
@@ -165,7 +166,8 @@ export default function Rules() {
                             <tr>
                                 <td>C</td>
                                 <td>HIPÓDROMOS EUROPEOS (IRLANDA, LONDRES)
-                                    <br />CHARLES TOWNS <br />TAMPA BAY DOWNS
+                                    <br />CHARLES TOWNS 
+                                    <br />TAMPA BAY DOWNS
                                     <br />CHURCHILL DOWNS
                                     <br />DELAWARE PARK
                                     <br />DELTA DOWN
@@ -311,7 +313,7 @@ export default function Rules() {
                         <table>
                             <thead>
                                 <tr>
-                                    <td colSpan={2}> {'REGLAS DE OPERACIÓN PARA LOS HIPÓDROMOS CLASE "A"'} </td>
+                                    <td colSpan={2}> REGLAS DE OPERACIÓN PARA LOS HIPÓDROMOS CLASE "A" </td>
                                 </tr>
                             </thead>
                             <tbody>
