@@ -1,0 +1,110 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    min-width: 320px;
+    gap: 1em;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 106.79px;
+}
+
+.loginInput {
+    background-color: transparent;
+    color: var(--primary-font-color);
+    border: 1px solid var(--secondary-bg-color);
+    border-radius: 6px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    width: 100%;
+    letter-spacing: 2px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 1vw;
+    box-sizing: border-box;
+}
+
+.loginInput::placeholder {
+    color: var(--primary-font-color);
+}
+
+.errorInput {
+    border: 1px solid var(--error-color);
+    color: var(--error-color);
+    background: #ff000017;
+}
+
+.errorInput::placeholder {
+    color: var(--error-color);
+}
+
+.errorLabel {
+    color: var(--error-color);
+}
+
+.login_links {
+    background-color: var(--secondary-bg-color);
+    border-radius: 6px;
+    letter-spacing: 2px;
+    height: 60px;
+    border: 2px solid var(--secondary-bg-color);
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--secondary-font-color);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    transition: all .3s linear;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1vw;
+    margin: 0 auto;
+}
+
+.login_links:hover {
+    border: 2px solid #0ff;
+    background-color: #01011b;
+    color: var(--primary-font-color);
+}
+
+.modalContainer {
+    border-top: 1px solid cyan;
+    border-bottom: 1px solid cyan;
+    padding: 12px 8px;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    min-height: 250px;
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.modalContainer h3 {
+    padding: 1em;
+    color: var(--primary-bg-color);
+    background-color: #00ffff91;
+    border-radius: 5px;
+}
+@media (max-width: 990px) {
+
+    .login_links,
+    .loginInput {
+        font-size: 1em;
+        margin: 3px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+
+    .login_links,
+    .loginInput {
+        font-size: 18px;
+    }
+}

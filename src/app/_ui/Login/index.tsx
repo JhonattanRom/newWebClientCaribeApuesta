@@ -2,6 +2,8 @@
 import { Formik, Form, Field, ErrorMessage, FormikHelpers } from 'formik';
 import styles from './Login.module.css';
 import * as Yup from 'yup';
+import Link from 'next/link';
+
 interface Values {
     firstName: string;
     lastName: string;
@@ -18,9 +20,9 @@ const SignupSchema = Yup.object().shape({
         .required('Se requiere la contraseña'),
 });
 
-export const Login = ({container} : {container:boolean}) => {
+export const Login = ({ container }: { container: boolean }) => {
     return (
-        <div className={ container ? styles.loginContainer : "" }>
+        <div className={container ? styles.loginContainer : ""}>
             <h2 className={styles.login_title}>CARIBEAPUESTA.COM</h2>
             <Formik
                 initialValues={{ userName: '', password: '' }}
@@ -34,7 +36,10 @@ export const Login = ({container} : {container:boolean}) => {
                     <>
                         <Form className={styles.loginForm}>
                             <div className={styles.login_linksContainer}>
+                                {/* 
                                 <a href="https://cliente.caribeapuesta.bet/apuestacaribe/Registrate" className={styles.login_links}>REGISTRATE</a>
+                                */}
+                                <Link className={styles.login_links} href="/RegisterUser">REGISTRATE</Link>
                                 <button className={styles.login_links} type="submit">INGRESAR</button>
                             </div>
                             <div className={styles.loginForm_content}>
@@ -46,8 +51,9 @@ export const Login = ({container} : {container:boolean}) => {
                                         type="text" id="userName" name="userName" placeholder="Usuario" />
 
                                     <div className={styles.userAdminLinkContainer}>
-                                        <a href="" className={styles.userAdminLink}>Recordar mi usuario</a>
+                                        <Link className={styles.userAdminLink} href="/RecoverUser">Recordar mi usuario</Link>
                                     </div>
+
                                 </div>
 
                                 <div className={styles.formGroup}>
@@ -56,7 +62,7 @@ export const Login = ({container} : {container:boolean}) => {
                                         className={`${styles.loginInput} ${errors.password && touched.password && styles.errorInput}`}
                                         type="password" id="password" name="password" placeholder="Contraseña" />
                                     <div className={styles.userAdminLinkContainer}>
-                                        <a href="" className={styles.userAdminLink}>¿ Contraseña olvidada ?</a>
+                                        <Link className={styles.userAdminLink} href="/RecoverPassword">¿ Contraseña olvidada ?</Link>
                                     </div>
                                 </div>
                             </div>
@@ -79,5 +85,3 @@ export const PrevLogin = () => {
         </div>
     )
 }
-
-export default { Login, PrevLogin }

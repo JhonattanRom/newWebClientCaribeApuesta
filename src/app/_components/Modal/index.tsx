@@ -16,7 +16,6 @@ const Modal = (props: PortalProps) => {
         props.seMountedModal(false);
     };
     const ref = useRef<Element | null>(null)
-    const [mounted, setMounted] = useState(false)
 
     useEffect(() => {
         ref.current = document.querySelector<HTMLElement>("#modal-root")

@@ -1,0 +1,177 @@
+.form {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 320px;
+    gap: 1em;
+    flex-direction: column;
+}
+
+.formContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 50%;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 106.79px;
+}
+
+.caribeInput {
+    background-color: transparent;
+    color: var(--primary-font-color);
+    border: 1px solid var(--secondary-bg-color);
+    border-radius: 6px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    width: 100%;
+    letter-spacing: 2px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 1vw;
+    box-sizing: border-box;
+}
+
+.caribeInput::placeholder {
+    color: var(--primary-font-color);
+}
+
+.errorInput {
+    border: 1px solid var(--error-color);
+    color: var(--error-color);
+    background: #ff000017;
+}
+
+.errorInput::placeholder {
+    color: var(--error-color);
+}
+
+.errorLabel {
+    color: var(--error-color);
+}
+
+.login_links {
+    background-color: var(--secondary-bg-color);
+    border-radius: 6px;
+    letter-spacing: 2px;
+    height: 60px;
+    border: 2px solid var(--secondary-bg-color);
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--secondary-font-color);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    transition: all .3s linear;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1vw;
+    margin: 0 auto;
+}
+
+.login_links:hover {
+    border: 2px solid #0ff;
+    background-color: #01011b;
+    color: var(--primary-font-color);
+}
+
+select.caribeInput {
+    appearance: none;
+}
+
+select.caribeInput option {
+    background-color: #01011b;
+    color: #0ff;
+}
+
+select.caribeInput option[disabled] {
+    color: white;
+    background-color: #01011b;
+}
+fieldset.caribeInput {
+    height: 70px;
+    margin-top: 12px;
+}
+.checkBox {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    height: 60px;
+    align-items: center;
+    color: white;
+}
+
+.checkBox_Input {
+    float: left;
+    margin-left: -1.5em;
+    background: #01011b;
+    width: 1.2em;
+    height: 1.2em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    appearance: none;
+    transition: background-color 0.15s ease-in-out,
+        background-position 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+
+.checkBox_Input:checked[type="checkbox"] {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3 6-6'/%3E%3C/svg%3E");
+}
+
+.checkBox_Input {
+    border-radius: 50% !important;
+    border: 2px solid #0ff !important;
+}
+
+.checkBox_Input_error {
+    border: 2px solid #F44336 !important;
+}
+
+
+
+
+
+@media (max-width: 990px) {
+    .caribeInput {
+        font-size: 1em;
+        margin: 3px;
+    }
+
+    .login_links {
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .formContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+
+    .login_links,
+    .caribeInput {
+        font-size: 18px;
+    }
+}

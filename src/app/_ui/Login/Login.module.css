@@ -147,14 +147,12 @@
 
 .errorInput {
     border: 1px solid var(--error-color);
-    ;
     color: var(--error-color);
     background: #ff000017;
 }
 
 .errorInput::placeholder {
     color: var(--error-color);
-    ;
 }
 
 .userAdminLinkContainer {
