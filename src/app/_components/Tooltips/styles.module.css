@@ -1,0 +1,26 @@
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.tooltip_text {
+    width: 150px;
+    visibility: hidden;
+    background-color: #01011b;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0px;
+    border: 2px solid cyan;
+    position: absolute;
+    z-index: 10000;
+    top: -120%;
+    left: 0;
+    margin-left: -60px;
+    font-family: 'gotham-light';
+    color: cyan;
+    font-weight: bolder;
+}
+.tooltip:hover > .tooltip_text {
+    visibility: visible;
+}

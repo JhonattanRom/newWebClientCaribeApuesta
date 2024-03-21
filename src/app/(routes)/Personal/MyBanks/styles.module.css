@@ -24,9 +24,118 @@
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
+
+/* Table */
+.tableContentContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tableContainer {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tableContainer table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 1em;
+    border-bottom: 2px solid cyan;
+}
+
+.tableContainer table thead {
+    border-top: 2px solid cyan;
+    border-bottom: 2px solid cyan;
+}
+
+.tableContainer table tbody {
+    font-size: 1.2em;
+    color: white;
+    font-weight: 400;
+}
+
+.tableContainer table tbody tr {
+    transition: all .1s linear;
+}
+
+.tableContainer table tbody td {
+    padding: 0px 16px;
+}
+
+.tableContainer table tbody:before {
+    content: '';
+    display: block;
+    height: 20px;
+}
+
+.tableContainer table tbody:after {
+    content: '';
+    display: block;
+    height: 20px;
+}
+
+.tableContainer table thead th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.actionsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.actionBtn {
+    background: var(--primary-bg-color);
+    color: cyan;
+    border: 2px solid cyan;
+    font-size: 18px;
+    height: 40px;
+    width: 60px;
+    border-radius: .6em;
+    margin: 6px 0px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.actionBtn:hover {
+    transform: scale(1.1);
+}
+
+.actionBtnVariant {
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-font-color)
+}
+
+
+.modalContent {
+    border-top: 1px solid cyan;
+    border-bottom: 1px solid cyan;
+    padding: 12px 8px;
+    margin: 0 auto;
+    width: 80%;
+    min-height: 250px;
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.modalContent h2 {
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
 /* Responsive */
 @media (max-width: 990px) {
     .container h2 {
         font-size: 5vw;
+    }
+
+    .tableContentContainer {
+        width: 90%;
     }
 }

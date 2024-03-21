@@ -26,7 +26,10 @@ export default function RecoverPasswordForm() {
             userName: "",
         },
     })
-    const onSubmit = (data: any) => console.log(data);
+    const onSubmit = (data: any) => {
+        console.log(data);
+        seMountedModal(true);
+    }
 
     return (
         <>
@@ -46,7 +49,7 @@ export default function RecoverPasswordForm() {
                 <button className={styles.login_links} type="submit" >Recuperar contraseña</button>
             </form>
             <Modal seMountedModal={seMountedModal} isMounted={isMounted}>
-                <div className={styles.modalContainer}>
+                <div className={styles.modalContent}>
                     <h3>
                         Sus datos de usuario fueron enviados al correo electrónico vinculado a la cuenta.
                     </h3>

@@ -11,10 +11,11 @@ export default function PersonalLayout({
             {/* Include shared UI here e.g. a header or sidebar */}
             <nav className={styles.navigationContainer}>
                 <ul className={styles.links}>
+                    <li><Link href="/Personal/PartnerBanks">Bancos de asociados</Link></li>
                     <li><Link href="/Personal/WithdrawBalance">Retirar saldo</Link></li>
                     <li><Link href="/Personal/RechargeBalance">Recargar saldo</Link></li>
                     <li><Link href="/Personal/MyBanks">Mis bancos</Link></li>
-                    {/* <li><Link href="/Sports/Play">Jugar Sports</Link></li> */}
+                    <li><Link href="/Personal/AddBankAccount">Agregar Cuenta Bancaria</Link></li>
                 </ul>
             </nav>
             {children}

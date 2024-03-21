@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import styles from "./styles.module.css";
-import UserBankTable from "./UserBankTable";
+import PartnerBanksList from "./PartnerBanksList";
 
 export const metadata: Metadata = {
     title: "CaribeApuesta - Mis bancos",
@@ -11,15 +11,14 @@ export const metadata: Metadata = {
         description: "El sitio número uno de apuestas en Venezuela"
     }
 };
-
-export default function RechargeBalance() {
+export default function PartnerBanks() {
     return (
         <div className={styles.container}>
-            <h2> MIS BANCOS </h2>
+            <h2> Bancos de asociados </h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta earum repellendus suscipit maiores, reiciendis maxime nulla modi distinctio possimus recusandae voluptatum accusamus quia quae ex aperiam dolores excepturi odio officiis inventore,
                 architecto, numquam vitae voluptas. Hic nostrum natus ullam cupiditate eligendi. Ad perferendis tempora quos? Mollitia facilis voluptas et cum?</p>
             <section className={styles.tableContentContainer}>
-                <UserBankTable />
+                <PartnerBanksList />
             </section>
         </div>
     )

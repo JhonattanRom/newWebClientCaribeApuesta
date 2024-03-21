@@ -72,7 +72,7 @@
     color: var(--primary-font-color);
 }
 
-.modalContent {
+.modalContainer {
     border-top: 1px solid cyan;
     border-bottom: 1px solid cyan;
     padding: 12px 8px;
@@ -86,7 +86,7 @@
     align-items: center;
     
 }
-.modalContent h3 {
+.modalContainer h3 {
     padding: 1em;
     color: var(--primary-bg-color);
     background-color: #00ffff91;

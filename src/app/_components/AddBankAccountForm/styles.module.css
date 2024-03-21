@@ -1,10 +1,25 @@
 .form {
     display: flex;
-    flex-direction: column;
     width: 100%;
-    max-width: 700px;
+    max-width: 1000px;
     min-width: 320px;
     gap: 1em;
+    flex-direction: column;
+}
+
+.formContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 50%;
 }
 
 .formGroup {
@@ -14,7 +29,7 @@
     height: 106.79px;
 }
 
-.loginInput {
+.caribeInput {
     background-color: transparent;
     color: var(--primary-font-color);
     border: 1px solid var(--secondary-bg-color);
@@ -29,7 +44,7 @@
     box-sizing: border-box;
 }
 
-.loginInput::placeholder {
+.caribeInput::placeholder {
     color: var(--primary-font-color);
 }
 
@@ -72,39 +87,53 @@
     color: var(--primary-font-color);
 }
 
-.modalContent {
-    border-top: 1px solid cyan;
-    border-bottom: 1px solid cyan;
-    padding: 12px 8px;
-    margin: 0 auto;
-    width: 80%;
-    text-align: center;
-    min-height: 250px;
-    max-height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+select.caribeInput {
+    appearance: none;
 }
-.modalContent h3 {
-    padding: 1em;
-    color: var(--primary-bg-color);
-    background-color: #00ffff91;
-    border-radius: 5px;
-}
-@media (max-width: 990px) {
 
-    .login_links,
-    .loginInput {
+select.caribeInput option {
+    background-color: #01011b;
+    color: #0ff;
+}
+
+select.caribeInput option[disabled] {
+    color: white;
+    background-color: #01011b;
+}
+fieldset.caribeInput {
+    height: 70px;
+    margin-top: 12px;
+}
+
+
+
+
+
+@media (max-width: 990px) {
+    .caribeInput {
         font-size: 1em;
         margin: 3px;
+    }
+
+    .login_links {
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .formContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row {
+        width: 90%;
     }
 }
 
 @media screen and (min-width: 1900px) {
 
     .login_links,
-    .loginInput {
+    .caribeInput {
         font-size: 18px;
     }
 }
