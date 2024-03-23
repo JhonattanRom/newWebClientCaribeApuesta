@@ -166,26 +166,96 @@
     font-size: 14px;
 }
 
+/* user online */
+.userOnline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userOnlineContainer {
+    display: grid;
+    grid-template-areas:
+        "info info info btn btn"
+        "info info info btn btn";
+    gap: 6px;
+}
+
+.userOnlineInfo {
+    grid-area: info;
+    font-size: 16px;
+    font-family: 'gotham-light';
+}
+
+.userOnlineText {
+    margin: 0px;
+}
+
+.userOnline-text span {
+    font-family: 'gotham-black';
+    font-weight: bold;
+}
+
+.userOnlineClose {
+    grid-area: btn;
+}
+
+.userOnlineCloseBtn {
+    background-color: cyan;
+    color: #01011b;
+    border-radius: 8px;
+    height: 100%;
+    border: 2px solid #01011b;
+    transition: 300ms all linear;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.userOnline-close-btn:hover {
+    color: cyan;
+    background-color: #01011b;
+    border: 2px solid cyan;
+}
+
+.userOnline-close-btn:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 990px) {
-    .login_title{
+    .login_title {
         font-size: 1em;
     }
-    .login_links, .loginInput{
+
+    .login_links,
+    .loginInput {
         font-size: 1em;
         margin: 3px;
     }
-    .login_linksContainer{
+
+    .login_linksContainer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .loginForm {
         flex-direction: column-reverse;
     }
-    .loginForm_content{
+
+    .loginForm_content {
         flex-direction: column;
     }
-    .formGroup{
+
+    .formGroup {
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -195,11 +265,13 @@
 }
 
 @media screen and (min-width: 1900px) {
-    .login_links, 
+
+    .login_links,
     .loginInput {
         font-size: 18px;
     }
+
     .login_title {
-        font-size: 36px; 
+        font-size: 36px;
     }
 }
