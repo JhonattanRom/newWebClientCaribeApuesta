@@ -5,6 +5,7 @@ import { Controller, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import React from "react";
 import { InstitutionBankList } from "@/app/_mockData/InstitutionBankList";
+
 const schema = Yup.object({
     bankId: Yup.string()
         .required('Se requiere el banco.'),
@@ -33,6 +34,7 @@ const optionsBanksTypes = [
     { value: "1", label: "Ahorro" },
     { value: "2", label: "Corriente" },
 ];
+
 export default function AddBankAccountForm() {
     const {
         register,

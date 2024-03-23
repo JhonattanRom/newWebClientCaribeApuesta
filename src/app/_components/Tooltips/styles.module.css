@@ -17,9 +17,9 @@
     top: -120%;
     left: 0;
     margin-left: -60px;
-    font-family: 'gotham-light';
     color: cyan;
-    font-weight: bolder;
+    font-weight: 400;
+    font-size: 18px;
 }
 .tooltip:hover > .tooltip_text {
     visibility: visible;

@@ -1,6 +1,7 @@
 import { PartnerBanksList as PartnerBanksType } from "../_types/BankAccount/PartnerBanksList";
 export const PartnerBanksList: PartnerBanksType[] = [
     {
+        "id": 11,
         "idbancoTransf": 53,
         "nuCuentaBancoTransf": "BDV - Teléfono: 0424-2216513",
         "nmbancoTransf": "Pago Móvil BDV",
@@ -8,6 +9,7 @@ export const PartnerBanksList: PartnerBanksType[] = [
         "nmTitularCuentaTransf": "Soluciones TotalPago CA"
     },
     {
+        "id": 2,
         "idbancoTransf": 1,
         "nuCuentaBancoTransf": "01340032610321018742",
         "nmbancoTransf": "Banesco",
@@ -15,6 +17,7 @@ export const PartnerBanksList: PartnerBanksType[] = [
         "nmTitularCuentaTransf": "Serviace, C.A."
     },
     {
+        "id": 34,
         "idbancoTransf": 3,
         "nuCuentaBancoTransf": "01050114841114183512",
         "nmbancoTransf": "Banco Mercantil",
@@ -22,6 +25,7 @@ export const PartnerBanksList: PartnerBanksType[] = [
         "nmTitularCuentaTransf": "Serviace, C.A."
     },
     {
+        "id": 19,
         "idbancoTransf": 10,
         "nuCuentaBancoTransf": "01020223030000326276",
         "nmbancoTransf": "Banco de Venezuela",
@@ -29,6 +33,7 @@ export const PartnerBanksList: PartnerBanksType[] = [
         "nmTitularCuentaTransf": "Soluciones TotalPago C.A."
     },
     {
+        "id": 22,
         "idbancoTransf": 14,
         "nuCuentaBancoTransf": "01080013760100325986",
         "nmbancoTransf": "Banco Provincial",
@@ -36,6 +41,7 @@ export const PartnerBanksList: PartnerBanksType[] = [
         "nmTitularCuentaTransf": "Serviace, C.A."
     },
     {
+        "id": 46,
         "idbancoTransf": 22,
         "nuCuentaBancoTransf": "01910183502100013109",
         "nmbancoTransf": "Banco Nacional de Crédito",
@@ -43,6 +49,7 @@ export const PartnerBanksList: PartnerBanksType[] = [
         "nmTitularCuentaTransf": "Serviace, C.A."
     },
     {
+        "id": 32,
         "idbancoTransf": 4,
         "nuCuentaBancoTransf": "0166-0220-22-05000-02344" ,
         "nmbancoTransf": "Mi Banco C.A. Banco Microfinanciero",

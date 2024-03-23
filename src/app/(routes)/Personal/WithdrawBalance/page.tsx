@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import styles from "./styles.module.css";
+import WithdrawBalanceForm from "@/app/_components/WithdrawBalanceForm";
 
 export const metadata: Metadata = {
     title: "CaribeApuesta - Retiro de saldo",
@@ -14,9 +15,10 @@ export const metadata: Metadata = {
 export default function WithdrawBalance() {
     return (
         <div className={styles.container}>
-            <h2> RETIRO DE SALDO </h2>
+            <h2> Retirar mi saldo </h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta earum repellendus suscipit maiores, reiciendis maxime nulla modi distinctio possimus recusandae voluptatum accusamus quia quae ex aperiam dolores excepturi odio officiis inventore,
                 architecto, numquam vitae voluptas. Hic nostrum natus ullam cupiditate eligendi. Ad perferendis tempora quos? Mollitia facilis voluptas et cum?</p>
+            <WithdrawBalanceForm />
         </div>
     )
 }

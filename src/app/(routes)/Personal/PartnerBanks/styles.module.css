@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     padding: 8px 12px;
+    align-items: center;
 }
 
 .container h2 {
@@ -26,6 +27,7 @@
 
 /* partner bank list */
 
+
 .OursBankList__Container {
     display: grid;
     align-content: center;
@@ -38,8 +40,8 @@
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     margin: 0 auto;
     padding: 1em;
-    width: 80%;
     margin: 0 auto;
+    width: 100%;
 }
 
 .OursBankList__Item {

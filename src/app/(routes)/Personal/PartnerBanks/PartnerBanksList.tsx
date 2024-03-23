@@ -3,7 +3,7 @@ import { PartnerBanksList as mockPartnerBanksAccount } from "@/app/_mockData/Par
 import { PartnerBanksList as PartnerBanksType } from "@/app/_types/BankAccount/PartnerBanksList";
 export default function PartnerBanksList() {
     return (
-        <div className={styles.OursBankList__Container}>
+        <section className={styles.OursBankList__Container}>
             {mockPartnerBanksAccount.map((bank: PartnerBanksType, index: number) => {
                 return (
                     <div className={styles.OursBankList__Item} key={index + bank.DNITitularCuentaTransf}>
@@ -14,6 +14,6 @@ export default function PartnerBanksList() {
                     </div>
                 )
             })}
-        </div>
+        </section>
     )
 }

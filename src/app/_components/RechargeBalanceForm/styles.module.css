@@ -1,0 +1,133 @@
+.form {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 320px;
+    gap: 1em;
+    flex-direction: column;
+}
+
+.formContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 50%;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 106.79px;
+}
+
+.caribeInput {
+    background-color: transparent;
+    color: var(--primary-font-color);
+    border: 1px solid var(--secondary-bg-color);
+    border-radius: 6px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    width: 100%;
+    letter-spacing: 2px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 1vw;
+    box-sizing: border-box;
+}
+
+.caribeInput::placeholder {
+    color: var(--primary-font-color);
+}
+
+.caribeInput.caribeRadioGroup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.errorInput {
+    border: 1px solid var(--error-color);
+    color: var(--error-color);
+    background: #ff000017;
+}
+
+.errorInput::placeholder {
+    color: var(--error-color);
+}
+
+.errorLabel {
+    color: var(--error-color);
+}
+
+select.caribeInput {
+    appearance: none;
+}
+
+select.caribeInput option {
+    background-color: #01011b;
+    color: #0ff;
+}
+
+.caribeButton {
+    background-color: var(--secondary-bg-color);
+    border-radius: 6px;
+    letter-spacing: 2px;
+    height: 60px;
+    border: 2px solid var(--secondary-bg-color);
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--secondary-font-color);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    transition: all .3s linear;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1vw;
+    margin: 0 auto;
+}
+
+.caribeButton:hover {
+    border: 2px solid #0ff;
+    background-color: #01011b;
+    color: var(--primary-font-color);
+}
+
+
+@media (max-width: 990px) {
+    .caribeInput {
+        font-size: 1em;
+        margin: 3px;
+    }
+
+    .caribeButton {
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .formContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+
+    .caribeButton,
+    .caribeInput {
+        font-size: 18px;
+    }
+}
