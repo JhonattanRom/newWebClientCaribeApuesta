@@ -1,0 +1,21 @@
+.btn {
+    background: transparent;
+    border: 3px solid cyan;
+    color: cyan;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px ;
+    font-size: 22px;
+    gap: 1em;
+    font-weight: 400;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 300ms all linear;
+    
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}

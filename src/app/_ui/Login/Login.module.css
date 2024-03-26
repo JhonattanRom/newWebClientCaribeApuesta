@@ -189,6 +189,7 @@
 
 .userOnlineText {
     margin: 0px;
+    font-size: 22px;
 }
 
 .userOnline-text span {
@@ -200,16 +201,19 @@
     grid-area: btn;
 }
 
-.userOnlineCloseBtn {
-    background-color: cyan;
-    color: #01011b;
+.userConfigBtn {
+    background-color: transparent;
+    border: 1px solid #01011b;
     border-radius: 8px;
     height: 100%;
-    border: 2px solid #01011b;
     transition: 300ms all linear;
     padding: 8px;
     cursor: pointer;
 }
+
+.userConfigBtn:hover .icon{
+    animation: rotating 2s linear infinite;
+} 
 
 .userOnline-close-btn:hover {
     color: cyan;
@@ -221,9 +225,81 @@
     outline: none;
 }
 
+/* user balance */
+
+p.userBalanceText {
+    font-size: 22px;
+    display: flex;
+    gap: 8px;
+    margin: 0;
+}
+
+.userBalance {
+    font-family: gotham-black;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    width: 150px;
+    visibility: hidden;
+    background-color: #01011b;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 12px;
+    border: 2px solid cyan;
+    /* Use half of the width (120/2 = 60), to center the tooltip */
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 10000;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip .tooltiptext .group {
+    margin: 8px 0px;
+    display: block;
+    color: cyan;
+    font-family: 'gotham-light';
+    text-align: left;
+    font-size: 14px;
+}
+
+.tooltip .tooltiptext .group .group__title {
+    text-transform: capitalize;
+}
+
+.tooltip .tooltiptext .group .group__amount {
+    font-family: 'gotham-black';
+}
 
 
 
+/* animations */ 
+
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    animation: rotating 2s linear infinite;
+}
 
 
 
