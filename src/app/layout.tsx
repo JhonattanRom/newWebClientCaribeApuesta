@@ -3,13 +3,14 @@ import { gotham } from "./_ui/fonts";
 import "./_ui/globals.css";
 import Image from "next/image";
 import { Login } from "./_ui/Login";
-import { NavigationMenu } from "./_ui/NavigationMenu";
+import { NavigationMenu } from "./_ui/Menu/components/NavigationMenu";
 import 'normalize.css/normalize.css';
 import Link from "next/link";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SessionAuthProvider from "@/context/SessionAuthProvider";
 import QueryProvider from "@/context/QueryProvider";
+import { Menu } from "./_ui/Menu";
 
 
 export const metadata: Metadata = {
@@ -76,7 +77,7 @@ export default function RootLayout({
                   <Login container={true} />
                 </div>
               </div>
-              <NavigationMenu />
+              <Menu />
             </header>
             <main>
               {children}
