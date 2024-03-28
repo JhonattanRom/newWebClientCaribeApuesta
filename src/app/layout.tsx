@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { gotham } from "./_ui/fonts";
 import "./_ui/globals.css";
 import Image from "next/image";
-import { Login } from "./_ui/Login";
-import { NavigationMenu } from "./_ui/Menu/components/NavigationMenu";
 import 'normalize.css/normalize.css';
 import Link from "next/link";
 import "slick-carousel/slick/slick.css";
@@ -12,7 +10,7 @@ import SessionAuthProvider from "@/context/SessionAuthProvider";
 import QueryProvider from "@/context/QueryProvider";
 import { Menu } from "./_ui/Menu";
 import { AuthHandleContainer } from "./_ui/AuthHandleContainer";
-
+import { TopHeader } from "./_ui/TopHeader";
 
 export const metadata: Metadata = {
   title: "CaribeApuesta",
@@ -44,7 +42,6 @@ export const metadata: Metadata = {
   }
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -55,34 +52,18 @@ export default function RootLayout({
       <body className={`${gotham.className} antialiased`} >
         <SessionAuthProvider> {/* nextAuth on client component */}
           <QueryProvider > {/* React Query on client component */}
+
             <header>
-              <div className="HeaderContainer">
-                <div className="Header_Title_Container">
-                  <div className="Header_Title">
-                    <Image
-                      src={"/caribeApuestaLogo.svg"}
-                      alt={"Caribe Apuesta Logo"}
-                      width={50} height={50}
-                    />
-                    <Link href="/">CARIBE APUESTA</Link>
-                  </div>
-                </div>
-                <div className="Header_Logo">
-                  <Image
-                    src={"/img/LogoHeader.png"}
-                    alt={"Caribe Apuesta Logo"}
-                    width={921} height={379}
-                  />
-                </div>
-                <div className="Header_Login_Container">
-                  <AuthHandleContainer />
-                </div>
-              </div>
+              <TopHeader />
               <Menu />
             </header>
+
+
             <main className="mainContent">
               {children}
             </main>
+
+
             <footer className="Layout_footer">
               <div className="stamps_container">
                 <div className="stamp">
@@ -157,6 +138,10 @@ export default function RootLayout({
                 </p>
               </section>
             </footer>
+
+
+
+
             {/* Agregamos el nodo para el modal */}
             <div id="modal-root"></div>
           </QueryProvider>
