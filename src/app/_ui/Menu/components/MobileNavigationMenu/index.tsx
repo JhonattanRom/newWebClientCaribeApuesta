@@ -35,12 +35,12 @@ export const MobileNavigationMenu = () => {
             <nav className={`${styles.navigation} ${isOpen ? styles.isOpen : ""}`}>
                 <div className={styles.menuLinksContainer}>
                     {session ? <>
-                        
+
                         <UserInfo session={session} />
                         <SignOutBtn />
                     </> : <>
                         <button onClick={() => seMountedModal(true)} className={styles.menuBtnLink}>Iniciar</button>
-                        <button onClick={() => seMountedModal(true)} className={styles.menuBtnLink}> Registrarte</button>
+                        <Link className={styles.menuBtnLink} href="/RegisterUser">REGISTRATE</Link>
                     </>}
                 </div>
 
