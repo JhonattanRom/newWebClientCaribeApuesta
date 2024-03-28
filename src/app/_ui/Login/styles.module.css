@@ -283,11 +283,7 @@ p.userBalanceText {
     font-family: 'gotham-black';
 }
 
-
-
 /* animations */ 
-
-
 @keyframes rotating {
     from {
         transform: rotate(0deg);
@@ -300,11 +296,6 @@ p.userBalanceText {
 .rotating {
     animation: rotating 2s linear infinite;
 }
-
-
-
-
-
 
 @media (max-width: 990px) {
     .login_title {
@@ -337,6 +328,9 @@ p.userBalanceText {
         align-items: center;
         display: flex;
         flex-direction: column;
+    }
+    .login_linksContainer .login_links:first-child {
+        display: none;
     }
 }
 

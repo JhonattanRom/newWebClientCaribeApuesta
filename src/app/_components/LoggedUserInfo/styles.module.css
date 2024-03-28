@@ -1,0 +1,118 @@
+
+/* user online */
+.userOnline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.userOnlineContainer {
+    display: grid;
+    grid-template-areas:
+        "info info info btn btn"
+        "info info info btn btn";
+    gap: 6px;
+}
+
+.userOnlineInfo {
+    grid-area: info;
+    font-size: 16px;
+    font-family: 'gotham-light';
+}
+
+.userOnlineText {
+    margin: 0px;
+    font-size: 22px;
+}
+
+.userOnline-text span {
+    font-family: 'gotham-black';
+    font-weight: bold;
+}
+
+.userOnlineClose {
+    grid-area: btn;
+}
+
+.userConfigBtn {
+    background-color: transparent;
+    border: 1px solid #01011b;
+    border-radius: 8px;
+    height: 100%;
+    transition: 300ms all linear;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.userConfigBtn:hover .icon{
+    animation: rotating 2s linear infinite;
+} 
+
+.userOnline-close-btn:hover {
+    color: cyan;
+    background-color: #01011b;
+    border: 2px solid cyan;
+}
+
+.userOnline-close-btn:focus {
+    outline: none;
+}
+
+/* user balance */
+
+p.userBalanceText {
+    font-size: 22px;
+    display: flex;
+    gap: 8px;
+    margin: 0;
+}
+
+.userBalance {
+    font-family: gotham-black;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    width: 150px;
+    visibility: hidden;
+    background-color: #01011b;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 12px;
+    border: 2px solid cyan;
+    /* Use half of the width (120/2 = 60), to center the tooltip */
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 10000;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip .tooltiptext .group {
+    margin: 8px 0px;
+    display: block;
+    color: cyan;
+    font-family: 'gotham-light';
+    text-align: left;
+    font-size: 14px;
+}
+
+.tooltip .tooltiptext .group .group__title {
+    text-transform: capitalize;
+}
+
+.tooltip .tooltiptext .group .group__amount {
+    font-family: 'gotham-black';
+}

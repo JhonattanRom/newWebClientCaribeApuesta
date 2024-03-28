@@ -11,6 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 import SessionAuthProvider from "@/context/SessionAuthProvider";
 import QueryProvider from "@/context/QueryProvider";
 import { Menu } from "./_ui/Menu";
+import { AuthHandleContainer } from "./_ui/AuthHandleContainer";
 
 
 export const metadata: Metadata = {
@@ -74,7 +75,7 @@ export default function RootLayout({
                   />
                 </div>
                 <div className="Header_Login_Container">
-                  <Login container={true} />
+                  <AuthHandleContainer />
                 </div>
               </div>
               <Menu />
