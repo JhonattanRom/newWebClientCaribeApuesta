@@ -181,6 +181,9 @@ header {
     header .HeaderContainer {
         display: none;
     }
+    .mainContent {
+        margin-top: 75px;
+    }
 }
 
 @media screen and (min-width: 1900px) {

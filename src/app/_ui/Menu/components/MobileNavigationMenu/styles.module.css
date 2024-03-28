@@ -1,45 +1,13 @@
 /* Menu */
-header .Navigation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
-}
-
-header .Navigation .links {
-    width: 100%;
-    border-bottom: 1px solid var(--secondary-bg-color);
-    border-top: 1px solid var(--secondary-bg-color);
-    list-style: none;
-    display: flex;
-    gap: 2em;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 0;
-    margin: 0;
-    height: 5vh;
-    max-height: 75px;
-}
-
-.links li a {
-    text-decoration: none;
-    color: var(--primery-font-color);
-    font-size: 18px;
-    font-weight: 400;
-    display: block;
-    transition: all .5s;
-}
-
-.links li:hover a {
-    color: white;
-    transform: scale(1.2);
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
-    padding: 9px 0;
-}
-
 .ToggleContainer {
-    display: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 12px 4px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--primary-bg-color);
 }
 
 .Toggle_btn {
@@ -57,14 +25,49 @@ header .Navigation .links {
     gap: 10px;
 }
 
+.sticky {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    max-width: 1000px;
+    width: 100%;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+
 .Toggle_Title a {
+    font-size: 4vw;
     font-weight: 400;
     margin: 0;
     letter-spacing: 1px;
-    font-size: 1.4vw;
     text-decoration: none;
     color: cyan;
 }
+
+.navigation {
+    z-index: 2;
+    background: var(--primary-bg-color);
+    position: absolute;
+    left: -130%;
+    transition: all .5s;
+    width: 100vw;
+
+}
+
+.isOpen {
+    left: 0;
+}
+
+.divider {
+    height: 1px;
+    width: 75%;
+    background-color: rgba(0, 255, 255, 0.589);
+    margin: 1em auto;
+}
+
+
+
+
 
 .mobileMenuContainer {
     height: calc(100vh - 75px);
@@ -115,32 +118,7 @@ header .Navigation .links {
 }
 
 /* Responsive */
-@media (max-width: 990px) {
-
-    header .Navigation {
-        display: none;
-    }
-
-    .mobileMenuContainer {
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-    }
-
-    .ToggleContainer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        padding: 12px 4px;
-        margin: 0;
-        box-sizing: border-box;
-    }
-
-    .Toggle_Title a {
-        font-size: 4vw;
-    }
-}
+@media (max-width: 990px) {}
 
 
 .nav {

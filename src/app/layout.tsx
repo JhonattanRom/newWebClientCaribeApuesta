@@ -79,7 +79,7 @@ export default function RootLayout({
               </div>
               <Menu />
             </header>
-            <main>
+            <main className="mainContent">
               {children}
             </main>
             <footer className="Layout_footer">
