@@ -38,10 +38,10 @@ export const MobileNavigationMenu = () => {
                 </div>
             </div>
             <nav className={`${styles.navigation} ${isOpen ? styles.isOpen : ""}`}>
-                <button onClick={() => seMountedModal(true)} > <span className={styles.loginLink}>Iniciar</span></button>
-                <button onClick={() => seMountedModal(true)} > <span className={styles.loginLink}>Registrarte</span></button>
+                <button onClick={() => seMountedModal(true)} className={styles.menuBtnLink}>Iniciar</button>
+                <button onClick={() => seMountedModal(true)} className={styles.menuBtnLink}> Registrarte</button>
                 <div className={styles.divider}></div>
-                <ul className=''>
+                <ul >
                     <li><Link href="/Sports/About">SPORTS</Link></li>
                     <li><Link href="/Live/About">LIVE</Link></li>
                     <li><Link href="/Casino/About">CASINO</Link></li>
