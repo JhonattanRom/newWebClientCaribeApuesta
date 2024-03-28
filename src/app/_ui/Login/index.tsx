@@ -112,7 +112,7 @@ const LoginForm = ({ container }: { container: boolean }) => {
         </div>
     );
 }
-const UserInfo = ({ session }: { session: any }) => {
+export const UserInfo = ({ session }: { session: any }) => {
     const router = useRouter();
     const handleRedirect = async () => {
         router.push('/Personal/Information');

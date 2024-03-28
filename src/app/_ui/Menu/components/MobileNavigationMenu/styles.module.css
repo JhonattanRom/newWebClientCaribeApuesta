@@ -47,6 +47,7 @@
 .navigation {
     z-index: 2;
     background: var(--primary-bg-color);
+   /* background-color: #171638;*/
     position: absolute;
     left: -130%;
     transition: all .5s;
@@ -79,6 +80,14 @@
     background-color: rgba(0, 255, 255, 0.589);
     margin: 1em auto;
 }
+.menuLinksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
 
 .menuBtnLink {
     background-color: var(--secondary-bg-color);
@@ -90,7 +99,7 @@
     font-weight: 700;
     color: var(--secondary-font-color);
     text-align: center;
-    width: 70%;
+    width: 100%;
     max-width: 320px;
     transition: all .3s linear;
     box-sizing: border-box;

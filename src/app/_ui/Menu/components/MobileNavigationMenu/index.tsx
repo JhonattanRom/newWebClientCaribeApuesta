@@ -3,8 +3,10 @@ import Image from "next/image";
 import styles from './styles.module.css';
 import Link from 'next/link'
 import { useEffect, useState } from "react";
-import { Login } from "../../../Login";
+import { Login, UserInfo } from "../../../Login";
 import Modal from "@/app/_components/Modal";
+import { SignOutBtn } from "@/app/_components/SignOutBtn";
+import { useSession } from "next-auth/react";
 
 export const MobileNavigationMenu = () => {
     const [isOpen, setOpen] = useState(false);
@@ -12,14 +14,7 @@ export const MobileNavigationMenu = () => {
     const handleOpenMenu = () => {
         setOpen(!isOpen);
     }
-
-
-    /*
-    useEffect(() => {
-        if (isOpen) document.body.style.overflow = "hidden";
-        if (!isOpen) document.body.style.overflow = "initial";
-    }, [isOpen])
-*/
+    const { data: session } = useSession();
 
     return (<>
 
@@ -38,18 +33,29 @@ export const MobileNavigationMenu = () => {
                 </div>
             </div>
             <nav className={`${styles.navigation} ${isOpen ? styles.isOpen : ""}`}>
-                <button onClick={() => seMountedModal(true)} className={styles.menuBtnLink}>Iniciar</button>
-                <button onClick={() => seMountedModal(true)} className={styles.menuBtnLink}> Registrarte</button>
+                <div className={styles.menuLinksContainer}>
+                    {session ? <>
+                        
+                        <UserInfo session={session} />
+                        <SignOutBtn />
+                    </> : <>
+                        <button onClick={() => seMountedModal(true)} className={styles.menuBtnLink}>Iniciar</button>
+                        <button onClick={() => seMountedModal(true)} className={styles.menuBtnLink}> Registrarte</button>
+                    </>}
+                </div>
+
                 <div className={styles.divider}></div>
                 <ul >
-                    <li><Link href="/Sports/About">SPORTS</Link></li>
-                    <li><Link href="/Live/About">LIVE</Link></li>
-                    <li><Link href="/Casino/About">CASINO</Link></li>
-                    <li><Link href="/Pragmatic/About">PRAGMATIC</Link></li>
-                    <li><Link href="/Slots/About">SLOTS</Link></li>
-                    <li><Link href="/MyPoker/About">MyPOKER</Link></li>
-                    <li><Link href="/Information/AboutUs">INFORMACION</Link></li>
-                    <li><Link href="/Personal/Information">PERSONAL</Link></li>
+                    { /* SECCION DE PARLEY */}
+                    <li><Link href="/Sports/About" prefetch={false}>SPORTS</Link></li>
+                    { /* SECCION DE SLOTS (PRAGMATIC) */}
+                    <li><Link href="/Slots/About" prefetch={false}>TRAGAMONEDAS</Link></li>
+                    <li><Link href="/HorseRacing/About" prefetch={false}>HIPISMO</Link></li>{/* Falta ruta para hipismo */}
+                    <li><Link href="/Live/About" prefetch={false}>LIVEBETTING</Link></li>{/* Falta ruta para livebetting */}
+                    <li><Link href="/Live/About" prefetch={false}>PROPS</Link></li>{/* Falta ruta para props */}
+                    <li><Link href="/Casino/About" prefetch={false}>CASINO ONLINE</Link></li>
+                    <li><Link href="/Pragmatic/About" prefetch={false}>JUEGOS</Link></li>{/*  */}
+                    <li><Link href="/Information/AboutUs" prefetch={false}>NOSOTROS</Link></li>
                 </ul>
             </nav>
             <Modal seMountedModal={seMountedModal} isMounted={isMounted}>
