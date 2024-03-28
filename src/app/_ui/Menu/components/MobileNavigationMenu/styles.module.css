@@ -47,7 +47,7 @@
 .navigation {
     z-index: 2;
     background: var(--primary-bg-color);
-   /* background-color: #171638;*/
+    /* background-color: #171638;*/
     position: absolute;
     left: -130%;
     transition: all .5s;
@@ -65,7 +65,7 @@
     padding: 0;
 }
 
-.navigation ul li a{
+.navigation ul li a {
     color: cyan;
     text-decoration: none;
 }
@@ -80,6 +80,13 @@
     background-color: rgba(0, 255, 255, 0.589);
     margin: 1em auto;
 }
+
+
+
+
+
+/*  se debe limpiar */
+
 .menuLinksContainer {
     display: flex;
     flex-direction: column;
@@ -118,10 +125,6 @@
     background-color: #01011b;
     color: var(--primary-font-color);
 }
-
-
-
-
 
 .mobileMenuContainer {
     height: calc(100vh - 75px);
@@ -171,7 +174,9 @@
     padding: 9px 0;
 }
 
+
+
+
+
 /* Responsive */
 @media (max-width: 990px) {}
-
-

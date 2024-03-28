@@ -35,32 +35,28 @@ export const MobileNavigationMenu = () => {
             <nav className={`${styles.navigation} ${isOpen ? styles.isOpen : ""}`}>
                 <div className={styles.menuLinksContainer}>
                     {session ? <>
-
                         <LoggedUserInfo setOpen={setOpen} />
-
                     </> : <>
                         <button onClick={() => seMountedModal(true)} className={styles.menuBtnLink}>Iniciar</button>
                         <Link onClick={handleOpenMenu} className={styles.menuBtnLink} href="/RegisterUser">REGISTRATE</Link>
                     </>}
                 </div>
-
                 <div className={styles.divider}></div>
-                <ul >
-                    { /* SECCION DE PARLEY */}
-                    <li><Link onClick={handleOpenMenu} href="/Sports/About" prefetch={false}>SPORTS</Link></li>
-                    { /* SECCION DE SLOTS (PRAGMATIC) */}
-                    <li><Link onClick={handleOpenMenu} href="/Slots/About" prefetch={false}>TRAGAMONEDAS</Link></li>
-                    <li><Link onClick={handleOpenMenu} href="/HorseRacing/About" prefetch={false}>HIPISMO</Link></li>{/* Falta ruta para hipismo */}
-                    <li><Link onClick={handleOpenMenu} href="/Live/About" prefetch={false}>LIVEBETTING</Link></li>{/* Falta ruta para livebetting */}
-                    <li><Link onClick={handleOpenMenu} href="/Live/About" prefetch={false}>PROPS</Link></li>{/* Falta ruta para props */}
-                    <li><Link onClick={handleOpenMenu} href="/Casino/About" prefetch={false}>CASINO ONLINE</Link></li>
-                    <li><Link onClick={handleOpenMenu} href="/Pragmatic/About" prefetch={false}>JUEGOS</Link></li>{/*  */}
-                    <li><Link onClick={handleOpenMenu} href="/Information/AboutUs" prefetch={false}>NOSOTROS</Link></li>
-                    {session?.user && <li><Link onClick={handleOpenMenu} href="/Personal/Information" prefetch={false}>MI CUENTA</Link></li>}
-                </ul>
+                    <ul>
+                        { /* SECCION DE PARLEY */}
+                        <li><Link onClick={handleOpenMenu} href="/Sports/About" prefetch={false}>SPORTS</Link></li>
+                        { /* SECCION DE SLOTS (PRAGMATIC) */}
+                        <li><Link onClick={handleOpenMenu} href="/Slots/About" prefetch={false}>TRAGAMONEDAS</Link></li>
+                        <li><Link onClick={handleOpenMenu} href="/HorseRacing/About" prefetch={false}>HIPISMO</Link></li>{/* Falta ruta para hipismo */}
+                        <li><Link onClick={handleOpenMenu} href="/Live/About" prefetch={false}>LIVEBETTING</Link></li>{/* Falta ruta para livebetting */}
+                        <li><Link onClick={handleOpenMenu} href="/Live/About" prefetch={false}>PROPS</Link></li>{/* Falta ruta para props */}
+                        <li><Link onClick={handleOpenMenu} href="/Casino/About" prefetch={false}>CASINO ONLINE</Link></li>
+                        <li><Link onClick={handleOpenMenu} href="/Pragmatic/About" prefetch={false}>JUEGOS</Link></li>{/*  */}
+                        <li><Link onClick={handleOpenMenu} href="/Information/AboutUs" prefetch={false}>NOSOTROS</Link></li>
+                        {session?.user && <li><Link onClick={handleOpenMenu} href="/Personal/Information" prefetch={false}>MI CUENTA</Link></li>}
+                    </ul>
                 <div className={styles.divider}></div>
             </nav>
-
             <Modal seMountedModal={seMountedModal} isMounted={isMounted}>
                 <Login container={false} seMountedModal={seMountedModal} />
             </Modal>

@@ -12,6 +12,7 @@ import { Menu } from "./_ui/Menu";
 import { AuthHandleContainer } from "./_ui/AuthHandleContainer";
 import { TopHeader } from "./_ui/TopHeader";
 import { StampsContainer } from "./_ui/StampsContainer";
+import { SocialMediaContainer } from "./_ui/SocialMediaContainer";
 
 export const metadata: Metadata = {
   title: "CaribeApuesta",
@@ -61,10 +62,9 @@ export default function RootLayout({
               {children}
             </main>
 
-
             <footer className="Layout_footer">
-
-            <StampsContainer />
+              <StampsContainer />
+              <SocialMediaContainer />
               <nav className="footer_navigation">
                 <ul>
                   <li><Link href="/Sports/About">SPORTS</Link></li>
@@ -77,6 +77,7 @@ export default function RootLayout({
                   <li><Link href="/Personal/Information">PERSONAL</Link></li>
                 </ul>
               </nav>
+
               <section className="footer_details">
                 <div className="footer_principalDetail">
                   <p>
