@@ -69,7 +69,7 @@ export default function RootLayout({
               <NavigationFooterContainer />
               <StampsContainer />
               <FooterDetails />
-
+              
             </footer>
             {/* Agregamos el nodo para el modal */}
             <div id="modal-root"></div>
