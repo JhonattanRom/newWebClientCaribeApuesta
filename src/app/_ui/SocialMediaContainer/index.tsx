@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export const SocialMediaContainer = () => {
     let phoneNumber = '+58424-2342531';
-    let message = 'Hola CARIBEAPUESTA.COM, me pueden ayudar?'
+    let message = 'Hola CARIBEAPUESTA.COM, me pueden ayudar ?'
     return (
         <div className={styles.SocialMediaContainer}>
             <div className={styles.Toggle_Title}>
