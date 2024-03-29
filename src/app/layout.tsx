@@ -13,6 +13,8 @@ import { AuthHandleContainer } from "./_ui/AuthHandleContainer";
 import { TopHeader } from "./_ui/TopHeader";
 import { StampsContainer } from "./_ui/StampsContainer";
 import { SocialMediaContainer } from "./_ui/SocialMediaContainer";
+import { NavigationFooterContainer } from "./_ui/NavigationFooterContainer";
+import { FooterDetails } from "./_ui/FooterDetails";
 
 export const metadata: Metadata = {
   title: "CaribeApuesta",
@@ -61,41 +63,14 @@ export default function RootLayout({
             <main className="mainContent">
               {children}
             </main>
-
             <footer className="Layout_footer">
-              <StampsContainer />
+
               <SocialMediaContainer />
-              <nav className="footer_navigation">
-                <ul>
-                  <li><Link href="/Sports/About">SPORTS</Link></li>
-                  <li><Link href="/Live/About">LIVE</Link></li>
-                  <li><Link href="/Casino/About">CASINO</Link></li>
-                  <li><Link href="/Pragmatic/About">PRAGMATIC</Link></li>
-                  <li><Link href="/Slots/About">SLOTS</Link></li>
-                  <li><Link href="/MyPoker/About">MyPOKER</Link></li>
-                  <li><Link href="/Information/AboutUs">INFORMACION</Link></li>
-                  <li><Link href="/Personal/Information">PERSONAL</Link></li>
-                </ul>
-              </nav>
+              <NavigationFooterContainer />
+              <StampsContainer />
+              <FooterDetails />
 
-              <section className="footer_details">
-                <div className="footer_principalDetail">
-                  <p>
-                    Inversiones CaribeApuesta, C.A. Rif: J-409540634.
-                  </p>
-                  <p>
-                    Dirección: Porlamar, Estado NE, República Bolivariana de Venezuela.
-                  </p>
-                </div>
-                <p>
-                  © 2022 CARIBEAPUESTA. Todos los Derechos Reservados
-                </p>
-              </section>
             </footer>
-
-
-
-
             {/* Agregamos el nodo para el modal */}
             <div id="modal-root"></div>
           </QueryProvider>

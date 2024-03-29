@@ -3,12 +3,12 @@
 
 
 .stamps_container {
-    width: 100%;
+    width: 75%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-bottom: 2em;
+    padding: 2em;
     flex-wrap: wrap;
 }
 
@@ -27,12 +27,12 @@
 
 .stampIcon_container {
     width: 90%;
-    max-width: 150px;
-    min-width: 150px;
+    max-width: 100px;
+    min-width: 100px;
     height: 10vh;
-    max-height: 150px;
+    max-height: 100px;
     position: relative;
-    min-height: 150px;
+    min-height: 100px;
     text-align: center;
 }
 
