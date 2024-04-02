@@ -27,7 +27,6 @@ const navigationTree = {
         { label: "AGREGAR CUENTA BANCARIA", URL: "/Personal/AddBankAccount" },
     ]
 };
-
 export const NavigationFooterContainer = () => {
     const { data: session } = useSession();
 
@@ -50,14 +49,13 @@ const Navigation = ({ items, title }: { items: any[], title?: string }) => {
         <nav className={styles.Navigation}>
             <h3>{title}</h3>
             <ul>
-                {items.map((employee, index) => (
-                    <li key={index}><Link href={employee.URL} prefetch={false}>{employee.label}</Link></li>
+                {items.map((item, index) => (
+                    <li key={index}><Link href={item.URL} prefetch={false}>{item.label}</Link></li>
                 ))}
             </ul>
         </nav>
     )
 }
-
 const SubscribeForm = () => {
     return (
         <>

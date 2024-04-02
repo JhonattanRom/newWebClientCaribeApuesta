@@ -4,7 +4,8 @@ import "./LazyLoadSpinner.css";
 export const LazyLoadSpinner = () => {
   return (
     <div className="spinner-container">
-      <div className="spin"></div>
+      <div className="spin">
+      </div>
     </div>
   );
 };

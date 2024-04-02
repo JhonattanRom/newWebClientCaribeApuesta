@@ -14,7 +14,7 @@ export default function SlotsLayout({
                     <li><Link href="/Slots/About">Sobre los Slots</Link></li>
                     <li><Link href="/Slots/Glossary">Glosario de terminos</Link></li>
                     <li><Link href="/Slots/Rules">Reglas</Link></li>
-                    {/* <li><Link href="/Sports/Play">Jugar Sports</Link></li> */}
+                    <li><Link href="/Slots/Games">Jugar a las tragamonedas</Link></li>
                 </ul>
             </nav>
             {children}

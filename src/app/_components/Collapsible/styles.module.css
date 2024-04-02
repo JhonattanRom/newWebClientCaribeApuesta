@@ -8,7 +8,11 @@
     text-align: left;
     outline: none;
     font-size: 18px;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 300ms linear;
 }
 
 .active,

@@ -1,0 +1,433 @@
+import { PragmaticSlot } from "../_types/Slots/PragmaticSlot";
+
+export const pragmaticSlotsList: PragmaticSlot[] = [
+    {
+        "categories": [
+            1,
+            25,
+            56,
+            96,
+            98,
+            107,
+            111,
+            113,
+            127,
+            164
+        ],
+        "free_spins_count": 0,
+        "id": 81496,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Olaf Viking",
+        "sort": 0,
+        "product_id": 1085,
+        "provider_id": 486,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/1077/img81496.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            56,
+            167
+        ],
+        "free_spins_count": 0,
+        "id": 69078,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Diamond Chance",
+        "sort": 0,
+        "product_id": 1102,
+        "provider_id": 4,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/1102/img69078.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            56,
+            149,
+            166,
+            212,
+            228
+        ],
+        "free_spins_count": 0,
+        "id": 76454,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "HyperXplorer",
+        "sort": 0,
+        "product_id": 887,
+        "provider_id": 338,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/887/img76454.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            56,
+            167
+        ],
+        "free_spins_count": 0,
+        "id": 54965,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Wild Trails Casino",
+        "sort": 0,
+        "product_id": 746,
+        "provider_id": 347,
+        "is_promo": 1,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/746/img54965.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            56,
+            151,
+            164,
+            176,
+            213
+        ],
+        "free_spins_count": 0,
+        "id": 53458,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Luck88",
+        "sort": 0,
+        "product_id": 641,
+        "provider_id": 289,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/641/img53458.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            56,
+            126,
+            167
+        ],
+        "free_spins_count": 0,
+        "id": 52646,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "All Ways Hot Fruits",
+        "sort": 0,
+        "product_id": 431,
+        "provider_id": 191,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/431/img52646.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            25,
+            56,
+            98,
+            113,
+            120,
+            167
+        ],
+        "free_spins_count": 0,
+        "id": 73511,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Wild Buffalo: Hold 'n' Link",
+        "sort": 0,
+        "product_id": 1154,
+        "provider_id": 422,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/894/img65565.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            56,
+            148,
+            211,
+            223
+        ],
+        "free_spins_count": 0,
+        "id": 64484,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Mines",
+        "sort": 0,
+        "product_id": 850,
+        "provider_id": 369,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/850/img64484.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            56,
+            62,
+            166
+        ],
+        "free_spins_count": 0,
+        "id": 63437,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Balloon",
+        "sort": 0,
+        "product_id": 871,
+        "provider_id": 406,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/871/img63437.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            56,
+            77,
+            112,
+            167
+        ],
+        "free_spins_count": 0,
+        "id": 72726,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Riot",
+        "sort": 0,
+        "product_id": 1145,
+        "provider_id": 404,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/862/img52236.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            25,
+            56,
+            113,
+            151,
+            167,
+            213
+        ],
+        "free_spins_count": 0,
+        "id": 67259,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Dragon Emperor",
+        "sort": 0,
+        "product_id": 1004,
+        "provider_id": 458,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/1004/img67259.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            25,
+            56,
+            113,
+            115,
+            120,
+            167
+        ],
+        "free_spins_count": 0,
+        "id": 10943,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Mystic Wolf",
+        "sort": 0,
+        "product_id": 52,
+        "provider_id": 91,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/52/img10943.jpg"
+    },
+    {
+        "categories": [
+            1,
+            26,
+            73,
+            77,
+            95,
+            108,
+            112,
+            117,
+            167,
+            56,
+            17
+        ],
+        "free_spins_count": 0,
+        "id": 85837,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Gates of Olympus 1000™",
+        "sort": 0,
+        "product_id": 1094,
+        "provider_id": 344,
+        "is_promo": 1,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/737/img81575.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            56,
+            61,
+            90,
+            167
+        ],
+        "free_spins_count": 0,
+        "id": 77076,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Queen of 1xslots",
+        "sort": 0,
+        "product_id": 1103,
+        "provider_id": 480,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/1103/img77076.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            26,
+            73,
+            77,
+            95,
+            96,
+            107,
+            108,
+            112,
+            126,
+            167,
+            174,
+            56,
+            17
+        ],
+        "free_spins_count": 0,
+        "id": 68894,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Sweet Bonanza™",
+        "sort": 0,
+        "product_id": 1094,
+        "provider_id": 344,
+        "is_promo": 1,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/736/img47090.png"
+    },
+    {
+        "categories": [
+            1,
+            25,
+            77,
+            95,
+            108,
+            112,
+            113,
+            129,
+            164,
+            167,
+            56,
+            17
+        ],
+        "free_spins_count": 0,
+        "id": 70388,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Mummyland Treasures",
+        "sort": 0,
+        "product_id": 189,
+        "provider_id": 166,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/189/img70388.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            77,
+            112,
+            124,
+            167,
+            56,
+            17
+        ],
+        "free_spins_count": 0,
+        "id": 75311,
+        "has_demo": false,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Wild Bounty Showdown",
+        "sort": 0,
+        "product_id": 1169,
+        "provider_id": 293,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/648/img67371.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            25,
+            77,
+            112,
+            113,
+            56,
+            17
+        ],
+        "free_spins_count": 0,
+        "id": 79246,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "3 Hot Chillies",
+        "sort": 0,
+        "product_id": 1085,
+        "provider_id": 486,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/1085/img79246.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            77,
+            95,
+            96,
+            107,
+            108,
+            112,
+            120,
+            124,
+            164,
+            167,
+            230,
+            56,
+            17
+        ],
+        "free_spins_count": 0,
+        "id": 77493,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Le Bandit",
+        "sort": 0,
+        "product_id": 850,
+        "provider_id": 369,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/850/img77493.jpeg"
+    },
+    {
+        "categories": [
+            1,
+            56,
+            70,
+            98,
+            126,
+            164,
+            167,
+            17
+        ],
+        "free_spins_count": 0,
+        "id": 77472,
+        "has_demo": true,
+        "is_new": false,
+        "mobile_available": false,
+        "name": "Crown and Diamonds: Hold and Win",
+        "sort": 0,
+        "product_id": 1084,
+        "provider_id": 486,
+        "is_promo": 1,
+        "img": "https://v2l.traincdn.com/genfiles/slots/games/1084/img77472.jpeg"
+    }
+]

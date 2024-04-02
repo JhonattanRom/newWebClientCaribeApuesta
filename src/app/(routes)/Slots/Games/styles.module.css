@@ -1,0 +1,125 @@
+/* GamesContainer */
+.gamesContainer {
+    display: flex;
+}
+
+/*Game List*/
+.gamesListContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 80%;
+
+}
+
+.gamesListContent {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.game {
+    width: 320px;
+    height: 200px;
+    position: relative;
+}
+
+.gameOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.gameOverlay {
+    z-index: 1;
+}
+
+.game:hover .gameOverlay {
+    opacity: 1;
+    z-index: 1;
+}
+
+.gameImg {}
+
+/* GamesFilterContainer*/
+
+.gamesFilterContainer {
+    width: 22%;
+    background: #171638;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.slotsFilterList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 7px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.slotsFilterList__label {
+    width: 50%;
+    display: inline-block;
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    color: cyan;
+}
+
+.slotsFilterList__radioDesc {
+    font-size: 12px;
+}
+
+/* Search */
+
+.serchFormContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 12px;
+}
+
+.form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 1em;
+    justify-content: flex-end;
+}
+
+.caribeInput {
+    background-color: transparent;
+    color: var(--primary-font-color);
+    border: 1px solid var(--secondary-bg-color);
+    border-radius: 6px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    max-width: 300px;
+    letter-spacing: 2px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 1vw;
+    box-sizing: border-box;
+}
+
+.caribeInput::placeholder {
+    color: var(--primary-font-color);
+}
