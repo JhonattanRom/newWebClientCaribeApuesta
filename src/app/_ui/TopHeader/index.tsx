@@ -2,6 +2,7 @@ import { AuthHandleContainer } from "../AuthHandleContainer"
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./styles.module.css";
+
 export const TopHeader = () => {
     return (
         <div className={styles.HeaderContainer}>
@@ -23,7 +24,7 @@ export const TopHeader = () => {
                 />
             </div>
             <div className={styles.Header_Login_Container}>
-                <AuthHandleContainer />
+                    <AuthHandleContainer />
             </div>
         </div>
     )
