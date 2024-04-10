@@ -14,6 +14,7 @@ export default function SportsLayout({
                     <li><Link href="/Sports/About">Sobre los Sports</Link></li>
                     <li><Link href="/Sports/Glossary">Glosario de terminos</Link></li>
                     <li><Link href="/Sports/Rules">Reglas</Link></li>
+                    <li><Link href="/PlayGames/Sports">Apostar</Link></li>
                     {/* <li><Link href="/Sports/Play">Jugar Sports</Link></li> */}
                 </ul>
             </nav>
