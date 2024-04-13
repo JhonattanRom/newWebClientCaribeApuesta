@@ -42,3 +42,9 @@
     padding: 4px;
     box-sizing: border-box;
 }
+
+@media (min-width: 991px) {
+    .panelActionContainer {
+       display: none;
+    }
+}

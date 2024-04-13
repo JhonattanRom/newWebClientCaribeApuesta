@@ -5,6 +5,7 @@ import { LeftSideMenuContainer } from '../LeftSideMenuContainer';
 import PanelAction from '../PanelAction';
 import styles from './styles.module.css';
 import { RightSideMenuContainer } from '../RightSideMenuContainer';
+import { FeaturedGamesContainer } from '../FeatureGamesContainer';
 
 export default function SportsGamesContainer() {
     const [leftSideIsOpen, handleLeftSideOpen] = useState(false);
@@ -21,10 +22,13 @@ export default function SportsGamesContainer() {
     return (<>
         <div className={styles.container}>
             <LeftSideMenuContainer isOpen={leftSideIsOpen} />
+            <div className={styles.gamesMainContainer}>
+                <FeaturedGamesContainer />
+            </div>
             <RightSideMenuContainer isOpen={rightSideIsOpen} />
         </div>
         <PanelAction handleLeftSide={handleOpenLeftSide} handleRightSide={handleOpenRightSide} />
-       
+
     </>
 
     )

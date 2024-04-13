@@ -1,4 +1,4 @@
-import FeaturedGames from "./FeaturedGames";
+import FeaturedGames from "@/app/_components/FeaturedGames";
 import styles from "./styles.module.css";
 
 export default function Feature() {

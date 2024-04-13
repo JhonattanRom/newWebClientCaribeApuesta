@@ -6,3 +6,18 @@
     overflow: hidden; /* Evita el desbordamiento y el scroll */
 
 }
+
+.gamesMainContainer {
+    width: 75%;
+    max-width: 1640px;
+    min-width: 320px;
+    margin: 10px auto;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    padding-bottom: 4em;
+}
