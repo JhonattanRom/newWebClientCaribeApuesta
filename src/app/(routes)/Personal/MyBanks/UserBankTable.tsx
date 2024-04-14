@@ -28,6 +28,7 @@ export default function UserBankTable() {
         setAccountId(accountId);
         handleModal();
     }
+    
     const columns = [
         columnHelper.accessor('accountBankEntity', {
             header: () => 'Entidad Bancaria',
