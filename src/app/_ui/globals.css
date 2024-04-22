@@ -6,6 +6,10 @@
     --error-color: red;
 }
 
+* {
+    scrollbar-color: cyan transparent;
+}
+
 body {
     background-color: var(--primary-bg-color);
     color: var(--primery-font-color);

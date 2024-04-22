@@ -20,12 +20,13 @@ export default function SportsGamesContainer() {
         handleLeftSideOpen(false);
         return handleRightSideOpen(!rightSideIsOpen);
     }
+    
     return (<>
         <div className={styles.container}>
-            <LeftSideMenuContainer isOpen={leftSideIsOpen} />
+            <LeftSideMenuContainer isOpen={leftSideIsOpen} /> {/* Debe manejar estado para llevar los filtros */}
             <div className={styles.gamesMainContainer}>
                 <FeaturedGamesContainer />
-                <DisponibleBetsTable />
+                <DisponibleBetsTable /> {/* Debe manejar estado para llevar los totales y apuestas */}
             </div>
             <RightSideMenuContainer isOpen={rightSideIsOpen} />
         </div>

@@ -8,6 +8,7 @@ interface PortalProps {
     seMountedModal: any,
     title?: any,
     isMounted: boolean;
+    size?: 'default' | 'sm' | 'md' | 'lg' ;
 }
 
 const Modal = (props: PortalProps) => {
@@ -16,15 +17,21 @@ const Modal = (props: PortalProps) => {
         props.seMountedModal(false);
     };
     const ref = useRef<Element | null>(null)
-
     useEffect(() => {
         ref.current = document.querySelector<HTMLElement>("#modal-root")
     }, [])
 
+    const sizeModal: 'default' | 'sm' | 'md' | 'lg' = props.size ?? 'default';
+    const sizeStyles = {
+        'default': `${styles.modal} ${styles.deault_size}`,
+        'sm': `${styles.modal} ${styles.sm_size}`,
+        'md': `${styles.modal} ${styles.md_size}`,
+        'lg': `${styles.modal} ${styles.lg_size}`,
+    }
     const modalContent = (
         <div className={styles.overlay}>
             <div className={styles.modal_wrapper}>
-                <div className={styles.modal} >
+                <div className={sizeStyles[sizeModal]} >
                     <div className={styles.modal_header} >
                         <a href="#" onClick={handleCloseClick}>
                             x

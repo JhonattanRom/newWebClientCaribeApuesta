@@ -20,13 +20,9 @@ export default function UserBankTable() {
     const [data, setData] = useState(() => [...userBankAccountList]);
     const [accountId, setAccountId] = useState<number>(0);
 
-    const handleModal = () => {
-        seMountedModal(!isMounted)
-    }
-
     const handleAddMobilePay = (accountId: number) => {
         setAccountId(accountId);
-        handleModal();
+        seMountedModal(!isMounted);
     }
     
     const columns = [

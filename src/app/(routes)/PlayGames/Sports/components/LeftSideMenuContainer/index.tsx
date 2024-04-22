@@ -4,6 +4,7 @@ import styles from "./styles.module.css";
 import Image from "next/image";
 
 export function LeftSideMenuContainer({ isOpen }: { isOpen: Boolean }) {
+    
     return (
         <div className={`${styles.leftSideMenuContainer} ${isOpen ? styles.isOpen : ''}`}>
             <div className={styles.filterContainer}>

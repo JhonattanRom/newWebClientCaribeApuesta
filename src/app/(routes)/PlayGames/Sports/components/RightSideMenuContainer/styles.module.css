@@ -375,6 +375,58 @@
     color: var(--primary-font-color);
 }
 
+.modalTitle {
+    font-size: 1.1em;
+    font-weight: 700;
+    text-align: center;
+}
+/* My plays modal */
+.myPlaysContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.myPlaysContainer p {
+    margin: 0;
+}
+
+/* Reserve Play */
+
+.reservePlaysContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+    margin-top: 1rem;
+}
+.reservePlaysContainer h2 {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 4em;
+    font-weight: 500;
+    text-align: center;
+}
+.reservePlaysContainer h5 {
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+}
+.actionsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.actionsContainer .btn {
+    width: 45%;
+    padding: 12px 8px;
+}
 @media (min-width: 991px) {
     .rightSideMenuContainer {
         display: flex;
