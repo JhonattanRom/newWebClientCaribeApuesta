@@ -3,32 +3,13 @@ import GamesContainer from "./components/GamesContainer";
 
 
 export const metadata: Metadata = {
-    title: "CaribeApuesta",
-    /*es el sitio número uno de apuestas en Venezuela y uno de los mejores en Hipódromos y Apuestas Deportivas. Ya sea que busques deportes competitivos, probabilidades de apuestas, emocionantes juegos de Casino Online y Slots Machines, o las últimas noticias deportivas, todo está en un mismo lugar. ¡Regístrate gratis y comienza a ganar! */
-    description: "CaribeApuesta es el sitio número uno de apuestas en Venezuela, donde encontraras una variedad de opciones como apuestas deportivas, carreras de caballos nacionales e internacionales, tragamonedas, casino en vivo, entre otros juegos.",
-    keywords: [
-        'Apuestas deportivas',
-        'Apuestas en vivo',
-        'Apuestas en Venezuela',
-        'Pronósticos deportivos',
-        'Apuestas deportivas en línea en Venezuela',
-        'Casino en línea',
-        'Casino en línea en Venezuela',
-        'Juegos de azar',
-        'Hipódromo',
-        'Carrera de caballos',
-        'Apuestas Hípicas',
-        'Caballos de carrera',
-        'Resultados de carreras de caballos',
-        'Tragamonedas',
-        'Juegos',
-        'Mejores apuestas deportivas en línea en Venezuela',
-        'Tragamonedas emocionantes en CaribeApuesta',
-    ],
+    title: "CaribeApuesta - Máquinas tragamonedas",
+    description: "En CaribeApuesta puedes descubrir el mundo de las tragamonedas online, donde encontrarás reseñas detalladas, estrategias ganadoras y los últimos lanzamientos. ¡Juega responsablemente y vive la emoción del casino desde la comodidad de tu hogar!",
     metadataBase: new URL("http://localhost:3000/"),
+    keywords: ['Máquinas tragamonedas', 'Máquinas tragamonedas online', 'Máquinas tragamonedas en caribeapuesta'],
     openGraph: {
-        title: "¡Te damos la bienvenida a CaribeApuesta!",
-        description: "El sitio número uno de apuestas en Venezuela."
+        title: "Máquinas tragamonedas",
+        description: "En CaribeApuesta puedes descubrir el mundo de las tragamonedas online, donde encontrarás reseñas detalladas, estrategias ganadoras y los últimos lanzamientos. ¡Juega responsablemente y vive la emoción del casino desde la comodidad de tu hogar!",
     }
 };
 

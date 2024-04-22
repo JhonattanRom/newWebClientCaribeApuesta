@@ -2,12 +2,13 @@ import { Metadata } from "next";
 import styles from "./styles.module.css";
 
 export const metadata: Metadata = {
-    title: "CaribeApuesta - Sobre los Slots",
-    description: "CaribeApuesta es el sitio número uno de apuestas en Venezuela y uno de los mejores en Hipódromos y Apuestas Deportivas. Ya sea que busques deportes competitivos, probabilidades de apuestas, emocionantes juegos de Casino Online y Slots Machines, o las últimas noticias deportivas, todo está en un mismo lugar. ¡Regístrate gratis y comienza a ganar!",
+    title: "CaribeApuesta - Máquinas tragamonedas",
+    description: "En CaribeApuesta puedes descubrir el mundo de las tragamonedas online, donde encontrarás reseñas detalladas, estrategias ganadoras y los últimos lanzamientos. ¡Juega responsablemente y vive la emoción del casino desde la comodidad de tu hogar!",
     metadataBase: new URL("http://localhost:3000/"),
+    keywords: ['¿Qué son las Máquinas Tragamonedas?', 'Máquinas tragamonedas', 'Selección máquinas tragamonedas'],
     openGraph: {
-        title: "Sobre Nosotros",
-        description: "El sitio número uno de apuestas en Venezuela"
+        title: "Máquinas tragamonedas",
+        description: "En CaribeApuesta descubre el mundo de las tragamonedas online, donde encontrarás reseñas detalladas, estrategias ganadoras y los últimos lanzamientos. ¡Juega responsablemente y vive la emoción del casino desde la comodidad de tu hogar!",
     }
 };
 

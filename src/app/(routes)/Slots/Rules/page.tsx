@@ -2,12 +2,13 @@ import { Metadata } from "next";
 import styles from "./styles.module.css";
 
 export const metadata: Metadata = {
-    title: "CaribeApuesta - Reglas Slots",
-    description: "CaribeApuesta es el sitio número uno de apuestas en Venezuela y uno de los mejores en Hipódromos y Apuestas Deportivas. Ya sea que busques deportes competitivos, probabilidades de apuestas, emocionantes juegos de Casino Online y Slots Machines, o las últimas noticias deportivas, todo está en un mismo lugar. ¡Regístrate gratis y comienza a ganar!",
+    title: "CaribeApuesta - Reglas para máquinas tragamonedas",
+    description: "Descubre las reglas esenciales de las máquinas tragamonedas en CARIBEAPUESTA - Tu guía definitiva para jugar con confianza y responsabilidad. Aprende los términos clave, comprende las obligaciones del jugador, y disfruta de una experiencia segura y emocionante. ¡Regístrate e ingresa ahora para comenzar!",
     metadataBase: new URL("http://localhost:3000/"),
+    keywords: ['Reglas de las máquinas tragamonedas', 'Reglas de las máquinas tragamonedas online', 'Reglas de las máquinas tragamonedas en caribeapuesta'],
     openGraph: {
-        title: "Sobre Nosotros",
-        description: "El sitio número uno de apuestas en Venezuela"
+        title: "Reglas para máquinas tragamonedas",
+        description: "Descubre las reglas esenciales de las máquinas tragamonedas en CARIBEAPUESTA - Tu guía definitiva para jugar con confianza y responsabilidad. Aprende los términos clave, comprende las obligaciones del jugador, y disfruta de una experiencia segura y emocionante. ¡Regístrate e ingresa ahora para comenzar!",
     }
 };
 
