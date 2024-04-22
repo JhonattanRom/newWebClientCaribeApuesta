@@ -2,12 +2,13 @@ import { Metadata } from "next";
 import styles from "./styles.module.css";
 
 export const metadata: Metadata = {
-    title: "CaribeApuesta - Glosario de términos Sports",
-    description: "CaribeApuesta es el sitio número uno de apuestas en Venezuela y uno de los mejores en Hipódromos y Apuestas Deportivas. Ya sea que busques deportes competitivos, probabilidades de apuestas, emocionantes juegos de Casino Online y Slots Machines, o las últimas noticias deportivas, todo está en un mismo lugar. ¡Regístrate gratis y comienza a ganar!",
+    title: "CaribeApuesta - Glosario de términos para apuestas deportivas",
+    description: "Descubre el mundo de las apuestas deportivas con el glosario definitivo de CARIBEAPUESTA. Aprende la terminología esencial y domina tus estrategias de juego en nuestra plataforma segura y confiable. ¡Regístrate y comienza a ganar hoy!",
     metadataBase: new URL("http://localhost:3000/"),
+    keywords: ['Glosario de términos para apuestas deportivas', 'Glosario de terminos para apuestas deportivas online'],
     openGraph: {
-        title: "Sobre Nosotros",
-        description: "El sitio número uno de apuestas en Venezuela"
+        title: "Glosario de términos para apuestas deportivas",
+        description: "Descubre el mundo de las apuestas deportivas con el glosario definitivo de CARIBEAPUESTA. Aprende la terminología esencial y domina tus estrategias de juego en nuestra plataforma segura y confiable. ¡Regístrate y comienza a ganar hoy!",
     }
 };
 

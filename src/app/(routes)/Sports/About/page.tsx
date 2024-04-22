@@ -2,13 +2,14 @@ import { Metadata } from "next";
 import styles from "./styles.module.css";
 
 export const metadata: Metadata = {
-    title: "CaribeApuesta - Sobre Sports",
-    description: "CaribeApuesta es el sitio número uno de apuestas en Venezuela y uno de los mejores en Hipódromos y Apuestas Deportivas. Ya sea que busques deportes competitivos, probabilidades de apuestas, emocionantes juegos de Casino Online y Slots Machines, o las últimas noticias deportivas, todo está en un mismo lugar. ¡Regístrate gratis y comienza a ganar!",
+    title: "CaribeApuesta - Apuestas deportivas Online",
+    description: "CARIBEAPUESTA es el destino ideal para los amantes de las apuestas deportivas en Venezuela. Si buscas emoción, oportunidades de ganar y una amplia variedad de deportes, estás en el lugar correcto.",
     metadataBase: new URL("http://localhost:3000/"),
+    keywords: ['Que son las apuestas deportivas', 'Apuestas deportivas', 'Sobre las apuestas deportivas', 'Que son las apuestas deportivas Online'],
     openGraph: {
-        title: "Sobre Nosotros",
-        description: "El sitio número uno de apuestas en Venezuela"
-    }
+        title: "Apuestas deportivas Online",
+        description: "CARIBEAPUESTA es el destino ideal para los amantes de las apuestas deportivas en Venezuela. Si buscas emoción, oportunidades de ganar y una amplia variedad de deportes, estás en el lugar correcto."
+    },
 };
 
 export default function About() {

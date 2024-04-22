@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
 import { gotham } from "./_ui/fonts";
 import "./_ui/globals.css";
-import Image from "next/image";
 import 'normalize.css/normalize.css';
-import Link from "next/link";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SessionAuthProvider from "@/context/SessionAuthProvider";
 import QueryProvider from "@/context/QueryProvider";
 import { Menu } from "./_ui/Menu";
-import { AuthHandleContainer } from "./_ui/AuthHandleContainer";
 import { TopHeader } from "./_ui/TopHeader";
 import { StampsContainer } from "./_ui/StampsContainer";
 import { SocialMediaContainer } from "./_ui/SocialMediaContainer";
