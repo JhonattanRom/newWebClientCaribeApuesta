@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     title: "Glosario de términos para máquinas tragamonedas | CaribeApuesta",
     description: "Descubre el mundo de las máquinas tragamonedas con el glosario definitivo de CARIBEAPUESTA. Aprende la terminología esencial y domina tus estrategias de juego en nuestra plataforma segura y confiable. ¡Regístrate y comienza a ganar hoy!",
     metadataBase: new URL("http://localhost:3000/"),
-    keywords: ['Glosario de términos para máquinas tragamonedas', 'Glosario de terminos para máquinas tragamonedas online'],
+    keywords: ['Glosario de términos para máquinas tragamonedas', 'Glosario de terminos para máquinas tragamonedas en linea'],
     openGraph: {
         title: "Glosario de términos para máquinas tragamonedas",
         description: "Descubre el mundo de las máquinas tragamonedas con el glosario definitivo de CARIBEAPUESTA. Aprende la terminología esencial y domina tus estrategias de juego en nuestra plataforma segura y confiable. ¡Regístrate y comienza a ganar hoy!"

@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import styles from "./styles.module.css";
 
 export const metadata: Metadata = {
-    title: "CaribeApuesta - Reglas para máquinas tragamonedas",
+    title: "Reglas para máquinas tragamonedas | CaribeApuesta",
     description: "Descubre las reglas esenciales de las máquinas tragamonedas en CARIBEAPUESTA - Tu guía definitiva para jugar con confianza y responsabilidad. Aprende los términos clave, comprende las obligaciones del jugador, y disfruta de una experiencia segura y emocionante. ¡Regístrate e ingresa ahora para comenzar!",
     metadataBase: new URL("http://localhost:3000/"),
     keywords: ['Reglas de las máquinas tragamonedas', 'Reglas de las máquinas tragamonedas online', 'Reglas de las máquinas tragamonedas en caribeapuesta'],
