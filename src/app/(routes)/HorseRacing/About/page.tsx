@@ -2,20 +2,14 @@ import { Metadata } from "next";
 import styles from "./styles.module.css";
 
 export const metadata: Metadata = {
-    title: "Casinos en Línea: ¡Apuesta desde la Comodidad de tu Hogar!  | CaribeApuesta",
-    description: "",
-    keywords: [
-        'Casino en línea',
-        'Casino en línea en Venezuela',
-        '¿ Que es un casino en línea ?',
-        'Los mejores juegos de casino en línea',
-        'Juegos populares en los casinos en línea'
-    ],
+    title: "CaribeApuesta - Hipismo",
+    description: "En CARIBEAPUESTA compartimos tu pasión por el hipismo y queremos guiarte en esta emocionante aventura.",
     metadataBase: new URL("http://localhost:3000/"),
+    keywords: ['Hipismo', 'Apuestas carreras de caballos', 'Sobre las apuestas de carreras de caballos'],
     openGraph: {
-        title: "Casinos en Línea: ¡Apuesta desde la Comodidad de tu Hogar! ",
-        description: "El sitio número uno de apuestas en Venezuela"
-    }
+        title: "Hipismo",
+        description: "En CARIBEAPUESTA compartimos tu pasión por el hipismo y queremos guiarte en esta emocionante aventura.",
+    },
 };
 
 export default function About() {

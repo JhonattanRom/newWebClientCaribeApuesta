@@ -2,18 +2,15 @@
 import { Metadata } from "next";
 import styles from "./styles.module.css";
 
-export const metadata: Metadata = {
-    title: "CaribeApuesta - Reglas de casino en línea",
-    description: "",
-    keywords: [
-        'Casino en línea',
-        'Casino en línea en Venezuela',
 
-    ],
+export const metadata: Metadata = {
+    title: "CaribeApuesta - Reglas para hipismo",
+    description: "Descubre las reglas esenciales del hipismos en CARIBEAPUESTA - Tu guía definitiva para apostar con confianza y responsabilidad. Aprende los términos clave, comprende las obligaciones del jugador, y disfruta de una experiencia de apuestas segura y emocionante. ¡Regístrate e ingresa ahora para comenzar!",
     metadataBase: new URL("http://localhost:3000/"),
+    keywords: ['Reglas del hipismo', 'Reglas del hipismo online', 'Reglas del hipismo en caribeapuesta'],
     openGraph: {
-        title: "Sobre Nosotros",
-        description: "El sitio número uno de apuestas en Venezuela"
+        title: "Reglas para hipismo",
+        description: "Descubre las reglas esenciales del hipismos en CARIBEAPUESTA - Tu guía definitiva para apostar con confianza y responsabilidad. Aprende los términos clave, comprende las obligaciones del jugador, y disfruta de una experiencia de apuestas segura y emocionante. ¡Regístrate e ingresa ahora para comenzar!"
     }
 };
 
