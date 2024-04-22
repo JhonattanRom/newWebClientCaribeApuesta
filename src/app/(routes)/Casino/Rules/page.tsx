@@ -2,17 +2,16 @@ import { Metadata } from "next";
 import styles from "./styles.module.css";
 
 export const metadata: Metadata = {
-    title: "CaribeApuesta - Reglas de casino en línea",
-    description: "",
+    title: "Reglas de casino en línea | CaribeApuesta",
+    description: "Descubre las reglas esenciales del casino en linea en CARIBEAPUESTA - Tu guía definitiva para jugar con confianza y responsabilidad. Aprende los términos clave, comprende las obligaciones del jugador, y disfruta de una experiencia segura y emocionante. ¡Regístrate e ingresa ahora para comenzar!",
     keywords: [
-        'Casino en línea',
-        'Casino en línea en Venezuela',
-
+        'Reglas del casino en línea',
+        'Regles del casino en línea en Venezuela',
     ],
     metadataBase: new URL("http://localhost:3000/"),
     openGraph: {
-        title: "Sobre Nosotros",
-        description: "El sitio número uno de apuestas en Venezuela"
+        title: "Reglas de casino en línea",
+        description: "Descubre las reglas esenciales del casino en linea en CARIBEAPUESTA - Tu guía definitiva para jugar con confianza y responsabilidad. Aprende los términos clave, comprende las obligaciones del jugador, y disfruta de una experiencia segura y emocionante. ¡Regístrate e ingresa ahora para comenzar!"
     }
 };
 

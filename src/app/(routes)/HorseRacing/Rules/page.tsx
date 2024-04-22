@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 
 export const metadata: Metadata = {
-    title: "CaribeApuesta - Reglas para hipismo",
+    title: "Reglas para hipismo | CaribeApuesta",
     description: "Descubre las reglas esenciales del hipismos en CARIBEAPUESTA - Tu guía definitiva para apostar con confianza y responsabilidad. Aprende los términos clave, comprende las obligaciones del jugador, y disfruta de una experiencia de apuestas segura y emocionante. ¡Regístrate e ingresa ahora para comenzar!",
     metadataBase: new URL("http://localhost:3000/"),
     keywords: ['Reglas del hipismo', 'Reglas del hipismo online', 'Reglas del hipismo en caribeapuesta'],

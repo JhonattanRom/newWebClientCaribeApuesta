@@ -2,12 +2,12 @@ import { Metadata } from "next";
 import styles from "./styles.module.css";
 
 export const metadata: Metadata = {
-    title: "CaribeApuesta - Máquinas tragamonedas",
+    title: "Máquinas tragamonedas: Emoción y Diversión en CaribeApuesta | CaribeApuesta",
     description: "En CaribeApuesta puedes descubrir el mundo de las tragamonedas online, donde encontrarás reseñas detalladas, estrategias ganadoras y los últimos lanzamientos. ¡Juega responsablemente y vive la emoción del casino desde la comodidad de tu hogar!",
     metadataBase: new URL("http://localhost:3000/"),
     keywords: ['¿Qué son las Máquinas Tragamonedas?', 'Máquinas tragamonedas', 'Selección máquinas tragamonedas'],
     openGraph: {
-        title: "Máquinas tragamonedas",
+        title: "Máquinas tragamonedas: Emoción y Diversión en CaribeApuesta",
         description: "En CaribeApuesta descubre el mundo de las tragamonedas online, donde encontrarás reseñas detalladas, estrategias ganadoras y los últimos lanzamientos. ¡Juega responsablemente y vive la emoción del casino desde la comodidad de tu hogar!",
     }
 };

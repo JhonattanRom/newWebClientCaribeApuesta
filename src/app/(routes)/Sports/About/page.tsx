@@ -2,12 +2,12 @@ import { Metadata } from "next";
 import styles from "./styles.module.css";
 
 export const metadata: Metadata = {
-    title: "CaribeApuesta - Apuestas deportivas Online",
+    title: "Apuestas deportivas en linea | CaribeApuesta",
     description: "CARIBEAPUESTA es el destino ideal para los amantes de las apuestas deportivas en Venezuela. Si buscas emoción, oportunidades de ganar y una amplia variedad de deportes, estás en el lugar correcto.",
     metadataBase: new URL("http://localhost:3000/"),
-    keywords: ['Que son las apuestas deportivas', 'Apuestas deportivas', 'Sobre las apuestas deportivas', 'Que son las apuestas deportivas Online'],
+    keywords: ['Que son las apuestas deportivas', 'Apuestas deportivas', 'Sobre las apuestas deportivas', 'Que son las apuestas deportivas en linea'],
     openGraph: {
-        title: "Apuestas deportivas Online",
+        title: "Apuestas deportivas en linea",
         description: "CARIBEAPUESTA es el destino ideal para los amantes de las apuestas deportivas en Venezuela. Si buscas emoción, oportunidades de ganar y una amplia variedad de deportes, estás en el lugar correcto."
     },
 };

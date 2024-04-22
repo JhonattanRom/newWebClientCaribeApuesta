@@ -2,13 +2,13 @@ import { Metadata } from "next";
 import styles from "./styles.module.css";
 
 export const metadata: Metadata = {
-    title: "CaribeApuesta - Glosario de términos para apuestas deportivas",
-    description: "Descubre el mundo de las apuestas deportivas con el glosario definitivo de CARIBEAPUESTA. Aprende la terminología esencial y domina tus estrategias de juego en nuestra plataforma segura y confiable. ¡Regístrate y comienza a ganar hoy!",
+    title: "Glosario de términos para apuestas deportivas en linea | CaribeApuesta",
+    description: "Descubre el mundo de las apuestas deportivas en linea con el glosario definitivo de CARIBEAPUESTA. Aprende la terminología esencial y domina tus estrategias de juego en nuestra plataforma segura y confiable. ¡Regístrate y comienza a ganar hoy!",
     metadataBase: new URL("http://localhost:3000/"),
-    keywords: ['Glosario de términos para apuestas deportivas', 'Glosario de terminos para apuestas deportivas online'],
+    keywords: ['Glosario de términos para apuestas deportivas', 'Glosario de terminos para apuestas deportivas en linea'],
     openGraph: {
-        title: "Glosario de términos para apuestas deportivas",
-        description: "Descubre el mundo de las apuestas deportivas con el glosario definitivo de CARIBEAPUESTA. Aprende la terminología esencial y domina tus estrategias de juego en nuestra plataforma segura y confiable. ¡Regístrate y comienza a ganar hoy!",
+        title: "Glosario de términos para apuestas deportivas en linea",
+        description: "Descubre el mundo de las apuestas deportivas en linea con el glosario definitivo de CARIBEAPUESTA. Aprende la terminología esencial y domina tus estrategias de juego en nuestra plataforma segura y confiable. ¡Regístrate y comienza a ganar hoy!",
     }
 };
 

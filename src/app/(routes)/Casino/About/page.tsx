@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 
 export const metadata: Metadata = {
     title: "Casinos en Línea: ¡Apuesta desde la Comodidad de tu Hogar!  | CaribeApuesta",
-    description: "",
+    description: "Los casinos en línea han transformado la manera en que experimentamos los juegos de azar. Si buscas emoción, entretenimiento y la oportunidad de ganar premios, ¡los casinos virtuales son la elección perfecta!",
     keywords: [
         'Casino en línea',
         'Casino en línea en Venezuela',
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     metadataBase: new URL("http://localhost:3000/"),
     openGraph: {
         title: "Casinos en Línea: ¡Apuesta desde la Comodidad de tu Hogar! ",
-        description: "El sitio número uno de apuestas en Venezuela"
+        description: "Los casinos en línea han transformado la manera en que experimentamos los juegos de azar. Si buscas emoción, entretenimiento y la oportunidad de ganar premios, ¡los casinos virtuales son la elección perfecta!",
     }
 };
 

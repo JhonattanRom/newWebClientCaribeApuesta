@@ -2,12 +2,12 @@ import { Metadata } from "next";
 import styles from "./styles.module.css";
 
 export const metadata: Metadata = {
-    title: "CaribeApuesta - Hipismo",
+    title: "Hipismo: La Pasión de las Carreras de Caballos | CaribeApuesta",
     description: "En CARIBEAPUESTA compartimos tu pasión por el hipismo y queremos guiarte en esta emocionante aventura.",
     metadataBase: new URL("http://localhost:3000/"),
     keywords: ['Hipismo', 'Apuestas carreras de caballos', 'Sobre las apuestas de carreras de caballos'],
     openGraph: {
-        title: "Hipismo",
+        title: "Hipismo: La Pasión de las Carreras de Caballos",
         description: "En CARIBEAPUESTA compartimos tu pasión por el hipismo y queremos guiarte en esta emocionante aventura.",
     },
 };

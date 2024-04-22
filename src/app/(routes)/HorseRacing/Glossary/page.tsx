@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import styles from "./styles.module.css";
 
 export const metadata: Metadata = {
-    title: "CaribeApuesta - Glosario de términos hipismo",
+    title: "Glosario de términos hipismo | CaribeApuesta",
     description: "Descubre el mundo del hipismo con el glosario definitivo de CARIBEAPUESTA. Aprende la terminología esencial y domina tus estrategias de apuestas en nuestra plataforma segura y confiable. ¡Regístrate y comienza a ganar hoy!",
     metadataBase: new URL("http://localhost:3000/"),
     keywords: ['Glosario de términos para hipismo', 'Glosario de terminos para hipismo online', 'Apuestas de carrera de caballos'],
