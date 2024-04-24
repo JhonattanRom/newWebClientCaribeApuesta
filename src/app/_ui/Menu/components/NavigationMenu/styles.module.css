@@ -30,7 +30,8 @@ header .Navigation .links {
     transition: all .5s;
 }
 
-.links li:hover a {
+.links li:hover a,
+.links li.active a {
     color: white;
     transform: scale(1.2);
     border-bottom: 1px solid white;
