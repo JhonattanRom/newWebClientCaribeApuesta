@@ -2,9 +2,9 @@
 
 import { usePathname } from "next/navigation";
 import { NavigationPage } from "@/app/_components/NavigationPage/NavigationPage";
-import { sportNavigationItems } from "@/app/helpers/navigationsPages";
+import { liveBettingNavigationItems } from "@/app/helpers/navigationsPages";
 
 export const Navigation = () => {
     const pathname = usePathname();
-    return <NavigationPage pathname={pathname} navigationPageItems={sportNavigationItems} />
+    return <NavigationPage pathname={pathname} navigationPageItems={liveBettingNavigationItems} />
 }
