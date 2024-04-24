@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Navigation } from "./components/Navigation";
 import styles from "./styles.module.css";
 
 export default function SportsLayout({
@@ -8,15 +8,7 @@ export default function SportsLayout({
 }) {
     return (
         <section className={styles.container}>
-            {/* Include shared UI here e.g. a header or sidebar */}
-            <nav className={styles.navigationContainer}>
-                <ul className={styles.links}>
-                    <li><Link href="/Sports/About">Sobre las apuestas deportivas</Link></li>
-                    <li><Link href="/Sports/Glossary">Glosario de terminos</Link></li>
-                    <li><Link href="/Sports/Rules">Reglas</Link></li>
-                    <li><Link href="/PlayGames/Sports">Apostar</Link></li>
-                </ul>
-            </nav>
+            <Navigation />
             {children}
         </section>
     )
