@@ -2,6 +2,9 @@
 import { useSession } from "next-auth/react";
 import styles from "./styles.module.css";
 import Link from 'next/link'
+import { usePathname } from "next/navigation";
+import { includePath } from "@/app/helpers/includePath";
+import { NavigationPageItemProps } from "@/app/_types/NavigationPageItemProps";
 
 const navigationTree = {
     gamesMenu: [
@@ -45,12 +48,15 @@ export const NavigationFooterContainer = () => {
     )
 }
 const Navigation = ({ items, title }: { items: any[], title?: string }) => {
+    const pathname = usePathname();
     return (
         <nav className={styles.Navigation}>
             <h3>{title}</h3>
             <ul>
                 {items.map((item, index) => (
-                    <li key={index}><Link href={item.URL} prefetch={false}>{item.label}</Link></li>
+                    <li key={index} className={`${includePath({ pathname, path: item.URL }) ? styles.active : ''}`}>
+                        <Link href={item.URL} prefetch={false}>{item.label}</Link>
+                    </li>
                 ))}
             </ul>
         </nav>

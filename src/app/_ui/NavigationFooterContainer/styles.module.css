@@ -48,11 +48,13 @@
     font-weight: 200;
 }
 
-.Navigation ul li:hover a {
+.Navigation ul li:hover a,
+.Navigation ul li.active a {
     color: white;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
 }
+
 
 .form {
     width: 100%;
