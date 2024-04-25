@@ -26,6 +26,17 @@ export function RightSideMenuContainer({ isOpen }: { isOpen: Boolean }) {
             document.body.style.overflow = 'auto'; // Asegurar que se restablezca al desmontar el componente
         };
     }, [isMyPlaysMounted, isReservedPlaysMounted]);
+
+    useEffect(() => {
+        if (isOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
+        return () => {
+            document.body.style.overflow = 'auto';
+        };
+    }, [isOpen]);
     return (
         <>
             <div className={`${styles.rightSideMenuContainer} ${isOpen ? styles.isOpen : ''}`}>
