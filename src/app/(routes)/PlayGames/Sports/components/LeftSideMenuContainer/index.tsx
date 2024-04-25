@@ -6,15 +6,14 @@ import styles from "./styles.module.css";
 import Image from "next/image";
 
 export function LeftSideMenuContainer({ isOpen }: { isOpen: Boolean }) {
-    
     useEffect(() => {
         if (isOpen) {
           document.body.style.overflow = 'hidden';
         } else {
-          document.body.style.overflow = 'auto'; // Restaurar el valor original
+          document.body.style.overflow = 'auto'; 
         }
         return () => {
-          document.body.style.overflow = 'auto'; // Asegurar que se restablezca al desmontar el componente
+          document.body.style.overflow = 'auto';
         };
       }, [isOpen]);
 
