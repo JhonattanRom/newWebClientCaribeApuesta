@@ -8,7 +8,8 @@
     max-width: 500px;
     overflow: hidden;
     position: fixed;
-    margin-bottom: 130px;
+    padding-bottom: 130px;
+    height: auto;
     top: 74px;
 }
 

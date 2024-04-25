@@ -109,7 +109,8 @@
 }
 
 .sportsMenuContainer {
-    margin-bottom: 130px;
+    padding-bottom: 130px;
+    height: auto;
 }
 
 @media (min-width: 991px) {

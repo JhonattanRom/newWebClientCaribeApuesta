@@ -4,7 +4,6 @@ import styles from "./styles.module.css";
 import Link from 'next/link'
 import { usePathname } from "next/navigation";
 import { includePath } from "@/app/helpers/includePath";
-import { NavigationPageItemProps } from "@/app/_types/NavigationPageItemProps";
 
 const navigationTree = {
     gamesMenu: [
