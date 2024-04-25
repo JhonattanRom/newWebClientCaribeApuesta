@@ -55,13 +55,17 @@
     border-top: 1px solid white;
 }
 
-
 .form {
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 1em;
+}
+
+.formGroup {
+    display: flex;
+    justify-content: center;
 }
 
 .caribeInput {
@@ -72,6 +76,7 @@
     padding: 8px 12px;
     box-sizing: border-box;
     width: 100%;
+    max-width: 300px;
     letter-spacing: 2px;
     height: 60px;
     font-weight: 400;

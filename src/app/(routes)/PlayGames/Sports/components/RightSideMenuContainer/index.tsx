@@ -37,6 +37,7 @@ export function RightSideMenuContainer({ isOpen }: { isOpen: Boolean }) {
             document.body.style.overflow = 'auto';
         };
     }, [isOpen]);
+    
     return (
         <>
             <div className={`${styles.rightSideMenuContainer} ${isOpen ? styles.isOpen : ''}`}>
