@@ -1,10 +1,23 @@
+'use client'
 
+import { useEffect } from "react";
 import Collapsible from "@/app/_components/Collapsible";
 import styles from "./styles.module.css";
 import Image from "next/image";
 
 export function LeftSideMenuContainer({ isOpen }: { isOpen: Boolean }) {
     
+    useEffect(() => {
+        if (isOpen) {
+          document.body.style.overflow = 'hidden';
+        } else {
+          document.body.style.overflow = 'auto'; // Restaurar el valor original
+        }
+        return () => {
+          document.body.style.overflow = 'auto'; // Asegurar que se restablezca al desmontar el componente
+        };
+      }, [isOpen]);
+
     return (
         <div className={`${styles.leftSideMenuContainer} ${isOpen ? styles.isOpen : ''}`}>
             <div className={styles.filterContainer}>

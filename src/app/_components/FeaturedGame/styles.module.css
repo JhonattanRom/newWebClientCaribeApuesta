@@ -181,7 +181,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px 10px;
+    padding: 8px;
     flex-grow: 1;
 }
 

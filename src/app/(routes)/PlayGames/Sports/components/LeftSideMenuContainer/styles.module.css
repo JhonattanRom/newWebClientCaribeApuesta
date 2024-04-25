@@ -1,7 +1,8 @@
 .leftSideMenuContainer {
     z-index: 1;
     background: var(--primary-bg-color);
-    position: absolute;
+    position: fixed;
+    top: 73px;
     left: 0%;
     transition: all 300ms linear;
     width: 0;
@@ -107,12 +108,19 @@
     color: var(--primary-font-color);
 }
 
+.sportsMenuContainer {
+    margin-bottom: 130px;
+}
+
 @media (min-width: 991px) {
     .leftSideMenuContainer {
         display: flex;
         width: 20%;
         position: relative;
         border-right: 2px solid cyan;
+    }
+    .sportsMenuContainer {
+        margin-bottom: 30px;
     }
 }
 
