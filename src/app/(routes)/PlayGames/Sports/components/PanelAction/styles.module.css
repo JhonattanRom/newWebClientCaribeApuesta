@@ -12,7 +12,8 @@
     font-size: 12px
 }
 
-.btn:hover {
+.btn:hover,
+.sideOpen {
     background-color: cyan;
     border: 2px solid #01011b;
     color: #01011b;

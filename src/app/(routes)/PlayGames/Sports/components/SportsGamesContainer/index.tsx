@@ -20,7 +20,7 @@ export default function SportsGamesContainer() {
         handleLeftSideOpen(false);
         return handleRightSideOpen(!rightSideIsOpen);
     }
-    
+
     return (<>
         <div className={styles.container}>
             <LeftSideMenuContainer isOpen={leftSideIsOpen} /> {/* Debe manejar estado para llevar los filtros */}
@@ -30,7 +30,12 @@ export default function SportsGamesContainer() {
             </div>
             <RightSideMenuContainer isOpen={rightSideIsOpen} />
         </div>
-        <PanelAction handleLeftSide={handleOpenLeftSide} handleRightSide={handleOpenRightSide} />
+        <PanelAction 
+            handleLeftSide={handleOpenLeftSide} 
+            handleRightSide={handleOpenRightSide} 
+            leftSideIsOpen={leftSideIsOpen} 
+            rightSideIsOpen={rightSideIsOpen} 
+        />
     </>
     )
 }
