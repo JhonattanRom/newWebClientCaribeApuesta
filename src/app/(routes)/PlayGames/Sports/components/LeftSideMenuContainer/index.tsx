@@ -67,6 +67,42 @@ export function LeftSideMenuContainer({ isOpen }: { isOpen: Boolean }) {
                     <Collapsible title={"CRICKET"}>
                         Menu
                     </Collapsible>
+                    <Collapsible title={"ARTES MARCIALES"}>
+                        Menu
+                    </Collapsible>
+                    <Collapsible title={"BASEBALL"}>
+                        Menu
+                    </Collapsible>
+                    <Collapsible title={"BASKETBALL"}>
+                        Menu
+                    </Collapsible>
+                    <Collapsible title={"BOXEO"}>
+                        Menu
+                    </Collapsible>
+                    <Collapsible title={"CICLISMO"}>
+                        Menu
+                    </Collapsible>
+                    <Collapsible title={"CRICKET"}>
+                        Menu
+                    </Collapsible>
+                    <Collapsible title={"ARTES MARCIALES"}>
+                        Menu
+                    </Collapsible>
+                    <Collapsible title={"BASEBALL"}>
+                        Menu
+                    </Collapsible>
+                    <Collapsible title={"BASKETBALL"}>
+                        Menu
+                    </Collapsible>
+                    <Collapsible title={"BOXEO"}>
+                        Menu
+                    </Collapsible>
+                    <Collapsible title={"CICLISMO"}>
+                        Menu
+                    </Collapsible>
+                    <Collapsible title={"CRICKET"}>
+                        Menu
+                    </Collapsible>
                     <Collapsible title={"CURLING"}>
                         Menu
                     </Collapsible>
