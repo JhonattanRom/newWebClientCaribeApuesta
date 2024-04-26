@@ -445,6 +445,7 @@
         width: 20%;
         position: relative;
         border-left: 2px solid cyan;
+        top: 0px;
     }
 }
 
