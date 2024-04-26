@@ -3,10 +3,8 @@ import Image from "next/image";
 import { PragmaticSlot } from "@/app/_types/Slots/PragmaticSlot";
 import styles from '../styles.module.css'
 export default function GamesList({ list }: { list: PragmaticSlot[] }) {
-    console.log(list, "Game list")
     return (
         <div className={styles.gamesListContainer}>
-
             <div className={styles.serchFormContainer}>
                 <form action="#" className={styles.form}>
                     <input
