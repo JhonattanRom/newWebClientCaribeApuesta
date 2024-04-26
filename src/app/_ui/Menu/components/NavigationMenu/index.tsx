@@ -3,9 +3,12 @@ import { usePathname } from 'next/navigation';
 import styles from './styles.module.css';
 import Link from 'next/link'
 import { includePath } from '@/app/helpers/includePath';
+import { useSession } from "next-auth/react";
 
 export const NavigationMenu = () => {
     const pathname = usePathname();
+    const { data: session } = useSession();
+
     return (<>
         <nav className={styles.Navigation}>
             <ul className={styles.links}>
@@ -32,8 +35,14 @@ export const NavigationMenu = () => {
                 <li className={`${includePath({ pathname, path: '/Pragmatic' }) ? styles.active : ''}`}>
                     <Link href="/Pragmatic/About" prefetch={false}>JUEGOS</Link>
                 </li>{/*  */}
-                <li className={`${includePath({ pathname, path: '/Information' }) ? styles.active : ''}`}>
+                <li className={`${includePath({ pathname, path: '/Information/' }) ? styles.active : ''}`}>
                     <Link href="/Information/AboutUs" prefetch={false}>NOSOTROS</Link>
+                </li>
+                {/*session?.user && <li className={`${includePath({ pathname, path: '/Personal' }) ? styles.active : ''}`}>
+                    <Link href="/Personal/Information" prefetch={false}>MI CUENTA</Link>
+            </li>*/ }
+                <li className={`${includePath({ pathname, path: '/Personal' }) ? styles.active : ''}`}>
+                    <Link href="/Personal/Information" prefetch={false}>MI CUENTA</Link>
                 </li>
             </ul>
         </nav>

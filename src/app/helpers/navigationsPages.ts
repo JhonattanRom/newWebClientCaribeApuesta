@@ -114,3 +114,42 @@ export const informationNavigationItems: NavigationPageItemProps[] = [
         title: 'Obligaciones del jugador',
     }
 ];
+export const pokerNavigationItems: NavigationPageItemProps[] = [
+    {
+        path: '/MyPoker/About',
+        title: 'Sobre el poker',
+    },
+    {
+        path: '/MyPoker/Glossary',
+        title: 'Glosario de terminos'
+
+    }, {
+        path: '/MyPoker/Rules',
+        title: 'Reglas'
+    }
+]
+export const personalNavigationItems: NavigationPageItemProps[] = [
+    {
+        path: '/Personal/PartnerBanks',
+        title: 'Bancos de asociados',
+    },
+    {
+        path: '/Personal/WithdrawBalance',
+        title: 'Retirar saldo'
+
+    }, {
+        path: '/Personal/RechargeBalance',
+        title: 'Recargar saldo'
+    }, {
+        path: '/Personal/MyBanks',
+        title: 'Mis bancos'
+    },
+    {
+        path: '/Personal/AddBankAccount',
+        title: 'Agregar Cuenta Bancaria '
+    },
+    {
+        path: '/Personal/Information',
+        title: 'Mis datos'
+    }
+]
