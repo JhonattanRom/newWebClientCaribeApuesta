@@ -18,10 +18,13 @@
     gap: 1em;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .game {
-    width: 320px;
+    width: 100%;
+    max-width: 300px;
     height: 200px;
     position: relative;
 }
@@ -43,7 +46,6 @@
     cursor: pointer;
 }
 
-
 .gameOverlay {
     z-index: 1;
 }
@@ -53,13 +55,11 @@
     z-index: 1;
 }
 
-.gameImg {}
-
 /* GamesFilterContainer*/
 
 .gamesFilterContainer {
     width: 22%;
-    background: #171638;
+    background: transparent;
     border-radius: 5px;
     box-sizing: border-box;
     display: flex;
@@ -67,13 +67,60 @@
     height: fit-content;
 }
 
+.filter .slotsFilterList .header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+   
+    align-items: center;
+}
+
+.filter .slotsFilterList .header .clearFilter {
+    background: transparent;
+    border: none;
+    color: cyan;
+    font-weight: 400;
+    font-size: 14px;
+    gap: 2em;
+}
+
+.filter .slotsFilterList .twoIconFilters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2em;
+}
+.twoIconFilters .iconFilter {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.filter .filter__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid cyan;
+    background-color: #171638;
+    height: 40px;
+}
+.filter .filter__title h3 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 .slotsFilterList {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 7px;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid cyan;
 }
 
 .slotsFilterList__label {

@@ -31,7 +31,7 @@ const Game = ({ key, gameData }: any) => {
                     <Image className={styles.mediaIcon} src={'/icon/playIcon.svg'} alt="play icon" width={60} height={60} />
                 </div>
             </div>
-            <Image className={styles.mediaIcon} src={gameData.img} alt="Burguer icon" width={320} height={200} />
+            <Image className={styles.gameImg} src={gameData.img} alt="Game img" width={300} height={200} />
         </div>
     )
 }
