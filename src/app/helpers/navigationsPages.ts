@@ -107,11 +107,15 @@ export const informationNavigationItems: NavigationPageItemProps[] = [
     },
     {
         path: '/Information/TermsAndConditions',
-        title: 'Terminos y Condiciones',
+        title: 'Términos y Condiciones',
+    },
+    {
+        path: '/Information/PrivacyPolicy',
+        title: 'Política de Privacidad',
     },
     {
         path: '/Information/PlayerObligations',
-        title: 'Obligaciones del jugador',
+        title: 'Obligación del Jugador',
     }
 ];
 export const pokerNavigationItems: NavigationPageItemProps[] = [

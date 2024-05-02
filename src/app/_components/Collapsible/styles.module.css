@@ -31,14 +31,6 @@
     color: white;
 }
 
-.content p {
-    font-size: 28px;
-    font-weight: 300;
-    color: white;
-    line-height: 28px;
-    text-align: justify;
-}
-
 .content p mark {
     background-color: transparent;
     color: cyan;

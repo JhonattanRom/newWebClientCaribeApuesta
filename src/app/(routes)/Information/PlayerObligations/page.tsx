@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function PlayerObligations() {
     return (
         <div className={styles.container}>
-            <h2> OBLIGACIONES DEL JUGADOR </h2>
+            <h2> Obligación del Jugador </h2>
             <div className={styles.collapsibleContainer}>
                 <Collapsible title={"Prevención de juego por menores de edad."}>
                     <p>
