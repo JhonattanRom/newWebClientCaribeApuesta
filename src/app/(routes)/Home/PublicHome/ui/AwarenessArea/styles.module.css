@@ -35,7 +35,7 @@
     text-align: justify;
 }
 
-.headerAwarenessAreaContainer p mark {
+.container p mark {
     background-color: transparent;
     color: cyan;
 }
@@ -50,6 +50,10 @@
     color: white;
     line-height: 22px;
     text-align: justify;
+}
+
+.container ul {
+    list-style: none;
 }
 
 /* Responsive */

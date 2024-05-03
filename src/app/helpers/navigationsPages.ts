@@ -4,25 +4,25 @@ export const sportNavigationItems: NavigationPageItemProps[] = [
     {
         path: '/Sports/About',
         title: 'Sobre las apuestas deportivas',
-    },
+    },/*
     {
         path: '/Sports/Glossary',
         title: 'Glosario de terminos',
-    },
+    },*/
     {
         path: '/Sports/Rules',
         title: 'Reglas',
-    },
+    },/*
     {
         path: '/PlayGames/Sports',
         title: 'Apostar',
-    }
+    }*/
 ];
 export const slotsNavigationItems: NavigationPageItemProps[] = [
     {
         path: '/Slots/About',
         title: 'Sobre las tragamonedas',
-    },
+    },/*
     {
         path: '/Slots/Glossary',
         title: 'Glosario de terminos',
@@ -34,13 +34,13 @@ export const slotsNavigationItems: NavigationPageItemProps[] = [
     {
         path: '/Slots/Games',
         title: 'Jugar a las tragamonedas',
-    }
+    }*/
 ];
 export const horseRacingNavigationItems: NavigationPageItemProps[] = [
     {
         path: '/HorseRacing/About',
         title: 'Sobre el hipismo',
-    },
+    },/*
     {
         path: '/HorseRacing/Glossary',
         title: 'Glosario de terminos',
@@ -48,7 +48,7 @@ export const horseRacingNavigationItems: NavigationPageItemProps[] = [
     {
         path: '/HorseRacing/Rules',
         title: 'Reglas',
-    }
+    }*/
 ];
 export const liveBettingNavigationItems: NavigationPageItemProps[] = [
     {
@@ -68,7 +68,7 @@ export const casinoNavigationItems: NavigationPageItemProps[] = [
     {
         path: '/Casino/About',
         title: '¿ Que es un casino en linea ?',
-    },
+    },/*
     {
         path: '/Casino/Glossary',
         title: 'Glosario de terminos',
@@ -76,7 +76,7 @@ export const casinoNavigationItems: NavigationPageItemProps[] = [
     {
         path: '/Casino/Rules',
         title: 'Reglas',
-    }
+    }*/
 ];
 export const gamesNavigationItems: NavigationPageItemProps[] = [
     {
@@ -96,7 +96,7 @@ export const informationNavigationItems: NavigationPageItemProps[] = [
     {
         path: '/Information/AboutUs',
         title: 'Sobre nosotros',
-    },
+    },/*
     {
         path: '/Information/Contacts',
         title: 'Contactanos',
@@ -104,7 +104,7 @@ export const informationNavigationItems: NavigationPageItemProps[] = [
     {
         path: '/Information/FAQ',
         title: 'FAQ',
-    },
+    },*/
     {
         path: '/Information/TermsAndConditions',
         title: 'Términos y Condiciones',

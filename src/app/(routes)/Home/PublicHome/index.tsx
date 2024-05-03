@@ -12,10 +12,10 @@ export default function PublicHome() {
         <>
             <SlickCarrousel />
             <StepsBySteps />
-            <Feature />
-            <HorseRacingFacts />
+            {/* <Feature /> 
+            <HorseRacingFacts />*/ }
             <NewProducts />
-            <Results />
+            {/*<Results />*/}
             <RegulationByProdcuts />
             <AwarenesssArea />
         </>

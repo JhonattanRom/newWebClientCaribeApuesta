@@ -18,16 +18,16 @@ export default function Rules() {
         <div className={styles.container}>
             <Collapsible title={"1.- REGLAS GENERALES. "}>
                 <p>
-                    <span>1.1</span> - Las reglas en Grupo Cordialito existen para proteger tanto a la compañía como al apostador.
+                    <span>1.1</span> - Las reglas en <mark>CARIBEAPUESTA</mark> existen para proteger tanto a la compañía como al apostador.
                 </p>
                 <p>
-                    <span>1.2</span> - Todas las apuestas de Grupo Cordialito están sujetas a estas reglas.
+                    <span>1.2</span> - Todas las apuestas de <mark>CARIBEAPUESTA</mark> están sujetas a estas reglas.
                 </p>
                 <p>
-                    <span>1.3</span> - Grupo Cordialito se reserva el derecho de eliminar cualquier apuesta realizada en una línea con error: Número de Rotación, Nombres, Cuotas, Horarios, Máximo de una Apuesta entre otros. Como también eliminar apuestas realizadas después de que el juego ha comenzado.
+                    <span>1.3</span> - <mark>CARIBEAPUESTA</mark> se reserva el derecho de eliminar cualquier apuesta realizada en una línea con error: Número de Rotación, Nombres, Cuotas, Horarios, Máximo de una Apuesta entre otros. Como también eliminar apuestas realizadas después de que el juego ha comenzado.
                 </p>
                 <p>
-                    <span>1.4</span> - Grupo Cordialito se reserva el derecho de rechazar o suspender sin previo aviso a cualquier cliente que sea sospechoso de realizar trampas, piratería informática, manipulación o daños a nuestras operaciones normales de apuestas. (Incluyendo apuestas por internet). Las apuestas realizadas con la intención de engañar, piratear, atacar, manipular o dañar nuestras operaciones se consideraran nulas y sin previo aviso a discreción de Grupo Cordialito.
+                    <span>1.4</span> - <mark>CARIBEAPUESTA</mark> se reserva el derecho de rechazar o suspender sin previo aviso a cualquier cliente que sea sospechoso de realizar trampas, piratería informática, manipulación o daños a nuestras operaciones normales de apuestas. (Incluyendo apuestas por internet). Las apuestas realizadas con la intención de engañar, piratear, atacar, manipular o dañar nuestras operaciones se consideraran nulas y sin previo aviso a discreción de <mark>CARIBEAPUESTA</mark>.
                 </p>
                 <p>
                     <span>1.5</span> - Todos nuestros clientes deben ser mayores de 18 años.
@@ -36,25 +36,25 @@ export default function Rules() {
                     <span>1.6</span> - Todas las reglas, políticas y dividendos publicados aquí, están sujetos a cambios sin previo aviso. Todos los mínimos y máximos pagos están sujetos a cambios sin previo aviso. El máximo precio a pagar en una apuesta de parlay o combinada es Bsf. 10.000.000,00.
                 </p>
                 <p>
-                    <span>1.7</span> - Con respecto a juegos suspendidos, decisiones protestadas o anuladas, Grupo Cordialito sigue las reglas establecidas en Las Vegas, USA. De lo contrario, Grupo Cordialito no reconocerá ninguna de ellas. Las reglas de las Vegas aplicaran a cualquier regla o apuesta que no esté estipulada aquí.
+                    <span>1.7</span> - Con respecto a juegos suspendidos, decisiones protestadas o anuladas, <mark>CARIBEAPUESTA</mark> sigue las reglas establecidas en Las Vegas, USA. De lo contrario, <mark>CARIBEAPUESTA</mark> no reconocerá ninguna de ellas. Las reglas de las Vegas aplicaran a cualquier regla o apuesta que no esté estipulada aquí.
                 </p>
                 <p>
-                    <span>1.8</span> - Montos mínimos y máximos a apostar en todos los eventos deportivos serán determinados por Grupo Cordialito y están sujetos a cambios sin previo aviso. Grupo Cordialito también se reserva el derecho de ajustar los límites de cuentas individuales.
+                    <span>1.8</span> - Montos mínimos y máximos a apostar en todos los eventos deportivos serán determinados por <mark>CARIBEAPUESTA</mark> y están sujetos a cambios sin previo aviso. <mark>CARIBEAPUESTA</mark> también se reserva el derecho de ajustar los límites de cuentas individuales.
                 </p>
                 <p>
-                    <span>1.9</span> - El ganador de un evento se determinara en la fecha del evento; Grupo Cordialito no reconocerá protestas, decisiones revocadas para fines de apuestas. El resultado de un evento suspendido después de haber comenzado será determinado acordemente con las reglas específicas para ese deporte.
+                    <span>1.9</span> - El ganador de un evento se determinara en la fecha del evento; <mark>CARIBEAPUESTA</mark> no reconocerá protestas, decisiones revocadas para fines de apuestas. El resultado de un evento suspendido después de haber comenzado será determinado acordemente con las reglas específicas para ese deporte.
                 </p>
                 <p>
                     <span>1.10</span> - Todos los pagos de las apuestas están basadas en los logros al momento de realizar la apuesta.
                 </p>
                 <p>
-                    <span>1.11</span> - Los miembros son los únicos responsables de las transacciones de su cuenta. Por favor, asegúrese de revisar sus apuestas por cualquier error antes de enviarlas, una vez la transacción sea enviada no podrá ser modificada o eliminada. Grupo Cordialito no se responsabiliza por la falta o duplicidad de una apuesta realizada por el cliente. Los clientes pueden revisar sus transacciones en la opción de Reportes en el sistema, después de realizar una apuesta para verificar que las puestas fueron aceptadas correctamente. Verifique todas las transacciones con cuidado.
+                    <span>1.11</span> - Los miembros son los únicos responsables de las transacciones de su cuenta. Por favor, asegúrese de revisar sus apuestas por cualquier error antes de enviarlas, una vez la transacción sea enviada no podrá ser modificada o eliminada. <mark>CARIBEAPUESTA</mark> no se responsabiliza por la falta o duplicidad de una apuesta realizada por el cliente. Los clientes pueden revisar sus transacciones en la opción de Reportes en el sistema, después de realizar una apuesta para verificar que las puestas fueron aceptadas correctamente. Verifique todas las transacciones con cuidado.
                 </p>
                 <p>
-                    <span>1.12</span> - Grupo Cordialito se reserva el derecho de suspender cualquier usuario sin previa notificación y retornar todos sus fondos.
+                    <span>1.12</span> - <mark>CARIBEAPUESTA</mark> se reserva el derecho de suspender cualquier usuario sin previa notificación y retornar todos sus fondos.
                 </p>
                 <p>
-                    <span>1.13</span> - En el caso de que se le acrediten fondos a un cliente por error, le corresponderá al cliente notificar a Grupo Cordialito del error antes mencionado sin demoras. Para las cuentas con saldos negativos, Grupo Cordialito se reserva el derecho de eliminar cualquier apuesta pendiente realizada con los fondos correspondientes del error.
+                    <span>1.13</span> - En el caso de que se le acrediten fondos a un cliente por error, le corresponderá al cliente notificar a <mark>CARIBEAPUESTA</mark> del error antes mencionado sin demoras. Para las cuentas con saldos negativos, <mark>CARIBEAPUESTA</mark> se reserva el derecho de eliminar cualquier apuesta pendiente realizada con los fondos correspondientes del error.
                 </p>
                 <p>
                     <span>1.14</span> - Cada cliente es totalmente responsable por mantener la confidencialidad de su cuenta de apuestas, y debe hacer el esfuerzo para prevenir el uso de su cuenta personal por terceros.
@@ -71,7 +71,7 @@ export default function Rules() {
             </Collapsible>
             <Collapsible title={"2.- BEISBOL. "}>
                 <p>
-                    <span>2.1</span> - Grupo Cordialito no reconocerá juegos pospuestos, protestas, decisiones volcadas para fines de apuestas. Si un juego es cambiado de hora el mismo día, todas las apuestas tendrán acción, adicionalmente si hay retrasos por clima o retrasos por situaciones similares, que obliguen al partido a comenzar después de la media noche (hora local) y el partido todavía se juegue, entonces las apuestas tendrán acción. Si el partido es reprogramado entonces las apuestas se eliminaran.
+                    <span>2.1</span> - <mark>CARIBEAPUESTA</mark> no reconocerá juegos pospuestos, protestas, decisiones volcadas para fines de apuestas. Si un juego es cambiado de hora el mismo día, todas las apuestas tendrán acción, adicionalmente si hay retrasos por clima o retrasos por situaciones similares, que obliguen al partido a comenzar después de la media noche (hora local) y el partido todavía se juegue, entonces las apuestas tendrán acción. Si el partido es reprogramado entonces las apuestas se eliminaran.
                 </p>
                 <p>
                     <span>2.2 - Regla de empate (Push)</span>
@@ -2204,7 +2204,7 @@ export default function Rules() {
                     </li>
                     <li>
                         <p>
-                            <span>11.10.3</span>. - Si un jugador no empieza la competición, todas las apuestas a este grupo se cancelarán y el dinero se reembolsará.
+                            <span>11.10.3</span>. - Si un jugador no empieza la competición, todas las apuestas a este se cancelarán y el dinero se reembolsará.
                         </p>
                     </li>
                 </ul>

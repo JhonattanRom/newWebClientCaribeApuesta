@@ -19,7 +19,6 @@ export default function RegulationByProdcuts() {
             <div className={styles.RegulationOptions}>
                 <button className={option === 1 ? styles.buttonSelected : ""} onClick={() => setOption(1)}>Apuestas Deportivas</button>
                 <button className={option === 2 ? styles.buttonSelected : ""} onClick={() => setOption(2)}>Casinos y Slots</button>
-                <button className={option === 3 ? styles.buttonSelected : ""} onClick={() => setOption(3)}>Noticias</button>
                 <button className={option === 4 ? styles.buttonSelected : ""} onClick={() => setOption(4)}>Soporte al Cliente</button>
             </div>
             <div className={styles.regulationsContainer}>

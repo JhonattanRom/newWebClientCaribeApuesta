@@ -4,33 +4,32 @@ import styles from "./styles.module.css";
 import Link from 'next/link'
 import { usePathname } from "next/navigation";
 import { includePath } from "@/app/helpers/includePath";
+import { match } from "assert";
 
 const navigationTree = {
     gamesMenu: [
         { label: "SPORTS", URL: "/Sports/About", match: "/Sports" },
         { label: "TRAGAMONEDAS", URL: "/Slots/About", match: "/Slots" },
         { label: "HIPISMO", URL: "/HorseRacing/About", match: "/HorseRacing" },
-        { label: "LIVEBETTING", URL: "/Live/About", match: "/Live" },
-        { label: "PROPS", URL: "/Live/About", match: "/Live" },
-        { label: "CASINO ONLINE", URL: "/Pragmatic/About", match: "/Pragmatic" },
+        /* { label: "LIVEBETTING", URL: "/Live/About", match: "/Live" },*/
+        /* { label: "PROPS", URL: "/Live/About", match: "/Live" },*/
+        { label: "CASINO ONLINE", URL: "/Casino/About", match: "/Casino" },
     ],
     aboutUs: [
         { label: "NOSOTROS", URL: "/Information/AboutUs", match: "/Information/AboutUs" },
-        { label: "CONTCTANOS", URL: "/Information/Contacts", match: "/Information/Contacts" },
-        { label: "FAQ", URL: "/Information/FAQ", match: "/Information/FAQ" },
+        /* { label: "CONTCTANOS", URL: "/Information/Contacts", match: "/Information/Contacts" }, */
+        /*{ label: "FAQ", URL: "/Information/FAQ", match: "/Information/FAQ" },*/
         { label: "TERMINOS Y CONDICIONES", URL: "/Information/TermsAndConditions", match: "/Information/TermsAndConditions" },
         { label: "OBLIGACIONES DEL JUGADOR", URL: "/Information/PlayerObligations", match: "/Information/PlayerObligations" },
+        { label: "POLÍTICA DE PRIVACIDAD", URL: "/Information/PrivacyPolicy", match: "/Information/PrivacyPolicy" }
     ],
     userInfo: [
-        { label: "BANCOS DE ASOCIADOS", URL: "/Personal/PartnerBanks" , match: "/Personal/PartnerBanks"},
+        { label: "BANCOS DE ASOCIADOS", URL: "/Personal/PartnerBanks", match: "/Personal/PartnerBanks" },
         { label: "RETIRAR SALDO", URL: "/Personal/WithdrawBalance", match: "/Personal/WithdrawBalance" },
-        { label: "RECARGAR SALDO", URL: "/Personal/RechargeBalance" , match: "/Personal/RechargeBalance"},
-        { label: "MIS CUENTAS BANCARIAS", URL: "/Personal/MyBanks" , match: "/Personal/MyBanks"},
-        { label: "AGREGAR CUENTA BANCARIA", URL: "/Personal/AddBankAccount" , match: "/Personal/AddBankAccount"},
+        { label: "RECARGAR SALDO", URL: "/Personal/RechargeBalance", match: "/Personal/RechargeBalance" },
+        { label: "MIS CUENTAS BANCARIAS", URL: "/Personal/MyBanks", match: "/Personal/MyBanks" },
+        { label: "AGREGAR CUENTA BANCARIA", URL: "/Personal/AddBankAccount", match: "/Personal/AddBankAccount" },
     ]
-
-
-
 };
 export const NavigationFooterContainer = () => {
     const { data: session } = useSession();
@@ -42,10 +41,13 @@ export const NavigationFooterContainer = () => {
                 {session?.user && <Navigation items={navigationTree.userInfo} title={'MI INFORMACION'} />}
                 <Navigation items={navigationTree.gamesMenu} title={'JUEGA'} />
             </div>
-            <div className={styles.subscribeContainer}>
+            {
+                /* 
+                 <div className={styles.subscribeContainer}>
                 <SubscribeForm />
             </div>
-
+                */
+            }
         </div>
     )
 }

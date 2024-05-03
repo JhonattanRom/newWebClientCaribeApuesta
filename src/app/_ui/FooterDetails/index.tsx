@@ -5,7 +5,7 @@ export const FooterDetails = () => {
         <section className={styles.footer_details}>
             <div className={styles.footer_principalDetail}>
                 <p>
-                    Inversiones CaribeApuesta, C.A. Rif: J-409540634.
+                    CaribeApuesta, C.A. Rif: J-504411396.
                 </p>
                 <p>
                     Dirección: Porlamar, Estado NE, República Bolivariana de Venezuela.

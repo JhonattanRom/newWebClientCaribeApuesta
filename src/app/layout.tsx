@@ -58,9 +58,13 @@ export default function RootLayout({
               <TopHeader />
               <Menu />
             </header>
+
+
             <main className="mainContent">
               {children}
             </main>
+
+
             <footer className="Layout_footer">
 
               <SocialMediaContainer />

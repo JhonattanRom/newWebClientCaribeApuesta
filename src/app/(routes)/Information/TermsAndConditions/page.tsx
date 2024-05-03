@@ -22,11 +22,13 @@ export default function TermsAndConditions() {
                 <p>
                     Esta página (junto con los documentos referidos en ella) redactará los términos de uso en los cuales usted podrá hacer uso del sitio web y los servicios disponibles en él, ya sea como invitado o como usuario registrado.
                 </p>
-                <p>
+                {/*
+                 <p>
                     <mark style={{background: 'red'}}>
                         El sitio web www.grupocordialito.com está registrado a nombre de Grupo Cordialito International Betting House B.V. de Limited Liability Company registrada en Curacao con el número de registro 136216. El Grupo Cordialito International Betting House B.V. está licenciado y regulado por el Gobierno de Curazao bajo licencia (licencia 8048 / JAZ2016-016).
                     </mark>
                 </p>
+                */}
             </Collapsible>
             <Collapsible title={"1. APLICACIÓN Y ACEPTACIÓN. "}>
                 <ul>
@@ -418,7 +420,7 @@ export default function TermsAndConditions() {
                     </li>
                     <li>
                         <p>
-                            6.10. notificarnos inmediatamente por correo electrónico a soporte@grupocordialito.com, si sospecha que el contenido, software o cualquier Publicaciones infringen los derechos de propiedad intelectual de cualquier otra persona.
+                            6.10. notificarnos inmediatamente por <mark>(WhatsApp): +58 424-8236730</mark>, si sospecha que el contenido, software o cualquier Publicaciones infringen los derechos de propiedad intelectual de cualquier otra persona.
                         </p>
                     </li>
                 </ul>
@@ -462,7 +464,7 @@ export default function TermsAndConditions() {
                     </li>
                     <li>
                         <p>
-                            7.7. Usted acepta que no removerá, ocultara ni alterara los avisos de derechos de propiedad (incluyendo avisos de copyright y marcas) que pueden estamparse, contenida dentro, o aparezcan en el Sitio Web, el Software o los Servicios. A menos que por escrito acuerde lo contrario con nosotros, no hay nada en las Condiciones que le otorgue el derecho de uso de las marcas comerciales de Grupo Cordialito, marcas, marcas de servicio, logotipos, nombres de dominio, y / o cualquier otra características distintivas de marca. A menos que por escrito haya sido autorizado expresamente por nosotros, usted acepta expresamente que no utilizará ninguna marca de Grupo Cordialito, marca de servicio, nombre comercial, logotipo o característica de la marca distintiva de una manera que es probable o la intención de causar confusión acerca de la propietario o usuario autorizado de dichas marcas, nombres o logotipos.
+                            7.7. Usted acepta que no removerá, ocultara ni alterara los avisos de derechos de propiedad (incluyendo avisos de copyright y marcas) que pueden estamparse, contenida dentro, o aparezcan en el Sitio Web, el Software o los Servicios. A menos que por escrito acuerde lo contrario con nosotros, no hay nada en las Condiciones que le otorgue el derecho de uso de las marcas comerciales de <mark>CARIBEAPUESTA</mark>, marcas, marcas de servicio, logotipos, nombres de dominio, y / o cualquier otra características distintivas de marca. A menos que por escrito haya sido autorizado expresamente por nosotros, usted acepta expresamente que no utilizará ninguna marca de <mark>CARIBEAPUESTA</mark>, marca de servicio, nombre comercial, logotipo o característica de la marca distintiva de una manera que es probable o la intención de causar confusión acerca de la propietario o usuario autorizado de dichas marcas, nombres o logotipos.
                         </p>
                     </li>
                 </ul>
@@ -672,7 +674,7 @@ export default function TermsAndConditions() {
                     <li>
                         <p>
                             12.1 Usted puede tener un enlace a nuestra página de inicio con nuestro permiso, que se puede solicitar a
-                            soporte@grupocodialito.com, siempre que lo haga de una manera que sea justa y legal y no dañe nuestra reputación
+                            <mark>(WhatsApp): +58 424-8236730</mark>, siempre que lo haga de una manera que sea justa y legal y no dañe nuestra reputación
                             ni se aproveche de ella, pero no se debe establecer un vínculo de tal manera como para sugerir cualquier forma de
                             asociación, aprobación o respaldo por nuestra parte en la que no existe ninguno. Este permiso podrá ser revocado
                             por nosotros en cualquier momento.
@@ -694,7 +696,7 @@ export default function TermsAndConditions() {
                     <li>
                         <p>
                             12.4. Si desea hacer cualquier uso del material del sitio web que no sea la establecida con los
-                            procedimientos arriba mencionados, por favor dirija su petición soporte@grupocordialito.com.
+                            procedimientos arriba mencionados, por favor dirija su petición a <mark>(WhatsApp): +58 424-8236730</mark>.
                         </p>
                     </li>
                     <li>
@@ -729,12 +731,8 @@ export default function TermsAndConditions() {
                         <p>
                             13.3. Si usted tiene dudas o reclamos con respecto al uso del Sitio Web, incluyendo cualquier
                             duda con respecto al material que aparece en el Sitio Web, por favor en primera instancia contacte
-                            a soporte@grupocordialito.com, donde un miembro de nuestro equipo de Atención al Cliente se va a
-                            encargar de su solicitud. Si su queja o reclamo no pudo ser resuelta con satisfacción por nuestro
-                            personal de Atención al Cliente usted puede solicitar por escrito a operaciones@grupocordialito.com
-                            que su queja o reclamo sea atendida por un Supervisor de Atención al Cliente. Si su duda o reclamo no pudo s
-                            er resuelta con satisfacción por el Supervisor de Atención al cliente, usted puede realizar su solicitud escrita
-                            a través del correo info@grupocordialito.com para su solicitud sea atendida por la Gerencia General.
+                            a <mark>(WhatsApp): +58 424-8236730</mark>, donde un miembro de nuestro equipo de Atención al Cliente se va a
+                            encargar de su solicitud.
                         </p>
                     </li>
                 </ul>

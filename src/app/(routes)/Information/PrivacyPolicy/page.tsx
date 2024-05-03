@@ -16,9 +16,9 @@ export default function PrivacyPolicy() {
     return (
         <div className={styles.container}>
             <h2> Política de Privacidad </h2>
-            <Collapsible title={'1 - www.grupocordialito.com ("el sitio web"). '}>
+            <Collapsible title={'1 - www.caribeapuesta.com. '}>
                 <p>
-                    Última actualización: 01 de Diciembre 2015
+                    Última actualización: 03 de Mayo 2024
                 </p>
                 <p>
                     Lea esta declaración de privacidad cuidadosamente antes de enviar cualquier información personal.
@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
             </Collapsible>
             <Collapsible title={"2 - Nuestro compromiso con la privacidad. "}>
                 <p>
-                    GrupoCordialito.com se compromete a proteger y respetar su privacidad. Su privacidad es importante para nosotros.
+                    caribeapuesta.com se compromete a proteger y respetar su privacidad. Su privacidad es importante para nosotros.
                     Para proteger mejor su privacidad proporcionamos este comunicado explicando nuestras prácticas
                     de información en línea y las opciones que usted puede hacer sobre la manera en que su información es recogida y usada.
                 </p>
@@ -156,7 +156,7 @@ export default function PrivacyPolicy() {
             </Collapsible>
             <Collapsible title={"9 - Cómo usted puede acceder o corregir su información."}>
                 <p>
-                    Usted puede solicitar una copia de la información personal identificable que hemos recopilado sobre usted a través de la Web en contacto con nuestro equipo de Atención al Cliente en la siguiente dirección de email: operaciones@grupocordialito.com.
+                    Usted puede solicitar una copia de la información personal identificable que hemos recopilado sobre usted a través de la Web en contacto con nuestro equipo de Atención al Cliente <mark>(WhatsApp): +58 424-8236730</mark>.
                 </p>
                 <p>
                     Para la mayor seguridad de su información personal, cuando usted solicita una copia de la información personal identificable que hemos recopilado sobre usted a través de la Web, se le pedirá que nos proporcione una prueba de identificación.
@@ -212,18 +212,18 @@ export default function PrivacyPolicy() {
             </Collapsible>
             <Collapsible title={"12 - Como contactarnos. "}>
                 <p>
-                    Si desea ponerse en contacto con nosotros por cualquier motivo con respecto a nuestras prácticas de privacidad o para solicitar una copia de la información personal identificable que hemos recopilado sobre usted a través del sitio web por favor escriba a nuestro equipo de Atención al Cliente a info@grupocordialito.com
+                    Si desea ponerse en contacto con nosotros por cualquier motivo con respecto a nuestras prácticas de privacidad o para solicitar una copia de la información personal identificable que hemos recopilado sobre usted a través del sitio web por favor escriba a nuestro equipo de Atención al Cliente <mark>(WhatsApp): +58 424-8236730</mark>.
                 </p>
                 <p>
                     POLÍTICA: Última actualización
                 </p>
                 <p>
-                    01 de Diciembre 2015
+                    03 de Mayo 2024
                 </p>
             </Collapsible>
             <Collapsible title={"13 - ¿Cómo sé que mi información está segura?. "}>
                 <p>
-                    Grupo Cordialito Utiliza SSL (Secure Socket Layer) para proteger todas las áreas sensibles de la página.
+                    <mark>CARIBEAPUESTA</mark> Utiliza SSL (Secure Socket Layer) para proteger todas las áreas sensibles de la página.
                 </p>
                 <p>
                     Puede verificar que un sitio web tenga SSL por el icono del candado ubicado en la barra de dirección del navegador.
@@ -285,10 +285,10 @@ export default function PrivacyPolicy() {
                     ¿Hay cargos/impuestos por depósitos?
                 </h3>
                 <p>
-                    Grupo Cordialito no carga ningún tipo de impuestos por depositar en la cuenta del jugador.
+                    <mark>CARIBEAPUESTA</mark> no carga ningún tipo de impuestos por depositar en la cuenta del jugador.
                 </p>
                 <p>
-                    Cuando se está procesando un depósito a través de tarjeta de crédito, su banco asociado a dicha tarjeta pudiera imponer cargos/impuestos. Grupo Cordialito no recibe dichos cargos o beneficios en ninguna forma y, en consecuencia, usted será responsable por cualquier costo adicional.
+                    Cuando se está procesando un depósito a través de tarjeta de crédito, su banco asociado a dicha tarjeta pudiera imponer cargos/impuestos. <mark>CARIBEAPUESTA</mark> no recibe dichos cargos o beneficios en ninguna forma y, en consecuencia, usted será responsable por cualquier costo adicional.
                 </p>
                 <p>
                     Los bancos asociados a su tarjeta de crédito son responsables por como una transacción es procesada, lo cual puede resultar en que algunas transacciones sean procesadas como avance en efectivo.
@@ -303,7 +303,7 @@ export default function PrivacyPolicy() {
                 </h3>
                 <ul>
                     <li>
-                        - Saldo: usted podría recibir bonificaciones en saldo las cuales se reflejan como en saldo en su cuenta Grupo Cordialito, puede disponer de ese saldo para realizar apuestas o ser retirado si lo desea.
+                        - Saldo: usted podría recibir bonificaciones en saldo las cuales se reflejan como en saldo en su cuenta <mark>CARIBEAPUESTA</mark>, puede disponer de ese saldo para realizar apuestas o ser retirado si lo desea.
                     </li>
                     <li>
                         - Match Play: es un bono el cual usted podrá utilizar para realizar sus apuestas en deportes, tildando la opción {'"Bonos"'} en el módulo de apuesta. En el caso de que gane una apuesta con Match Play sólo la ganancia de la apuesta se le colocará como dinero y el monto apostado en Match Play no será devuelto.
@@ -352,7 +352,7 @@ export default function PrivacyPolicy() {
                     ¿Puedo cancelar o cambiar mi apuesta?
                 </h3>
                 <p>
-                    No, no se puede cancelar o modificar una apuesta una vez haya sido recibida y aceptada por Grupo Cordialito. Esta política es estrictamente severa. En consecuencia, usted es responsable por todas sus apuestas, asegúrese que verifico y confirmo con detalle cada una de las apuestas/jugadas antes de dar click en “Hacer Apuesta”.
+                    No, no se puede cancelar o modificar una apuesta una vez haya sido recibida y aceptada por <mark>CARIBEAPUESTA</mark>. Esta política es estrictamente severa. En consecuencia, usted es responsable por todas sus apuestas, asegúrese que verifico y confirmo con detalle cada una de las apuestas/jugadas antes de dar click en “Hacer Apuesta”.
                 </p>
                 <h3>
                     ¿Puedo apostar en ambos equipos del mismo juego/evento?
@@ -364,10 +364,10 @@ export default function PrivacyPolicy() {
                     Aposté en un juego y gané, pero no fue acreditado en mi cuenta. ¿Por qué?
                 </h3>
                 <p>
-                    Ya verifico su estado de cuenta Grupo Cordialito luego de colocar su apuesta? Tiene usted un numero de referencia de esa apuesta? Si la apuesta no se visualiza en su estado de cuenta, pudo no haber sido aceptada por el servidor. Contacte al Servicio al Cliente a través de los teléfonos xxxx-xxxx-xxx-xx o vía e-mail xxxx-xxxx-xxx para más información.
+                    Ya verifico su estado de cuenta <mark>CARIBEAPUESTA</mark> luego de colocar su apuesta? Tiene usted un numero de referencia de esa apuesta? Si la apuesta no se visualiza en su estado de cuenta, pudo no haber sido aceptada por el servidor. Contacte al Servicio al Cliente a través de los teléfonos xxxx-xxxx-xxx-xx o vía e-mail xxxx-xxxx-xxx para más información.
                 </p>
                 <p>
-                    Ya verifico su estado de cuenta Grupo Cordialito luego de colocar su apuesta? Tiene usted un numero de referencia de esa apuesta? Si la apuesta no se visualiza en su estado de cuenta, pudo no haber sido aceptada por el servidor. Contacte al Servicio al Cliente a través del e-mail info@grupocordialito.com para más información.
+                    Ya verifico su estado de cuenta <mark>CARIBEAPUESTA</mark> luego de colocar su apuesta? Tiene usted un numero de referencia de esa apuesta? Si la apuesta no se visualiza en su estado de cuenta, pudo no haber sido aceptada por el servidor. Contacte al Servicio al Cliente a través de <mark>(WhatsApp): +58 424-8236730</mark> para más información.
                 </p>
                 <p>
                     Para verificar si la apuesta fue aceptada, puede:

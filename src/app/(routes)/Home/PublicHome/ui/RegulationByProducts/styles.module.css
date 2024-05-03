@@ -42,7 +42,8 @@
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-.headerRegulationContainer p mark {
+.headerRegulationContainer p mark,
+.regulation mark  {
     background-color: transparent;
     color: cyan;
 }
