@@ -22,22 +22,25 @@ export const NavigationMenu = () => {
                 </li>
                 <li className={`${includePath({ pathname, path: '/HorseRacing' }) ? styles.active : ''}`}>
                     <Link href="/HorseRacing/About" prefetch={false}>HIPISMO</Link>
-                </li>{/* Falta ruta para hipismo 
-                    <li className={`${includePath({ pathname, path: '/Live' }) ? styles.active : ''}`}>
-                        <Link onClick={handleOpenMenu} href="/Live/About" prefetch={false}>LIVEBETTING</Link>
-                    </li> Falta ruta para livebetting */}
+                </li>{/* Falta ruta para hipismo */}
+                <li className={`${includePath({ pathname, path: '/Live' }) ? styles.active : ''}`}>
+                    <Link href="/Live/About" prefetch={false}>LIVEBETTING</Link>
+                </li> {/* Falta ruta para livebetting */}
                 <li className={`${includePath({ pathname, path: '/Casino' }) ? styles.active : ''}`}>
                     <Link href="/Casino/About" prefetch={false}>CASINO ONLINE</Link>
-                </li>{/*
-                    <li className={`${includePath({ pathname, path: '/Pragmatic' }) ? styles.active : ''}`}>
-                        <Link onClick={handleOpenMenu} href="/Pragmatic/About" prefetch={false}>JUEGOS</Link>
-                    </li>  */}
+                </li>{/**/}
+                <li className={`${includePath({ pathname, path: '/Pragmatic' }) ? styles.active : ''}`}>
+                    <Link href="/Pragmatic/About" prefetch={false}>JUEGOS</Link>
+                </li>
                 <li className={`${includePath({ pathname, path: '/Information' }) ? styles.active : ''}`}>
                     <Link href="/Information/AboutUs" prefetch={false}>NOSOTROS</Link>
                 </li>{/*
                     session?.user && <li className={`${includePath({ pathname, path: '/Personal' }) ? styles.active : ''}`}>
                         <Link onClick={handleOpenMenu} href="/Personal/Information" prefetch={false}>MI CUENTA</Link>
                     </li>*/}
+                <li className={`${includePath({ pathname, path: '/Personal' }) ? styles.active : ''}`}>
+                    <Link href="/Personal/Information" prefetch={false}>MI CUENTA</Link>
+                </li>
             </ul>
         </nav>
     </>)

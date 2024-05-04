@@ -11,14 +11,14 @@ const navigationTree = {
         { label: "SPORTS", URL: "/Sports/About", match: "/Sports" },
         { label: "TRAGAMONEDAS", URL: "/Slots/About", match: "/Slots" },
         { label: "HIPISMO", URL: "/HorseRacing/About", match: "/HorseRacing" },
-        /* { label: "LIVEBETTING", URL: "/Live/About", match: "/Live" },*/
-        /* { label: "PROPS", URL: "/Live/About", match: "/Live" },*/
+        { label: "LIVEBETTING", URL: "/Live/About", match: "/Live" },
+        { label: "PROPS", URL: "/Live/About", match: "/Live" },
         { label: "CASINO ONLINE", URL: "/Casino/About", match: "/Casino" },
     ],
     aboutUs: [
         { label: "NOSOTROS", URL: "/Information/AboutUs", match: "/Information/AboutUs" },
-        /* { label: "CONTCTANOS", URL: "/Information/Contacts", match: "/Information/Contacts" }, */
-        /*{ label: "FAQ", URL: "/Information/FAQ", match: "/Information/FAQ" },*/
+        { label: "CONTCTANOS", URL: "/Information/Contacts", match: "/Information/Contacts" }, 
+        { label: "FAQ", URL: "/Information/FAQ", match: "/Information/FAQ" },
         { label: "TERMINOS Y CONDICIONES", URL: "/Information/TermsAndConditions", match: "/Information/TermsAndConditions" },
         { label: "OBLIGACIONES DEL JUGADOR", URL: "/Information/PlayerObligations", match: "/Information/PlayerObligations" },
         { label: "POLÍTICA DE PRIVACIDAD", URL: "/Information/PrivacyPolicy", match: "/Information/PrivacyPolicy" }
@@ -40,14 +40,10 @@ export const NavigationFooterContainer = () => {
                 <Navigation items={navigationTree.aboutUs} title={'SOBRE NOSOTROS'} />
                 {session?.user && <Navigation items={navigationTree.userInfo} title={'MI INFORMACION'} />}
                 <Navigation items={navigationTree.gamesMenu} title={'JUEGA'} />
-            </div>
-            {
-                /* 
+            </div> 
                  <div className={styles.subscribeContainer}>
                 <SubscribeForm />
             </div>
-                */
-            }
         </div>
     )
 }

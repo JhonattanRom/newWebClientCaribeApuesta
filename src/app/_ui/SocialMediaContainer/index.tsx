@@ -22,7 +22,7 @@ export const SocialMediaContainer = () => {
                 <a href="https://www.instagram.com/caribeapuesta?igsh=bm5nbDZ6ODBybXB0" target="_blank">
                     <Image className={styles.mediaIcon} src="/icon/CaribeInstagram.svg" alt="Burguer icon" width={60} height={60} />
                 </a>
-                {/*<Image className={styles.mediaIcon} src="/icon/CaribeYoutube.svg" alt="Burguer icon" width={60} height={60} />*/}
+                <Image className={styles.mediaIcon} src="/icon/CaribeYoutube.svg" alt="Burguer icon" width={60} height={60} />
             </div>
         </div>
     )
