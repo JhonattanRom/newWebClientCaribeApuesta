@@ -140,3 +140,14 @@
     color: #171638;
     transform: scale(1.1);
 }
+
+/* Responsive */
+@media (max-width: 990px) {
+    .container h2 {
+        font-size: 5vw;
+    }
+    .content {
+        grid-template-columns: 1fr;
+    }
+}
+
