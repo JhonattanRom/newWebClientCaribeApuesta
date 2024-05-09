@@ -60,7 +60,7 @@ export const liveBettingNavigationItems: NavigationPageItemProps[] = [
         title: 'Glosario de terminos',
     },
     {
-        path: '/Live/Rules',
+        path: '/Live/Rules/BeisbolLive',
         title: 'Reglas',
     }
 ];
@@ -74,7 +74,7 @@ export const casinoNavigationItems: NavigationPageItemProps[] = [
         title: 'Glosario de terminos',
     },
     {
-        path: '/Casino/Rules',
+        path: '/Casino/Rules/TurboBlackjack',
         title: 'Reglas',
     }
 ];
