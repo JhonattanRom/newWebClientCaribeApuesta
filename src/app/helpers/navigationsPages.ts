@@ -50,34 +50,7 @@ export const horseRacingNavigationItems: NavigationPageItemProps[] = [
         title: 'Reglas',
     }
 ];
-export const liveBettingNavigationItems: NavigationPageItemProps[] = [
-    {
-        path: '/Live/About',
-        title: 'Sobre el live betting',
-    },
-    {
-        path: '/Live/Glossary',
-        title: 'Glosario de terminos',
-    },
-    {
-        path: '/Live/Rules/BeisbolLive',
-        title: 'Reglas',
-    }
-];
-export const casinoNavigationItems: NavigationPageItemProps[] = [
-    {
-        path: '/Casino/About',
-        title: '¿ Que es un casino en linea ?',
-    },
-    {
-        path: '/Casino/Glossary',
-        title: 'Glosario de terminos',
-    },
-    {
-        path: '/Casino/Rules/TurboBlackjack',
-        title: 'Reglas',
-    }
-];
+
 export const gamesNavigationItems: NavigationPageItemProps[] = [
     {
         path: '/Pragmatic/About',
@@ -131,7 +104,7 @@ export const pokerNavigationItems: NavigationPageItemProps[] = [
         path: '/MyPoker/Rules',
         title: 'Reglas'
     }
-]
+];
 export const personalNavigationItems: NavigationPageItemProps[] = [
     {
         path: '/Personal/PartnerBanks',
@@ -156,7 +129,48 @@ export const personalNavigationItems: NavigationPageItemProps[] = [
         path: '/Personal/Information',
         title: 'Mis datos'
     }
-]
+];
+
+
+
+/* For father routes*/
+export const liveBettingNavigationItems: NavigationPageItemProps[] = [
+    {
+        path: '/Live/About',
+        title: 'Sobre el live betting',
+        toCompare: '/Live/About',
+    },
+    {
+        path: '/Live/Glossary',
+        title: 'Glosario de terminos',
+        toCompare: '/Live/Glossary',
+    },
+    {
+        path: '/Live/Rules/BeisbolLive',
+        title: 'Reglas',
+        toCompare: '/Live/Rules',
+    }
+];
+export const casinoNavigationItems: NavigationPageItemProps[] = [
+    {
+        path: '/Casino/About',
+        title: '¿ Que es un casino en linea ?',
+        toCompare: '/Casino/About',
+    },
+    {
+        path: '/Casino/Glossary',
+        title: 'Glosario de terminos',
+        toCompare: '/Casino/Glossary',
+    },
+    {
+        path: '/Casino/Rules/TurboBlackjack',
+        title: 'Reglas',
+        toCompare: '/Casino/Rules'
+    }
+];
+
+
+/* Children Routes */
 export const casinoRulesNavigation: NavigationPageItemProps[] = [
     {
         path: '/Casino/Rules/TurboBlackjack',
@@ -183,6 +197,7 @@ export const casinoRulesNavigation: NavigationPageItemProps[] = [
         title: 'EUROPEAN ROULETTE'
     }
 ]
+
 export const liveRulesNavigation: NavigationPageItemProps[] = [
     {
         path: '/Live/Rules/BeisbolLive',

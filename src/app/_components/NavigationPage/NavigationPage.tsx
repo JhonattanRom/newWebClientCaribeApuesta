@@ -9,7 +9,7 @@ export const NavigationPage = ({ actualPathname, navigationPageItems }: Navigati
             <ul className={styles.links}>
                 {navigationPageItems.map((item: NavigationPageItemProps, index: number) => {
                     return (
-                        <li className={`${includePath({ actualPathname, path: item.path }) ? styles.active : ''}`} key={index + 'itemNavi'}>
+                        <li className={`${includePath({ actualPathname, path: item.toCompare || item.path }) ? styles.active : ''}`} key={index + 'itemNavi'}>
                             <Link href={item.path}>{item.title}</Link>
                         </li>
                     )

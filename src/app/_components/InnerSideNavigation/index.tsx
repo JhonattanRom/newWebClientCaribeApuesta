@@ -8,7 +8,6 @@ import Link from "next/link";
 
 export default function InnerSideNavigation({ navigationPageItems }: { navigationPageItems: NavigationPageItemProps[] }) {
     const actualPathname = usePathname();
-
     return (
         <ul className={styles.rulesNavigation}>
             {navigationPageItems.map((item: NavigationPageItemProps, index: number) => {
