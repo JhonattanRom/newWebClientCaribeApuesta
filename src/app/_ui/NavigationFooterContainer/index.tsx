@@ -48,13 +48,13 @@ export const NavigationFooterContainer = () => {
     )
 }
 const Navigation = ({ items, title }: { items: any[], title?: string }) => {
-    const pathname = usePathname();
+    const actualPathname = usePathname();
     return (
         <nav className={styles.Navigation}>
             <h3>{title}</h3>
             <ul>
                 {items.map((item, index) => (
-                    <li key={index} className={`${includePath({ pathname, path: item.match }) ? styles.active : ''}`}>
+                    <li key={index} className={`${includePath({ actualPathname, path: item.match }) ? styles.active : ''}`}>
                         <Link href={item.URL} prefetch={false}>{item.label}</Link>
                     </li>
                 ))}

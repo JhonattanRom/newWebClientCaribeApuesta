@@ -1,9 +1,10 @@
 export interface NavigationPageItemProps {
-    path: string;
-    title: string;
+    path: string; // PathName for navigate
+    title: string; // Label for links
+    toCompare?: string; // For active styles link
 }
 
 export interface NavigationPageProps {
-    pathname: string;
+    actualPathname: string;
     navigationPageItems: NavigationPageItemProps[];
 }

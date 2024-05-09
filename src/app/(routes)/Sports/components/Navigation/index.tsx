@@ -6,5 +6,5 @@ import { sportNavigationItems } from "@/app/helpers/navigationsPages";
 
 export const Navigation = () => {
     const pathname = usePathname();
-    return <NavigationPage pathname={pathname} navigationPageItems={sportNavigationItems} />
+    return <NavigationPage actualPathname={pathname} navigationPageItems={sportNavigationItems} />
 }

@@ -6,5 +6,5 @@ import { informationNavigationItems } from "@/app/helpers/navigationsPages";
 
 export const Navigation = () => {
     const pathname = usePathname();
-    return <NavigationPage pathname={pathname} navigationPageItems={informationNavigationItems} />
+    return <NavigationPage actualPathname={pathname} navigationPageItems={informationNavigationItems} />
 }

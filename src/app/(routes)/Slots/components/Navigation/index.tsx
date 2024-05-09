@@ -6,5 +6,5 @@ import { slotsNavigationItems } from "@/app/helpers/navigationsPages";
 
 export const Navigation = () => {
     const pathname = usePathname();
-    return <NavigationPage pathname={pathname} navigationPageItems={slotsNavigationItems} />
+    return <NavigationPage actualPathname={pathname} navigationPageItems={slotsNavigationItems} />
 }

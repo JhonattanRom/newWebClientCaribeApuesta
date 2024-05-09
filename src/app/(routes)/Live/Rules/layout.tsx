@@ -1,5 +1,7 @@
 import Link from "next/link";
 import styles from "./styles.module.css";
+import InnerSideNavigation from "@/app/_components/InnerSideNavigation";
+import { liveRulesNavigation } from "@/app/helpers/navigationsPages";
 
 export default function LiveRulesLayout({
     children, // will be a page or nested layout
@@ -9,26 +11,7 @@ export default function LiveRulesLayout({
     return (
         <div className={styles.container}>
             <div className={styles.content}>
-                <ul className={styles.rulesNavigation}>
-                    <li>
-                        <Link href={'/Live/Rules/BeisbolLive'}>BEISBOL EN VIVO</Link>
-                    </li>
-                    <li>
-                        <Link href={'/Live/Rules/BasketballLive'}>BASKETBALL EN VIVO</Link>
-                    </li>
-                    <li>
-                        <Link href={'/Live/Rules/FootbalLive'}>FOOTBALL EN VIVO</Link>
-                    </li>
-                    <li>
-                        <Link href={'/Live/Rules/IceHockeyLive'}>ICE HOCKEY EN VIVO</Link>
-                    </li>
-                    <li>
-                        <Link href={'/Live/Rules/SoccerLive'}>SOCCER EN VIVO</Link>
-                    </li>
-                    <li>
-                        <Link href={'/Live/Rules/TennisLive'}>TENNIS EN VIVO</Link>
-                    </li>
-                </ul>
+                <InnerSideNavigation navigationPageItems={liveRulesNavigation} />
                 <section >
                     {children}
                 </section>

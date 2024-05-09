@@ -6,5 +6,5 @@ import { pokerNavigationItems } from "@/app/helpers/navigationsPages";
 
 export const Navigation = () => {
     const pathname = usePathname();
-    return <NavigationPage pathname={pathname} navigationPageItems={pokerNavigationItems} />
+    return <NavigationPage actualPathname={pathname} navigationPageItems={pokerNavigationItems} />
 }

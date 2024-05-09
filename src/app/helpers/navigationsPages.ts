@@ -157,3 +157,55 @@ export const personalNavigationItems: NavigationPageItemProps[] = [
         title: 'Mis datos'
     }
 ]
+export const casinoRulesNavigation: NavigationPageItemProps[] = [
+    {
+        path: '/Casino/Rules/TurboBlackjack',
+        title: 'TURBO BLACKJACK'
+    },
+    {
+        path: '/Casino/Rules/AmericanBlackjack',
+        title: 'AMERICAN BLACKJACK'
+    },
+    {
+        path: '/Casino/Rules/BlackjackEarlyPayOut',
+        title: 'BLACKJACK EARLY PAYOUT'
+    },
+    {
+        path: '/Casino/Rules/Baccarat',
+        title: 'BACCARAT'
+    },
+    {
+        path: '/Casino/Rules/AmericanRoulette',
+        title: 'AMERICAN ROULETTE'
+    },
+    {
+        path: '/Casino/Rules/EuropeanRoullete',
+        title: 'EUROPEAN ROULETTE'
+    }
+]
+export const liveRulesNavigation: NavigationPageItemProps[] = [
+    {
+        path: '/Live/Rules/BeisbolLive',
+        title: 'BEISBOL EN VIVO'
+    },
+    {
+        path: '/Live/Rules/BasketballLive',
+        title: 'BASKETBALL EN VIVO'
+    },
+    {
+        path: '/Live/Rules/FootbalLive',
+        title: 'FOOTBALL EN VIVO'
+    },
+    {
+        path: '/Live/Rules/IceHockeyLive',
+        title: 'ICE HOCKEY EN VIVO'
+    },
+    {
+        path: '/Live/Rules/SoccerLive',
+        title: 'SOCCER EN VIVO'
+    },
+    {
+        path: '/Live/Rules/TennisLive',
+        title: 'TENNIS EN VIVO'
+    }
+]

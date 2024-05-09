@@ -6,5 +6,5 @@ import { horseRacingNavigationItems } from "@/app/helpers/navigationsPages";
 
 export const Navigation = () => {
     const pathname = usePathname();
-    return <NavigationPage pathname={pathname} navigationPageItems={horseRacingNavigationItems} />
+    return <NavigationPage actualPathname={pathname} navigationPageItems={horseRacingNavigationItems} />
 }

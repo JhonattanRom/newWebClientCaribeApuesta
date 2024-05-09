@@ -13,24 +13,14 @@ export default function AmericanBlackjack() {
             <div className={styles.tableContainer}>
                 <table>
                     <thead>
-                        <tr>
                             <th>Alto #1</th>
-                        </tr>
-                        <tr>
                             <th>Alto #2</th>
-                        </tr>
-                        <tr>
                             <th>Medio</th>
-                        </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>USD. 10.00 - USD. 200.00</td>
-                        </tr>
-                        <tr>
                             <td>USD. 10.00 - USD. 200.00</td>
-                        </tr>
-                        <tr>
                             <td>USD. 5.00 - USD. 100.00</td>
                         </tr>
                     </tbody>

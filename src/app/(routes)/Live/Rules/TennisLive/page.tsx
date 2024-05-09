@@ -1,8 +1,10 @@
 import Collapsible from "@/app/_components/Collapsible";
+import styles from '../styles.module.css';
 
 export default function TennisLive() {
     return (
         <section>
+            <h3 className={styles.rulesTitle}>TENNIS EN VIVO</h3>
             <Collapsible title={"REGLAS GENERALES. "}>
                 <p><span>REGLAS GENERALES</span></p>
                 <p>Reglas de Tenis para Apuestas en Vivo</p>

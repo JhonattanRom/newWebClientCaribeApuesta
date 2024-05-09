@@ -1,8 +1,10 @@
 import Collapsible from "@/app/_components/Collapsible";
+import styles from '../styles.module.css';
 
 export default function IceHockeyLive() {
     return (
         <section>
+            <h3 className={styles.rulesTitle}>ICE HOCKEY EN VIVO</h3>
             <Collapsible title={"HANDICAP. "}>
                 <p><span>HANDICAP</span></p>
                 <p><span>X Periodo - Handicap (XX)</span></p>

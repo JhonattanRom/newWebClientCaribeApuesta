@@ -1,8 +1,10 @@
 import Collapsible from "@/app/_components/Collapsible";
+import styles from '../styles.module.css';
 
 export default function BeisbolLive() {
     return (
         <section>
+            <h3 className={styles.rulesTitle}>BEISBOL EN VIVO</h3>
             <Collapsible title={"REGLAS GENERALES. "}>
                 <p><span>Reglas Generales para Beisbol.</span></p>
                 <p>

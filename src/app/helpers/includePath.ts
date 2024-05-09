@@ -1,9 +1,14 @@
 interface includePathProps {
-    pathname: string;
+    actualPathname: string;
     path: string;
 }
 
-export const includePath = ({ pathname, path }: includePathProps): boolean => {
-    const isIncluded = pathname.includes(path);
+export const includePath = ({ actualPathname, path }: includePathProps): boolean => {
+    console.log(actualPathname, "actualPathname");
+    console.log(path, 'path');
+
+    const isIncluded = actualPathname.includes(path);
+
+    console.log(isIncluded, "isIncluded");
     return isIncluded;
 } 

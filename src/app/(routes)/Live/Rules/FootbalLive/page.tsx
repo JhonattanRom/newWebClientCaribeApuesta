@@ -1,8 +1,10 @@
 import Collapsible from "@/app/_components/Collapsible";
+import styles from '../styles.module.css';
 
 export default function FootbalLive() {
     return (
         <section>
+            <h3 className={styles.rulesTitle}>FOOTBALL EN VIVO</h3>
             <Collapsible title={"REGLAS GENERALES. "}>
                 <p><span>REGLAS GENERALES</span></p>
                 <p><span>REGLAS GENERALES DEL FÚTBOL AMERICANO</span></p>

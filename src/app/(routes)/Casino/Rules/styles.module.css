@@ -29,6 +29,10 @@
     color: white;
 }
 
+.content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
 
 
 /* Tables */
@@ -77,68 +81,6 @@
     .container h2 {
         font-size: 5vw;
     }
-}
-
-
-
-/* Inner page navigation */
-.content {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-}
-
-.content .rulesNavigation  {
-    list-style: none;
-    padding: 1em;
-}
-
-.content .rulesNavigation  li {
-    padding: 8px 1px;
-    background-color: #171638;
-    border: 1px solid cyan;
-    border: 0px 1px;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    margin-bottom: 8px;
-    height: 70px;
-    cursor: pointer;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px 5px 0 0;
-    transition: 300ms linear all;
-}
-
-.content .rulesNavigation  li:hover {
-    background-color: cyan;
-    border: 1px solid #171638;
-    border: 0px 1px;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    margin-bottom: 8px;
-    height: 70px;
-    cursor: pointer;
-    box-sizing: border-box;
-}
-
-.content .rulesNavigation  li a {
-    text-align: center;
-    transition: 300ms linear all;
-    text-decoration: none;
-    color: cyan;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content .rulesNavigation  li:hover a {
-    color: #171638;
-    transform: scale(1.1);
 }
 
 /* Responsive */
