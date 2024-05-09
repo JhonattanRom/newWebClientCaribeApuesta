@@ -1,9 +1,10 @@
 import Collapsible from "@/app/_components/Collapsible";
-import StepsBySteps from '../../../Home/PublicHome/ui/StepsBySteps/index';
+import styles from "../styles.module.css";
 
 export default function BlackjackEarlyPayOut() {
     return (
         <section>
+           <h3 className={styles.rulesTitle}>BLACKJACK EARLY PAYOUT</h3>
             <Collapsible title={"Bajo: USD. 1.00 - USD. 20.00. "}>
                 <p>
                     Bienvenido a Blackjack Pago Temprano! Tanto los jugadores profesionales como los novatos van a amar éste 

@@ -4,7 +4,7 @@ import styles from '../styles.module.css';
 export default function TurboBlackjack() {
     return (
         <section>
-            <p><span>TURBO BLACKJACK</span></p>
+            <h3 className={styles.rulesTitle}>TURBO BLACKJACK</h3>
             <p><span>Cómo jugar - Blackjack Tradicional en vivo</span></p>
             <p>El Blackjack es el juego de cartas de casino más popular en el mundo.
                 El nombre Blackjack surgió en un casino americano que decidió popularizar el juego mediante el pago de un bono

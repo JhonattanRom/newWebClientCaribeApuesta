@@ -3,7 +3,7 @@ import styles from '../styles.module.css';
 export default function AmericanBlackjack() {
     return (
         <section>
-            <p><span>AMERICAN BLACKJACK</span></p>
+            <h3 className={styles.rulesTitle}>AMERICAN BLACKJACK</h3>
             <p><span>Cómo jugar - Blackjack Tradicional en vivo</span></p>
             <p>El Blackjack es el juego de cartas de casino más popular en el mundo. El nombre Blackjack surgió en un casino americano que decidió popularizar el juego mediante el
                 pago de un bono a cualquier jugador que tenga el As de espadas y, o bien una Jota de tréboles o Jota de picas.</p>

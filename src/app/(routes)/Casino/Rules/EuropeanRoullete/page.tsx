@@ -1,8 +1,10 @@
 import Collapsible from "@/app/_components/Collapsible";
+import styles from "../styles.module.css";
 
 export default function EuropeanRoullete() {
     return (
         <section>
+           <h3 className={styles.rulesTitle}>EUROPEAN ROULETTE</h3>
             <Collapsible title={"Bajo: USD. 0.25.00 - USD. 50.00. "}>
                 <p>
                     <span>

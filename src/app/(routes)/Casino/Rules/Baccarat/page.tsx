@@ -1,11 +1,15 @@
 import Collapsible from "@/app/_components/Collapsible";
+import styles from "../styles.module.css";
 
 export default function Baccarat() {
     return (
         <section>
+            <h3 className={styles.rulesTitle}>BACCARAT</h3>
             <Collapsible title={"Bajo: USD. 1.00 - USD. 20.00. "}>
                 <p>
-                    <span>Cómo jugar</span>
+                    <span>
+                        Cómo jugar
+                    </span>
                 </p>
                 <p>
                     Baccarat es un juego simple con tres tipos de apuestas:Apuesta a la BancaApuesta al JugadorApuesta al EmpateAunque el
