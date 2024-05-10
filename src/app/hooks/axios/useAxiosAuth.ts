@@ -1,6 +1,5 @@
 
 import { axiostAuth } from "@/app/_lib/axios";
-import { error } from "console";
 import { useSession } from "next-auth/react";
 import { useEffect } from "react";
 import { useRefreshToken } from "./useRefreshToken";
@@ -34,7 +33,7 @@ const useAxiosAuth = () => {
             axiostAuth.interceptors.request.eject(requestIntercept);
             axiostAuth.interceptors.response.eject(responseIntercept);
         }
-    }, [session]);
+    }, [refreshToken, session]);
 
     return axiostAuth;
 }
