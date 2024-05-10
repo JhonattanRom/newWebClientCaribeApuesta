@@ -13,7 +13,6 @@ const useAxiosAuth = () => {
                 config.headers["Authorization"] = `Bearer ${session?.user.tokens.token}`;
                 // config.headers["x-access-token"] = token; // for Node.js Express back-end
             }
-            
             return config;
         },
             (error) => Promise.reject(error)
