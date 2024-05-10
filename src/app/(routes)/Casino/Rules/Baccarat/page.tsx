@@ -1,5 +1,19 @@
 import Collapsible from "@/app/_components/Collapsible";
 import styles from "../styles.module.css";
+import { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+    title: "Reglas para BACCARAT de casino en línea | CaribeApuesta",
+    description: "Descubre las reglas esenciales del BACCARAT - Tu guía definitiva para jugar con confianza y responsabilidad. ¡Regístrate e ingresa ahora para comenzar!",
+    metadataBase: new URL("http://localhost:3000/"),
+    keywords: ['Reglas para jugar al Baccarat', 'reglas Baccarat'],
+    openGraph: {
+        title: "Reglas para jugar al BACCARAT",
+        description: "Descubre las reglas esenciales del BACCARAT - Tu guía definitiva para jugar con confianza y responsabilidad. ¡Regístrate e ingresa ahora para comenzar!",
+    }
+};
+
 
 export default function Baccarat() {
     return (

@@ -1,5 +1,17 @@
 import Collapsible from "@/app/_components/Collapsible";
 import styles from "../styles.module.css";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Reglas para EUROPEAN ROULETTE de casino en línea | CaribeApuesta",
+    description: "Descubre las reglas esenciales del EUROPEAN ROULETTE - Tu guía definitiva para jugar con confianza y responsabilidad. ¡Regístrate e ingresa ahora para comenzar!",
+    metadataBase: new URL("http://localhost:3000/"),
+    keywords: ['Reglas para jugar al European Roulette', 'reglas European Roulette'],
+    openGraph: {
+        title: "Reglas para jugar al EUROPEAN ROULETTE",
+        description: "Descubre las reglas esenciales del EUROPEAN ROULETTE - Tu guía definitiva para jugar con confianza y responsabilidad. ¡Regístrate e ingresa ahora para comenzar!",
+    }
+};
 
 export default function EuropeanRoullete() {
     return (

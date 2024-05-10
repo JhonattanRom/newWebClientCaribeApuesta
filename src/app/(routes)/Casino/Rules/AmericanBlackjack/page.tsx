@@ -1,4 +1,17 @@
+import { Metadata } from 'next';
 import styles from '../styles.module.css';
+
+
+export const metadata: Metadata = {
+    title: "Reglas para AMERICAN BLACKJACK de casino en línea | CaribeApuesta",
+    description: "Descubre las reglas esenciales del AMERICAN BLACKJACK - Tu guía definitiva para jugar con confianza y responsabilidad. ¡Regístrate e ingresa ahora para comenzar!",
+    metadataBase: new URL("http://localhost:3000/"),
+    keywords: ['Reglas para jugar american blackjack', 'reglas american blackjack'],
+    openGraph: {
+        title: "Reglas para jugar al AMERICAN BLACKJACK",
+        description: "Descubre las reglas esenciales del AMERICAN BLACKJACK - Tu guía definitiva para jugar con confianza y responsabilidad. ¡Regístrate e ingresa ahora para comenzar!",
+    }
+};
 
 export default function AmericanBlackjack() {
     return (
@@ -13,9 +26,9 @@ export default function AmericanBlackjack() {
             <div className={styles.tableContainer}>
                 <table>
                     <thead>
-                            <th>Alto #1</th>
-                            <th>Alto #2</th>
-                            <th>Medio</th>
+                        <th>Alto #1</th>
+                        <th>Alto #2</th>
+                        <th>Medio</th>
                     </thead>
                     <tbody>
                         <tr>

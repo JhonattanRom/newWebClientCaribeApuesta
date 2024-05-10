@@ -14,7 +14,12 @@
     margin-top: 0;
     text-align: center;
 }
-
+.container ul li h3 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    color: white;
+    font-weight: bold;
+}
 .container p {
     font-size: 18px;
     font-weight: 400;
@@ -28,9 +33,6 @@
 }
 .container ol {
     list-style: none;
-}
-.container ul li h3{
-    color: cyan;
 }
 
 /* Responsive */

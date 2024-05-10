@@ -1,5 +1,17 @@
 import Collapsible from "@/app/_components/Collapsible";
 import styles from '../styles.module.css';
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Reglas para apuestas BASKETBALL EN VIVO | CaribeApuesta",
+    description: "Descubre las reglas esenciales de las apuestas en vivo para el BASKETBALL - Tu guía definitiva para apostar con confianza y responsabilidad. Aprende los términos clave y disfruta de una experiencia de apuestas segura y emocionante. ¡Regístrate e ingresa ahora para comenzar!",
+    metadataBase: new URL("http://localhost:3000/"),
+    keywords: ['Reglas de apuestas en vivo para el BASKETBALL', 'Reglas de apuestas en vivo para el BASKETBALL', 'Reglas de apuestas en vivo para el BASKETBALL en caribeapuesta'],
+    openGraph: {
+        title: "Reglas para apuestas BASKETBALL EN VIVO",
+        description: "Descubre las reglas esenciales de las apuestas en vivo para el BASKETBALL - Tu guía definitiva para apostar con confianza y responsabilidad. Aprende los términos clave y disfruta de una experiencia de apuestas segura y emocionante. ¡Regístrate e ingresa ahora para comenzar!",
+    }
+};
 
 export default function BasketballLive() {
     return (

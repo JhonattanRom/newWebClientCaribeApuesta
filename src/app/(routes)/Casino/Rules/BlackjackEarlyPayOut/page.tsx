@@ -1,5 +1,18 @@
 import Collapsible from "@/app/_components/Collapsible";
 import styles from "../styles.module.css";
+import { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+    title: "Reglas para BLACKJACK EARLY PAYOUT de casino en línea | CaribeApuesta",
+    description: "Descubre las reglas esenciales del BLACKJACK EARLY PAYOUT - Tu guía definitiva para jugar con confianza y responsabilidad. ¡Regístrate e ingresa ahora para comenzar!",
+    metadataBase: new URL("http://localhost:3000/"),
+    keywords: ['Reglas para jugar al Blackjack Early Payout', 'reglas Blackjack Early Payout'],
+    openGraph: {
+        title: "Reglas para jugar al BLACKJACK EARLY PAYOUT",
+        description: "Descubre las reglas esenciales del BLACKJACK EARLY PAYOUT - Tu guía definitiva para jugar con confianza y responsabilidad. ¡Regístrate e ingresa ahora para comenzar!",
+    }
+};
 
 export default function BlackjackEarlyPayOut() {
     return (

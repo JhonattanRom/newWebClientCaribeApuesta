@@ -163,7 +163,7 @@ export default function Rules() {
                             <tr>
                                 <td>C</td>
                                 <td>HIPÓDROMOS EUROPEOS (IRLANDA, LONDRES)
-                                    <br />CHARLES TOWNS 
+                                    <br />CHARLES TOWNS
                                     <br />TAMPA BAY DOWNS
                                     <br />CHURCHILL DOWNS
                                     <br />DELAWARE PARK
@@ -310,7 +310,9 @@ export default function Rules() {
                         <table>
                             <thead>
                                 <tr>
-                                    <td colSpan={2}> REGLAS DE OPERACIÓN PARA LOS HIPÓDROMOS CLASE 'A' </td>
+                                    <td colSpan={2}>
+                                        REGLAS DE OPERACIÓN PARA LOS HIPÓDROMOS CLASE "B"
+                                    </td>
                                 </tr>
                             </thead>
                             <tbody>
@@ -323,7 +325,7 @@ export default function Rules() {
                                 </tr>
                                 <tr>
                                     <td className={styles.txtAlign_left}>Place</td>
-                                    <td>Usted cobra a place  si su ejemplar finalizó en primer o en segundo lugar </td>
+                                    <td>Usted cobra a place si su ejemplar finalizó en primer o en segundo lugar </td>
                                 </tr>
                                 <tr>
                                     <td className={styles.txtAlign_left}>Show</td>
@@ -840,6 +842,1809 @@ export default function Rules() {
                     </article>
                 </section>
             </section>
-        </div>
+            <section className={styles.mt_1}>
+                <div className={styles.tableContainer}>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td colSpan={2}> REGLAS DE OPERACIÓN PARA LOS HIPÓDROMOS CLASE 'B' </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colSpan={2} className={styles.txtAlign_left}>Apuestas Derechas </td>
+                            </tr>
+                            <tr>
+                                <td className={styles.txtAlign_left}>Ganador</td>
+                                <td>Usted cobra a ganador si su ejemplar finalizo en primer lugar </td>
+                            </tr>
+                            <tr>
+                                <td className={styles.txtAlign_left}>Place</td>
+                                <td>Usted cobra a place  si su ejemplar finalizó en primer o en segundo lugar </td>
+                            </tr>
+                            <tr>
+                                <td className={styles.txtAlign_left}>Show</td>
+                                <td>Usted podrá cobrar a show si su ejemplar finalizo oficialmente en primero,  segundo o tercer lugar.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <ul className={styles.marginBottom_off}>
+                    <li><p>Entries y fields (llaves) corren bajo un solo interés.</p></li>
+                    <li><p>En una carrera con (3) ejemplares, no habrá apuesta de PLACE y se reembolsara el Dinero.</p></li>
+                    <li><p>En una carrera con (4) ejemplares, no habrá apuesta de SHOW y se reembolsara el Dinero.</p></li>
+                    <li><p>Empató máximo por TICKET es de diez mil unidades (10.000 U.) sin importar las veces apostadas en el mismo boleto.</p></li>
+                    <li><p>Si un ejemplar es retirado el dinero de la apuesta será reembolsado</p></li>
+                    <li>
+                        <p>
+                            El pago será de la siguiente manera:
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    El primer lugar: 30 unidades por cada unidad apostada.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Segundo lugar: 12 unidades por cada unidad apostada.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Tercer lugar: 6 unidades por cada unidad apostada.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>
+                            Para carreras de caballos dos añeros los límites de pago son:
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    Primer lugar: 30 unidades por cada unidad apostada
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Segundo lugar: 12 unidades por cada unidad apostada
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Tercer lugar: 6 unidades por cada unidad apostada
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section className={styles.exoticsList}>
+                <div className={styles.header}>
+                    <h4>EXOTICAS</h4>
+                </div>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Quiniela</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <ul>
+                            <li>
+                                <p>
+                                    Usted cobra la quiniela si selecciona a los ejemplares ganadores del primero y segundo lugar en cualquier orden de llegada.
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            * El pago máximo por TICKET es de 2.500 Unidades sin importar las veces apostadas en el boleto.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            * Si un field o entry (de la misma llave) finaliza en primero y segundo lugar, la combinación ganadora serán el field y el ejemplar que finalice en tercer lugar.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            * Si un ejemplar es retirado el dinero del ejemplar retirado será reembolsado.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            * Si hay un entry o field de tres (3) o más ejemplares no habrá apuesta de quiniela
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            * No hay pagos de consolación
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            * Entries y fields (llave) corren bajo un solo interés.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            * En caso de que no haya boleto ganador en los hipódromos de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Exacta</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <ul>
+                            <li>
+                                <p>
+                                    Usted cobra la apuesta de exacta si selecciona a los ejemplares ganadores del primero y el segundo lugar en el orden exacto de llegada.
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            * El límite de pago es de Trecientas mil unidades (300 U), por cada unidad apostadas.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            * El pago máximo por TICKET es de 2.500 Unidades sin importar las veces apostadas en el boleto.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            * Si un field o entry termina en primero y segundo lugar la combinación ganadora será el field y el ejemplar que llegue a tercer lugar.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            * Si un ejemplar es retirado, el dinero del ejemplar retirado será reembolsado.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            * No hay pagos de consolación
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            * Entries y fields (llave) corren bajo un solo interés.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            * En una carrera con (4) ejemplares, no habrá apuesta de EXACTA y se reembolsara el dinero.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Doble Selección (Pick 2)</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de doble selección al ejemplar ganador de primer lugar en dos carreras consecutivas designadas con el contenido de apuestas de doble selección.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 2.500 Unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si un ejemplar es retirado de cualquiera de las dos (2) carreras designadas como doble selección el dinero del ejemplar retirado será reembolsado y no habrá pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llave) corren bajo un solo interés
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Trifecta</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de Trifecta si selecciona a los ejemplares ganadores del primero, del segundo y del tercer lugar en orden exacto de llegada en las carreras designadas con apuestas de Trifecta.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 3.750 Unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el evento un ejemplar es retirado el dinero del ejemplar retirado será reembolsado
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de los tres (3) lugares por no haber combinación ganadora, esto equivale a premio de consolación para los hipódromos de origen, no siendo aplicable el pago de este premio en los establecimientos afiliados al sistema de apuestas licenciado de LA CORPORACION EL INMEJORABLE 804,C.A.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llave) corren bajo un solo interés.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En una carrera con (4) ejemplares no habrá apuesta de TRIFECTA y se reembolsara el Dinero.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Triple selección (Pick 3)</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de triple selección si selecciona al ejemplar ganador del primer lugar en tres carreras consecutivas designadas con apuestas de triple selección.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 3.750 Unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No habrá reembolso por los retirados
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si su ejemplar es retirado del evento este será sustituido por el ejemplar favorito al cierre de la carrera y en caso de que el ejemplar favorito resulte ganador separara por el favorito ganador y por cada ejemplar retirado del evento.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que una carrera o más sean canceladas el dinero de la apuesta será reembolsado.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de las tres carreras por no haber combinación ganadora esto equivale a premio de consolación para los hipódromos de origen no siendo aplicable el pago de este premio en los establecimientos afiliados al sistema de apuesta licenciado de LA CORPORACION EL INMEJORABLE 804,C.A.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llaves) corren bajo un solo interés.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay acumulados.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicara el pago del Hipódromo de origen.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Superfecta</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de Superfecta si selecciona a los ejemplares ganadores del primero, segundo, tercero y cuarto lugar, en el orden exacto de llegada en carreras designadas con apuestas de su perfecta.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 4.000 Unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el evento un ejemplar es retirado el dinero del ejemplar retirado será reembolsado
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de los cuatros lugares por no haber combinación ganadora esto equivale a premio de consolación para los hipódromos de origen no siendo aplicable el pago de este premio en los establecimientos afiliados al sistema de apuesta licenciado de LA CORPORACION EL INMEJORABLE 804,C.A.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llaves) corren bajo un solo interés.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En una carrera con 5 ejemplares no habrá apuesta de SUPERFECTA y se reembolsara el Dinero.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Pick 4</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de Pick 4 si selecciona al ejemplar ganador del primer lugar en cuatro carreras consecutivas designadas con apuestas de pick 4.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 5.000 Unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No habrá reembolso por los retirados.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si su ejemplar es retirado del evento este será sustituido por el ejemplar favorito al cierre de la carrera y en caso de que el ejemplar favorito resulte ganador separara por el favorito ganador y por cada ejemplar retirado del evento.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que una carrera o más sean canceladas el dinero de la apuesta será reembolsado.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de las cuatros carreras por no haber combinación ganadora esto equivale a premio de consolación para los hipódromos de origen no siendo aplicable el pago de este premio en los establecimientos afiliados al sistema de apuesta licenciado de LA CORPORACION EL INMEJORABLE 804,C.A.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llaves) corren bajo un solo interés.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay acumulados.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicara el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>PARLAY</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de PARLAY si selecciona a dos o tres ejemplares en diferentes carreras y/o diferentes hipódromos finalizan ganadores. La apuesta debe ser, ya sea a primero, segundo o tercer lugar, pero todos los ejemplares seleccionados deben estar en el mismo orden de apuesta, y las selecciones deberán finalizar en el orden elegido.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * Los límites de pagos en Parlay se figuran de las siguientes maneras:
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            ° Primer lugar: 20 unidades por cada unidad apostada.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            ° Segundo lugar: 8 unidades por cada apostada.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            ° Tercer lugar: 4 unidades por cada unidad apostada.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>
+                                    * El límite de pagos es de cuentos cincuenta unidades (150 U) por cada unidad apostada.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * El pago máximo por apuesta de parlay es de seis mil unidades (6.000 U.)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * El máximo número de ejemplares en un parlay es de tres (3) y el mínimo dos (2).
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si un ejemplar es retirado un parlay de tres (3) se convierte en un parlay de dos (2) y un parlay de dos (2) se convierte en apuesta derecha.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields corren bajo un solo interés.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+            <section className={styles.mt_1}>
+                <div className={styles.tableContainer}>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td colSpan={2}>
+                                    REGLAS DE OPERACIÓN PARA LOS HIPÓDROMOS "CLASE "C"
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colSpan={2} className={styles.txtAlign_left}>Apuestas Derechas </td>
+                            </tr>
+                            <tr>
+                                <td className={styles.txtAlign_left}>Ganador</td>
+                                <td>Usted cobra a ganador si su ejemplar finalizo en primer lugar </td>
+                            </tr>
+                            <tr>
+                                <td className={styles.txtAlign_left}>Place</td>
+                                <td>Usted cobra a place  si su ejemplar finalizó en primer o en segundo lugar </td>
+                            </tr>
+                            <tr>
+                                <td className={styles.txtAlign_left}>Show</td>
+                                <td>Usted podrá cobrar a show si su ejemplar finalizo oficialmente en primero,  segundo o tercer lugar.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <ul className={styles.marginBottom_off}>
+                    <li><p>Entries y fields (llaves) corren bajo un solo interés.</p></li>
+                    <li><p>En una carrera con (3) ejemplares, no habrá apuesta de PLACE y se reembolsara el Dinero.</p></li>
+                    <li><p>En una carrera con (4) ejemplares, no habrá apuesta de SHOW y se reembolsara el Dinero.</p></li>
+                    <li><p>Empató máximo por TICKET es de diez mil unidades (10.000 U.) sin importar las veces apostadas en el mismo boleto.</p></li>
+                    <li><p>Si un ejemplar es retirado el dinero de la apuesta será reembolsado</p></li>
+                    <li>
+                        <p>
+                            El pago será de la siguiente manera:
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    El primer lugar: 20 unidades por cada unidad apostada.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Segundo lugar: 8 unidades por cada unidad apostada.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Tercer lugar: 4 unidades por cada unidad apostada.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>
+                            Para carreras de caballos dos añeros los límites de pago son:
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    Primer lugar: 20 unidades por cada unidad apostada
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Segundo lugar: 8 unidades por cada unidad apostada
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Tercer lugar: 4 unidades por cada unidad apostada
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section className={styles.exoticsList}>
+                <div className={styles.header}>
+                    <h4>EXOTICAS</h4>
+                </div>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Quiniela</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la quiniela si selecciona a los ejemplares ganadores del primero y segundo lugar en cualquier orden de llegada.
+                        </p>
+
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 1.500 unidades sin importar las veces apostadas en el boleto.                                        </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si un field o entry (de la misma llave) finaliza en primero y segundo lugar, la combinación ganadora serán el field y el ejemplar que finalice en tercer lugar.                                        </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si un ejemplar es retirado el dinero del ejemplar retirado será reembolsado.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si hay un entry o field de tres (3) o más ejemplares no habrá apuesta de quiniela
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llave) corren bajo un solo interés.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Exacta</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de exacta si selecciona a los ejemplares ganadores del primero y el segundo lugar en el orden exacto de llegada.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 1.500 unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si un field o entry termina en primero y segundo lugar la combinación ganadora será el field y el ejemplar que llegue a tercer lugar.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si un ejemplar es retirado, el dinero del ejemplar retirado será reembolsado
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llave) corren bajo un solo interés
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En una carrera con (4) ejemplares, no habrá apuesta de EXACTA y se reembolsara el dinero
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Doble Selección (Pick 2)</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de doble selección al ejemplar ganador de primer lugar en dos carreras consecutivas designadas con el contenido de apuestas de doble selección.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 1.500 unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si un ejemplar es retirado de cualquiera de las dos (2) carreras designadas como el dinero del ejemplar retirado será reembolsado y no habrá pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llave) corren bajo un solo interés
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Trifecta</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de Trifecta si selecciona a los ejemplares ganadores del primero, del segundo y del tercer lugar en orden exacto de llegada en las carreras designadas con apuestas de Trifecta.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 2.500 Unidades sin importar las veces apostadas en el boleto.
+
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el evento un ejemplar es retirado el dinero del ejemplar retirado será reembolsado
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de los tres (3) lugares por no haber combinación ganadora, esto equivale a premio de consolación para los hipódromos de origen, no siendo aplicable el pago de este premio en los establecimientos afiliados al sistema de apuestas licenciado de LA CORPORACION EL INMEJORABLE 804,C.A.
+                                    s                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llave) corren bajo un solo interés.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En una carrera con (4) ejemplares no habrá apuesta de TRIFECTA y se reembolsara el Dinero.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Triple selección (Pick 3)</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de triple selección si selecciona al ejemplar ganador del primer lugar en tres carreras consecutivas designadas con apuestas de triple selección.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 2.500 Unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No habrá reembolso por los retirados
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si su ejemplar es retirado del evento este será sustituido por el ejemplar favorito al cierre de la carrera y en caso de que el ejemplar favorito resulte ganador separara por el favorito ganador y por cada ejemplar retirado del evento.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que una carrera o más sean canceladas el dinero de la apuesta será reembolsado.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de las tres carreras por no haber combinación ganadora esto equivale a premio de consolación para los hipódromos de origen no siendo aplicable el pago de este premio en los establecimientos afiliados al sistema de apuesta licenciado de LA CORPORACION EL INMEJORABLE 804,C.A.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llaves) corren bajo un solo interés.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay acumulados.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicara el pago del Hipódromo de origen.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Superfecta</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de Superfecta si selecciona a los ejemplares ganadores del primero, segundo, tercero y cuarto lugar, en el orden exacto de llegada en carreras designadas con apuestas de su perfecta.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 2.500 Unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el evento un ejemplar es retirado el dinero del ejemplar retirado será reembolsado
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de los cuatros (4) lugares por no haber combinación ganadora esto equivale a premio de consolación para los hipódromos de origen no siendo aplicable el pago de este premio en los establecimientos afiliados al sistema de apuesta licenciado de LA CORPORACION EL INMEJORABLE 804,C.A.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llaves) corren bajo un solo interés.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En una carrera con 5 ejemplares no habrá apuesta de SUPERFECTA y se reembolsara el Dinero.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Pick 4</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de Pick 4 si selecciona al ejemplar ganador del primer lugar en cuatro carreras consecutivas designadas con apuestas de pick 4.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 2.500 Unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No habrá reembolso por los retirados.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si su ejemplar es retirado del evento este será sustituido por el ejemplar favorito al cierre de la carrera y en caso de que el ejemplar favorito resulte ganador separara por el favorito ganador y por cada ejemplar retirado del evento.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que una carrera o más sean canceladas el dinero de la apuesta será reembolsado.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de las cuatros carreras por no haber combinación ganadora esto equivale a premio de consolación para los hipódromos de origen no siendo aplicable el pago de este premio en los establecimientos afiliados al sistema de apuesta licenciado de LA CORPORACION EL INMEJORABLE 804,C.A.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llaves) corren bajo un solo interés.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay acumulados.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicara el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>PARLAY</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de PARLAY si selecciona a dos o tres ejemplares en diferentes carreras y/o diferentes hipódromos finalizan ganadores. La apuesta debe ser, ya sea a primero, segundo o tercer lugar, pero todos los ejemplares seleccionados deben estar en el mismo orden de apuesta, y las selecciones deberán finalizar en el orden elegido.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * Los límites de pagos en Parlay se figuran de las siguientes maneras:
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            ° Primer lugar: 20 unidades por cada unidad apostada.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            ° Segundo lugar: 8 unidades por cada apostada.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            ° Tercer lugar: 4 unidades por cada unidad apostada.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>
+                                    * El límite de pagos es de cuentos cincuenta unidades (150 U) por cada unidad apostada.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * El pago máximo por apuesta de parlay es de seis mil unidades (6.000 U.)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * El máximo número de ejemplares en un parlay es de tres (3) y el mínimo dos (2).
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si un ejemplar es retirado un parlay de tres (3) se convierte en un parlay de dos (2) y un parlay de dos (2) se convierte en apuesta derecha.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields corren bajo un solo interés.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+            <section className={styles.mt_1}>
+                <div className={styles.tableContainer}>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td colSpan={2}>
+                                    REGLAS DE OPERACIÓN PARA LOS GALGODROMOS Y JAI ALAI CLASE "D"
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colSpan={2} className={styles.txtAlign_left}>Apuestas Derechas </td>
+                            </tr>
+                            <tr>
+                                <td className={styles.txtAlign_left}>Ganador</td>
+                                <td>Usted cobra a ganador si su ejemplar finalizo en primer lugar </td>
+                            </tr>
+                            <tr>
+                                <td className={styles.txtAlign_left}>Place</td>
+                                <td>Usted cobra a place  si su ejemplar finalizó en primer o en segundo lugar </td>
+                            </tr>
+                            <tr>
+                                <td className={styles.txtAlign_left}>Show</td>
+                                <td>Usted podrá cobrar a show si su ejemplar finalizo oficialmente en primero,  segundo o tercer lugar.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <ul className={styles.marginBottom_off}>
+                    <li>
+                        <p>
+                            Limites:
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    ° El primer lugar: 15 unidades por cada unidad apostada.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    ° Segundo lugar: 8 unidades por cada unidad apostada.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    ° Tercer lugar: 4 unidades por cada unidad apostada
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>
+                            Entries y fields (llave) corren bajo un solo interés
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Si un ejemplar es retirado el dinero de la apuesta será reembolsado
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section className={styles.exoticsList}>
+                <div className={styles.header}>
+                    <h4>EXOTICAS</h4>
+                </div>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Quiniela</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la quiniela si selecciona a los ejemplares ganadores del primero y segundo lugar en cualquier orden de llegada.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 750 Unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si un field o entry (de la misma llave) finaliza en primero y segundo lugar, la combinación ganadora serán el field y el ejemplar que finalice en tercer lugar.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si un ejemplar es retirado el dinero del ejemplar retirado será reembolsado.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si hay un entry o field de tres (3) o más ejemplares no habrá apuesta de quiniela
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llave) corren bajo un solo interés.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Exacta</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de exacta si selecciona a los ejemplares ganadores del primero y el segundo lugar en el orden exacto de llegada.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 1.500 Unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si un field o entry termina en primero y segundo lugar la combinación ganadora será el field y el ejemplar que llegue a tercer lugar.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si un ejemplar es retirado, el dinero del ejemplar retirado será reembolsado
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llave) corren bajo un solo interés
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Doble Selección (Pick 2)</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de doble selección al ejemplar ganador de primer lugar en dos carreras consecutivas designadas con el contenido de apuestas de doble selección.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 1.500 Unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si un ejemplar es retirado de cualquiera de las dos (2) carreras designadas como el dinero del ejemplar retirado será reembolsado y no habrá pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llave) corren bajo un solo interés
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Trifecta</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de Trifecta si selecciona a los ejemplares ganadores del primero, del segundo y del tercer lugar en orden exacto de llegada en las carreras designadas con apuestas de Trifecta.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 2.500 Unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el evento un ejemplar es retirado el dinero del ejemplar retirado será reembolsado
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de los tres (3) lugares por no haber combinación ganadora, esto equivale a premio de consolación para los hipódromos de origen, no siendo aplicable el pago de este premio en los establecimientos afiliados al sistema de apuestas licenciado de LA CORPORACION EL INMEJORABLE 804,C.A.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llave) corren bajo un solo interés.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En una carrera con (4) ejemplares no habrá apuesta de TRIFECTA y se reembolsara el Dinero.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Triple selección (Pick 3)</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de triple selección si selecciona al ejemplar ganador del primer lugar en tres carreras consecutivas designadas con apuestas de triple selección.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 2.500 Unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No habrá reembolso por los retirados
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si su ejemplar es retirado del evento este será sustituido por el ejemplar favorito al cierre de la carrera y en caso de que el ejemplar favorito resulte ganador separara por el favorito ganador y por cada ejemplar retirado del evento.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que una carrera o más sean canceladas el dinero de la apuesta será reembolsado.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de las tres (3) carreras por no haber combinación ganadora esto equivale a premio de consolación para los hipódromos de origen no siendo aplicable el pago de este premio en los establecimientos afiliados al sistema de apuesta licenciado de LA CORPORACION EL INMEJORABLE 804,C.A.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llave) corren bajo un solo interés.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay acumulados.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicara el pago del Hipódromo de origen.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Superfecta</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de Superfecta si selecciona a los ejemplares ganadores del primero, segundo, tercero y cuarto lugar, en el orden exacto de llegada en carreras designadas con apuestas de su perfecta.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 2.500 Unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el evento un ejemplar es retirado el dinero del ejemplar retirado será reembolsado
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de los cuatros (4) lugares por no haber combinación ganadora esto equivale a premio de consolación para los hipódromos de origen no siendo aplicable el pago de este premio en los establecimientos afiliados al sistema de apuesta licenciado de LA CORPORACION EL INMEJORABLE 804,C.A.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llaves) corren bajo un solo interés.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En una carrera con menos de 7 ejemplares no habrá apuesta de SUPERFECTA y se reembolsara el dinero.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div className={styles.contentheader}>
+                        <h5>Pick 4</h5>
+                    </div>
+                    <div className={styles.content}>
+                        <p>
+                            Usted cobra la apuesta de Pick 4 si selecciona al ejemplar ganador del primer lugar en cuatro carreras consecutivas designadas con apuestas de pick 4.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    * El pago máximo por TICKET es de 2.500 Unidades sin importar las veces apostadas en el boleto.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No habrá reembolso por los retirados.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si su ejemplar es retirado del evento este será sustituido por el ejemplar favorito al cierre de la carrera y en caso de que el ejemplar favorito resulte ganador separara por el favorito ganador y por cada ejemplar retirado del evento.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que una carrera o más sean canceladas el dinero de la apuesta será reembolsado.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el hipódromo de origen paga con todos los ejemplares participantes en cualquiera de las cuatros carreras por no haber combinación ganadora esto equivale a premio de consolación para los hipódromos de origen no siendo aplicable el pago de este premio en los establecimientos afiliados al sistema de apuesta licenciado de LA CORPORACION EL INMEJORABLE 804,C.A.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay pagos de consolación
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * En caso de que no haya boleto ganador en el hipódromo de origen no habrá premio de consolación solo se pagara el límite de pago a los boletos con la combinación acertada en LA CORPORACION EL INMEJORABLE 804
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Entries y fields (llaves) corren bajo un solo interés.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * No hay acumulados.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    * Si en el evento se presentare situaciones o circunstancias no previstas en estas reglas caso fortuito o de fuerza mayor (ejemplo: problema de energía eléctrica, cambio de pista, etc.), se aplicara el pago del Hipódromo de origen y solo se cancelaran los tickets con las combinaciones acertadas.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+            <section>
+                <h4>GLOSARIO</h4>
+                <p>
+                    <span>Entry:</span> Dos o más caballos propiedad del mismo establo o entrenados por el mismo entrenador se denominan como entry y se unen como un solo interés de apuesta, una apuesta a un caballo unido es una apuesta a todos los caballos quien este unido.
+                </p>
+                <p>
+                    <span>Field:</span> Un caballo agrupado con otro (s) bajo un mismo interés donde el número de caballos que arrancan excede el número de interés de apuesta que el tablero del hipódromo de origen pueda manejar, una apuesta a un caballo de field es una apuesta todos los caballos del field común.
+                </p>
+                <p>
+                    <span>Apuestas Futuras:</span> Consiste en ciertos eventos como el Derby de Kentucky, Copa de Criadores, Triple Corona, etc.
+                </p>
+                <p>
+                    Estas apuestas son consideradas como apuesta derecha y pagan de acuerdo al monto con el que se realizó la puesta. En caso de que un ejemplar sea retirado no habrá devoluciones Entries y fields (llaves) corren bajo un solo interés.
+                </p>
+                <p>
+                    <span>Eventos Especiales:</span> Esta es una apuesta a ciertos eventos designados de relevancia Internacional y/o Nacional Estas apuestas son consideradas Apuestas Derechas y aplicaran las reglas y límites indicados en la Hoja de Apuesta correspondiente a cada evento específico.
+                </p>
+            </section>
+            <section>
+                <h4>POLITICA PARA LA TOMA DE APUESTAS EN CARRERAS</h4>
+                <div className={styles.tableContainer}>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>HIPODROMO CLASE</th>
+                                <th>POLITICA DE TOMA DE APUESTAS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    A
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                Ganador / Place / Show
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        * El límite de apuesta es de 3.000 unidades a Ganador, Place y Show por competidor.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Si la apuesta por competidor es menor a 3.000 unidades se expide en un solo boleto.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Se permite partir la jugada por competidor en boletos de 3.000 unidades cada uno, previa autorización de la Gerencia de la empresa Operadora.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Estos límites aplican para uno o más competidores por cada carrera.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                EXOTICAS
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        * Apuestas menores a 100 unidades se hacen en un solo boleto.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * A partir de 100 unidades se pueden emitir en dos (2) boletos de 100 unidades cada uno.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Lo anterior se aplica por cada tipo de apuestas exóticas (Quiniela, Exacta, Trifecta, Superfecta, Doble Selección, Triple Selección, Parlay, etc.)
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Estos límites aplican por cada tipo de apuesta exótica con combinación de competidores distintos por cada carrera.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    B
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                Ganador / Place / Show
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        * El límite de apuesta derecha es de 1.000 unidades a Ganador, Place y Show por competidor.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Si la apuesta por competidor es menor a 1.000 unidades, se expide en un solo boleto
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Estos límites aplican para uno o más competidores por cada carrera
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                EXOTICAS
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        * Apuestas menores a 100 unidades se hacen en un solo boleto.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * A partir de 100 unidades se pueden emitir en dos (2) boletos de 100 unidades cada uno.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Lo anterior se aplica por cada tipo de apuestas exóticas (Quiniela, Exacta, Trifecta, Superfecta, Doble Selección, Triple Selección, Parlay, etc.)
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Estos límites aplican por cada tipo de apuesta exótica con combinación de competidores distintos por cada carrera.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    C
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                Ganador / Place / Show
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        * El límite de apuesta derecha es de500 unidades a Ganador, Place y Show por competidor.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Si la apuesta por competidor es menor a 500 unidades se expide en un solo boleto.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Estos límites aplican para uno o más competidores por cada carrera.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                EXOTICAS
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        * Apuestas menores a 100 unidades se hacen en un solo boleto.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * A partir de 100 unidades se pueden emitir en dos (2) boletos de 100 unidades cada uno.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Lo anterior se aplica por cada tipo de apuestas exóticas (Quiniela, Exacta, Trifecta, Superfecta, Doble Selección, Triple Selección, Parlay, etc.)
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Estos límites aplican por cada tipo de apuesta exótica con combinación de competidores distintos por cada carrera.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    D
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                Ganador / Place / Show
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        * El límite de apuesta derecha es de300 unidades a Ganador, Place y Show por competidor.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Si la apuesta por competidor es menor a 300 unidades se expide en un solo boleto.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Estos límites aplican para uno o más competidores por cada carrera.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                EXOTICAS
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        * El límite de apuestas exóticas es d100 unidades.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Apuestas menores a 100 unidades se hacen en un solo boleto.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * A partir de 100 unidades se pueden emitir en dos (2) boletos de 100 unidades cada uno.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Lo anterior se aplica por cada tipo de apuestas exóticas (Quiniela, Exacta, Trifecta, Superfecta, Doble Selección, Triple Selección, Parlay, etc.)
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        * Estos límites aplican por cada tipo de apuesta exótica con combinación de competidores distintos por cada carrera.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section className={styles.mt_1}>
+                <div className={styles.tableContainer}>
+                    <table className={styles.classRace}>
+                        <thead>
+                            <tr>
+                                <th colSpan={1}>
+                                    CUADRO RESUMEN DE LA TOMA DE APUESTAS
+                                </th>
+                            </tr>
+                            <tr>
+                                <th colSpan={1}>
+                                    CLASES DE HIPODROMOS Y GALGODROMOS
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>CLASE “A”</th>
+                                <th>CLASE “B”</th>
+                                <th>CLASE “C”</th>
+                                <th>CLASE “D”</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Und 1.000 GANADOR</td>
+                                <td>Und 300 GANADOR</td>
+                                <td>Und 150 GANADOR</td>
+                                <td>Und 50 GANADOR</td>
+                            </tr>
+                            <tr>
+                                <td>Und 1.000 PLACE</td>
+                                <td>Und 300 PLACE</td>
+                                <td>Und 150 PLACE</td>
+                                <td>Und 50 PLACE</td>
+                            </tr>
+                            <tr>
+                                <td>Und 1.000 Show</td>
+                                <td>Und 300 SHOW</td>
+                                <td>Und 150 SHOW</td>
+                                <td>Und 50 SHOW</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p><span>NOTA</span></p>
+                <p>
+                    Und abreviación de unidades de apuesta.
+                </p>
+                <p>
+                    Numero de boleto igual a N° de apuesta es decir un boleto (ticket) equivale a una apuesta.
+                </p>
+                <p>
+                    Cuando los clientes soliciten apuesta por encima de los límites máximos establecidos por la empresa consultar la política para autorizar a clientes especiales.
+                </p>
+            </section>
+            <section>
+                <p>
+                    Derecha
+                </p>
+                <section className={styles.exoticsList}>
+                    <div className={styles.header}>
+                        <p>CUADRO RESUMEN DE LA TOMA DE APUESTAS GALGODROMOS TODOS LOS GALGODROMOS SE CONSIDERAN CLASE “D”</p>
+                    </div>
+                    <article>
+                        <div className={styles.contentheader}>
+                            <h5>Quiniela</h5>
+                        </div>
+                        <div className={styles.content}>
+                            <p>
+                                APUESTA MAXIMA
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        * Und 50 GANADOR
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Und 50 PLACE
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        * Und 50 SHOW
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <div className={styles.content}>
+                            <p>
+                                LAS APUESTAS DE GALGODROMOS ESTAN LIMITADOS
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        EL PAGO DE HARA DE LA SIGUIENTE FORMA:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                GANADOR 15 unidades por cada apostada
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                PLACE 8 unidades por cada apostada
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                SHOW 4 unidades por cada apostada
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </section>
+            </section>
+        </div >
     )
 }

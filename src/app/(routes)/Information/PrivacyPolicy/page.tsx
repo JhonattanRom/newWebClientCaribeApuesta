@@ -3,15 +3,14 @@ import Collapsible from "@/app/_components/Collapsible";
 import styles from "./styles.module.css";
 
 export const metadata: Metadata = {
-    title: "CaribeApuesta - Política de Privacidad",
-    description: "CaribeApuesta es el sitio número uno de apuestas en Venezuela y uno de los mejores en Hipódromos y Apuestas Deportivas. Ya sea que busques deportes competitivos, probabilidades de apuestas, emocionantes juegos de Casino Online y Slots Machines, o las últimas noticias deportivas, todo está en un mismo lugar. ¡Regístrate gratis y comienza a ganar!",
+    title: "Política de Privacidad | CaribeApuesta ",
+    description: "Conoce nuestra política de privacidad en caribeapuesta.com",
     metadataBase: new URL("http://localhost:3000/"),
     openGraph: {
         title: "Política de Privacidad",
-        description: "El sitio número uno de apuestas en Venezuela"
+        description: "Conoce nuestra política de privacidad en caribeapuesta.com"
     }
 };
-
 export default function PrivacyPolicy() {
     return (
         <div className={styles.container}>
@@ -303,13 +302,19 @@ export default function PrivacyPolicy() {
                 </h3>
                 <ul>
                     <li>
-                        - Saldo: usted podría recibir bonificaciones en saldo las cuales se reflejan como en saldo en su cuenta <mark>CARIBEAPUESTA</mark>, puede disponer de ese saldo para realizar apuestas o ser retirado si lo desea.
+                        <p>
+                            - Saldo: usted podría recibir bonificaciones en saldo las cuales se reflejan como en saldo en su cuenta <mark>CARIBEAPUESTA</mark>, puede disponer de ese saldo para realizar apuestas o ser retirado si lo desea.
+                        </p>
                     </li>
                     <li>
-                        - Match Play: es un bono el cual usted podrá utilizar para realizar sus apuestas en deportes, tildando la opción {'"Bonos"'} en el módulo de apuesta. En el caso de que gane una apuesta con Match Play sólo la ganancia de la apuesta se le colocará como dinero y el monto apostado en Match Play no será devuelto.
+                        <p>
+                            - Match Play: es un bono el cual usted podrá utilizar para realizar sus apuestas en deportes, tildando la opción {'"Bonos"'} en el módulo de apuesta. En el caso de que gane una apuesta con Match Play sólo la ganancia de la apuesta se le colocará como dinero y el monto apostado en Match Play no será devuelto.
+                        </p>
                     </li>
                     <li>
-                        - El bono Match play solo puede ser jugado en Deportes Pre-Match.
+                        <p>
+                            - El bono Match play solo puede ser jugado en Deportes Pre-Match.
+                        </p>
                     </li>
                 </ul>
                 <h3>

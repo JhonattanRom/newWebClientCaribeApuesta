@@ -1,5 +1,16 @@
+import { Metadata } from 'next';
 import styles from '../styles.module.css';
 
+export const metadata: Metadata = {
+    title: "Reglas para TURBO BLACKJACK de casino en línea | CaribeApuesta",
+    description: "Descubre las reglas esenciales del TURBO BLACKJACK - Tu guía definitiva para jugar con confianza y responsabilidad. ¡Regístrate e ingresa ahora para comenzar!",
+    metadataBase: new URL("http://localhost:3000/"),
+    keywords: ['Reglas para jugar al Turbo Blackjack', 'reglas Turbo Blackjack'],
+    openGraph: {
+        title: "Reglas para jugar al TURBO BLACKJACK",
+        description: "Descubre las reglas esenciales del TURBO BLACKJACK - Tu guía definitiva para jugar con confianza y responsabilidad. ¡Regístrate e ingresa ahora para comenzar!",
+    }
+};
 
 export default function TurboBlackjack() {
     return (

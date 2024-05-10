@@ -3,12 +3,12 @@ import styles from "./styles.module.css";
 import Collapsible from "@/app/_components/Collapsible";
 
 export const metadata: Metadata = {
-    title: "CaribeApuesta - Obligaciones del jugador",
-    description: "CaribeApuesta es el sitio número uno de apuestas en Venezuela y uno de los mejores en Hipódromos y Apuestas Deportivas. Ya sea que busques deportes competitivos, probabilidades de apuestas, emocionantes juegos de Casino Online y Slots Machines, o las últimas noticias deportivas, todo está en un mismo lugar. ¡Regístrate gratis y comienza a ganar!",
+    title: "Obligaciones del jugador | CaribeApuesta ",
+    description: "Conoce las obligaciones del jugador en caribeapuesta.com",
     metadataBase: new URL("http://localhost:3000/"),
     openGraph: {
-        title: "Preguntas y Respuestas",
-        description: "El sitio número uno de apuestas en Venezuela"
+        title: "Obligaciones del jugador",
+        description: "Conoce las obligaciones del jugador en caribeapuesta.com"
     }
 };
 
