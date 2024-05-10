@@ -2,11 +2,11 @@
 import { axiostAuth } from "@/app/_lib/axios";
 import { useSession } from "next-auth/react";
 import { useEffect } from "react";
-import { useRefreshToken } from "./useRefreshToken";
+//import { useRefreshToken } from "./useRefreshToken";
 
 const useAxiosAuth = () => {
     const { data: session } = useSession();
-    const refreshToken = useRefreshToken();
+    //const refreshToken = useRefreshToken();
     useEffect(() => {
         const requestIntercept = axiostAuth.interceptors.request.use((config) => {
             if (!config.headers['Authorization']) {
@@ -23,7 +23,7 @@ const useAxiosAuth = () => {
                 const prevRequest = error.config;
                 if (error.response.status === 401 && !prevRequest.semt) {
                     prevRequest.sent = true;
-                    await refreshToken();
+                    //await refreshToken();
                     prevRequest.headers["Authorization"] = `Bearer ${session?.user.tokens.token}`;
                     return axiostAuth(prevRequest);
                 }
@@ -33,7 +33,7 @@ const useAxiosAuth = () => {
             axiostAuth.interceptors.request.eject(requestIntercept);
             axiostAuth.interceptors.response.eject(responseIntercept);
         }
-    }, [refreshToken, session]);
+    }, [/*refreshToken,*/ session]);
 
     return axiostAuth;
 }
