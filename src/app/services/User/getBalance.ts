@@ -1,5 +1,4 @@
 import instance from "@/interceptors/axios.interceptor";
-import useAxiosAuth from "@/app/hooks/axios/useAxiosAuth";
 
 
 const getBalance = async function ()

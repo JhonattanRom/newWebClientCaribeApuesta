@@ -1,9 +1,7 @@
 "use client";
 import styles from './styles.module.css';
 import { useSession } from "next-auth/react";
-import { useQuery } from '@tanstack/react-query';
 import { useRouter } from 'next/navigation';
-import useAxiosAuth from '@/app/hooks/axios/useAxiosAuth';
 import Image from "next/image";
 import { SignOutBtn } from '../SignOutBtn';
 
@@ -16,17 +14,7 @@ export const LoggedUserInfo = ({ setOpen }: { setOpen?: any }) => {
     };
 
     let bonoTotalVar = 0;
-    const axiosAuth = useAxiosAuth();
-    const { isLoading, data, error } = useQuery(
-        {
-            queryKey: ['userBalance'],
-            queryFn: () => {
-                return axiosAuth.get(process.env.NEXT_PUBLIC_BACKEND_URL + '/user/mybalance')
-                    .then((response) => response.data);
-            },
-            refetchInterval: 25000,
-        });
-
+    
     return (
         <>
             <div className={styles.userOnline}>
@@ -39,34 +27,17 @@ export const LoggedUserInfo = ({ setOpen }: { setOpen?: any }) => {
                             <p className={styles.userBalanceText}>
                                 Balance:
                                 <span className={styles.userBalance}>
-                                    {data?.balance} {data?.currencyCode}
                                 </span>
                             </p>
                             <p className={styles.userBalanceText}>
                                 Bonos:
                                 <span className={styles.tooltip}>
                                     <span className={styles.userBalance}>
-                                        {data?.bonus
-                                            ? data?.bonus.map((bonusData: any, index: number) => {
-                                                bonoTotalVar = bonoTotalVar + bonusData.amount;
-                                            })
-                                            : "No tiene."}
-                                        {bonoTotalVar} {data?.currencyCode}
+                                        
                                     </span>
 
                                     <span className={styles.tooltiptext}>
-                                        {data?.bonus
-                                            ? data?.bonus.map((bonusData: any, index: number) => {
-                                                return (
-                                                    <span className={styles.group} key={`Bonus-${index}`}>
-                                                        <span className={styles.group__title} key={`span1-${index}`}>{bonusData.group}: </span>
-                                                        <span className={styles.group__amount} key={`span2-${index}`}>
-                                                            {bonusData.amount} {data?.currencyCode}
-                                                        </span>{" "}
-                                                    </span>
-                                                );
-                                            })
-                                            : "No tiene Bonos."}
+                                        
                                     </span>
                                 </span>
                             </p>
