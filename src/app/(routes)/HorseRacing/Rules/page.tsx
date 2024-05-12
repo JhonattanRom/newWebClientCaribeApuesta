@@ -657,11 +657,11 @@ export default function Rules() {
                     </article>
                     <article>
                         <div className={styles.contentheader}>
-                            <h5>PARLAY</h5>
+                            <h5>PARLEY</h5>
                         </div>
                         <div className={styles.content}>
                             <p>
-                                Usted cobra la apuesta de PARLAY si selecciona a dos o tres ejemplares en diferentes carreras y/o diferentes hipódromos finalizan ganadores.
+                                Usted cobra la apuesta de PARLEY si selecciona a dos o tres ejemplares en diferentes carreras y/o diferentes hipódromos finalizan ganadores.
                                 La apuesta debe ser, ya sea a primero, segundo o tercer lugar, pero todos los ejemplares seleccionados deben estar en el mismo orden de apuesta, y
                                 las selecciones deberán finalizar en el orden elegido.
                             </p>
@@ -695,12 +695,12 @@ export default function Rules() {
                                 </li>
                                 <li>
                                     <p>
-                                        * El pago máximo por apuesta de parlay es de diez mil unidades (10.000 U.)
+                                        * El pago máximo por apuesta de parley es de diez mil unidades (10.000 U.)
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        * Si un ejemplar es retirado un parlay de tres (3) se convierte en un parlay de dos  (2) y un parlay de dos (2) se convierte en apuesta derecha.
+                                        * Si un ejemplar es retirado un parley de tres (3) se convierte en un parley de dos  (2) y un parley de dos (2) se convierte en apuesta derecha.
                                     </p>
                                 </li>
                                 <li>
@@ -1289,11 +1289,11 @@ export default function Rules() {
                 </article>
                 <article>
                     <div className={styles.contentheader}>
-                        <h5>PARLAY</h5>
+                        <h5>PARLEY</h5>
                     </div>
                     <div className={styles.content}>
                         <p>
-                            Usted cobra la apuesta de PARLAY si selecciona a dos o tres ejemplares en diferentes carreras y/o diferentes hipódromos finalizan ganadores. La apuesta debe ser, ya sea a primero, segundo o tercer lugar, pero todos los ejemplares seleccionados deben estar en el mismo orden de apuesta, y las selecciones deberán finalizar en el orden elegido.
+                            Usted cobra la apuesta de PARLEY si selecciona a dos o tres ejemplares en diferentes carreras y/o diferentes hipódromos finalizan ganadores. La apuesta debe ser, ya sea a primero, segundo o tercer lugar, pero todos los ejemplares seleccionados deben estar en el mismo orden de apuesta, y las selecciones deberán finalizar en el orden elegido.
                         </p>
                         <ul>
                             <li>
@@ -1325,17 +1325,17 @@ export default function Rules() {
                             </li>
                             <li>
                                 <p>
-                                    * El pago máximo por apuesta de parlay es de seis mil unidades (6.000 U.)
+                                    * El pago máximo por apuesta de parley es de seis mil unidades (6.000 U.)
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    * El máximo número de ejemplares en un parlay es de tres (3) y el mínimo dos (2).
+                                    * El máximo número de ejemplares en un parley es de tres (3) y el mínimo dos (2).
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    * Si un ejemplar es retirado un parlay de tres (3) se convierte en un parlay de dos (2) y un parlay de dos (2) se convierte en apuesta derecha.
+                                    * Si un ejemplar es retirado un parley de tres (3) se convierte en un parley de dos (2) y un parley de dos (2) se convierte en apuesta derecha.
                                 </p>
                             </li>
                             <li>
@@ -1778,11 +1778,11 @@ export default function Rules() {
                 </article>
                 <article>
                     <div className={styles.contentheader}>
-                        <h5>PARLAY</h5>
+                        <h5>PARLEY</h5>
                     </div>
                     <div className={styles.content}>
                         <p>
-                            Usted cobra la apuesta de PARLAY si selecciona a dos o tres ejemplares en diferentes carreras y/o diferentes hipódromos finalizan ganadores. La apuesta debe ser, ya sea a primero, segundo o tercer lugar, pero todos los ejemplares seleccionados deben estar en el mismo orden de apuesta, y las selecciones deberán finalizar en el orden elegido.
+                            Usted cobra la apuesta de PARLEY si selecciona a dos o tres ejemplares en diferentes carreras y/o diferentes hipódromos finalizan ganadores. La apuesta debe ser, ya sea a primero, segundo o tercer lugar, pero todos los ejemplares seleccionados deben estar en el mismo orden de apuesta, y las selecciones deberán finalizar en el orden elegido.
                         </p>
                         <ul>
                             <li>
@@ -1814,17 +1814,17 @@ export default function Rules() {
                             </li>
                             <li>
                                 <p>
-                                    * El pago máximo por apuesta de parlay es de seis mil unidades (6.000 U.)
+                                    * El pago máximo por apuesta de parley es de seis mil unidades (6.000 U.)
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    * El máximo número de ejemplares en un parlay es de tres (3) y el mínimo dos (2).
+                                    * El máximo número de ejemplares en un parley es de tres (3) y el mínimo dos (2).
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    * Si un ejemplar es retirado un parlay de tres (3) se convierte en un parlay de dos (2) y un parlay de dos (2) se convierte en apuesta derecha.
+                                    * Si un ejemplar es retirado un parley de tres (3) se convierte en un parley de dos (2) y un parley de dos (2) se convierte en apuesta derecha.
                                 </p>
                             </li>
                             <li>

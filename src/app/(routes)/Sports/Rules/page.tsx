@@ -33,7 +33,7 @@ export default function Rules() {
                     <span>1.5</span> - Todos nuestros clientes deben ser mayores de 18 años.
                 </p>
                 <p>
-                    <span>1.6</span> - Todas las reglas, políticas y dividendos publicados aquí, están sujetos a cambios sin previo aviso. Todos los mínimos y máximos pagos están sujetos a cambios sin previo aviso. El máximo precio a pagar en una apuesta de parlay o combinada es Bsf. 10.000.000,00.
+                    <span>1.6</span> - Todas las reglas, políticas y dividendos publicados aquí, están sujetos a cambios sin previo aviso. Todos los mínimos y máximos pagos están sujetos a cambios sin previo aviso. El máximo precio a pagar en una apuesta de parley o combinada es Bsf. 7.999.
                 </p>
                 <p>
                     <span>1.7</span> - Con respecto a juegos suspendidos, decisiones protestadas o anuladas, <mark>CARIBEAPUESTA</mark> sigue las reglas establecidas en Las Vegas, USA. De lo contrario, <mark>CARIBEAPUESTA</mark> no reconocerá ninguna de ellas. Las reglas de las Vegas aplicaran a cualquier regla o apuesta que no esté estipulada aquí.
