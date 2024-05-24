@@ -18,7 +18,7 @@ export const TopHeader = () => {
             </div>
             <div className={styles.Header_Logo}>
                 <Image
-                    src={"/img/LogoHeader.png"}
+                    src={"/img/LOGOWEB.svg"}
                     alt={"Caribe Apuesta Logo"}
                     width={921} height={379}
                 />
